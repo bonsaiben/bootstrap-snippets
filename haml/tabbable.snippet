@@ -1,0 +1,12 @@
+<!-- Only required for left/right tabs -->
+.tabbable
+  %ul.nav.nav-tabs
+    %li.active
+			%a href="#tab1" data-toggle="tab">${1:Section 1}
+    %li
+			%a href="#tab2" data-toggle="tab">${2:Section 2}
+  .tab-content
+    #tab1.tab-pane.active
+      %p ${3:I'm in Section 1.}
+    #tab2.tab-pane
+      %p ${4:Howdy, I'm in Section 2.}
