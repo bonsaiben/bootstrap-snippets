@@ -998,40 +998,40 @@ Components: Thumbnails
 
 
 
-TODO Components: Alerts
+Components: Alerts
 =====================
 
 `alert`
 
     <div class="alert">
       <button type="button" class="close" data-dismiss="alert">&times;</button>
-      <strong>Warning!</strong> Best check yo self, you're not looking too good.
+      <strong>${1:Warning!}</strong> ${2:Best check yo self, you're not looking too good.}
     </div>
 
 `alertblock`
 
     <div class="alert alert-block">
       <button type="button" class="close" data-dismiss="alert">&times;</button>
-      <h4>Warning!</h4>
-      Best check yo self, you're not...
+      <h4>${1:Warning!}</h4>
+      ${2:Best check yo self, you're not...}
     </div>
 
 `alerterror`
 
     <div class="alert alert-error">
-      ...
+      ${1:...}
     </div>
 
 `alertsuccess`
 
     <div class="alert alert-success">
-      ...
+      ${1:...}
     </div>
 
 `alertinfo`
 
     <div class="alert alert-info">
-      ...
+      ${1:...}
     </div>
 
 
