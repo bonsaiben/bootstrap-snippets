@@ -804,59 +804,57 @@ Components: Navbar
 
 
 
--- TODO BELOW --
-
-Components: Breadcrumbs
+TODO Components: Breadcrumbs
 =====================
 
 `breadcrumb`
 
-<ul class="breadcrumb">
-  <li><a href="#">Home</a> <span class="divider">/</span></li>
-  <li><a href="#">Library</a> <span class="divider">/</span></li>
-  <li class="active">Data</li>
-</ul>
+    <ul class="breadcrumb">
+      <li><a href="#">Home</a> <span class="divider">/</span></li>
+      <li><a href="#">Library</a> <span class="divider">/</span></li>
+      <li class="active">Data</li>
+    </ul>
 
-Components: Pagination
+TODO Components: Pagination
 =====================
 
 `pagination`
 
-<div class="pagination">
-  <ul>
-    <li><a href="#">Prev</a></li>
-    <li><a href="#">1</a></li>
-    <li><a href="#">2</a></li>
-    <li><a href="#">3</a></li>
-    <li><a href="#">4</a></li>
-    <li><a href="#">5</a></li>
-    <li><a href="#">Next</a></li>
-  </ul>
-</div>
+    <div class="pagination">
+      <ul>
+        <li><a href="#">Prev</a></li>
+        <li><a href="#">1</a></li>
+        <li><a href="#">2</a></li>
+        <li><a href="#">3</a></li>
+        <li><a href="#">4</a></li>
+        <li><a href="#">5</a></li>
+        <li><a href="#">Next</a></li>
+      </ul>
+    </div>
 
 `pagination-large`
 
-<div class="pagination pagination-large">
-  <ul>
-    ...
-  </ul>
-</div>
+    <div class="pagination pagination-large">
+      <ul>
+        ...
+      </ul>
+    </div>
 
 `pagination-small`
 
-<div class="pagination pagination-small">
-  <ul>
-    ...
-  </ul>
-</div>
+    <div class="pagination pagination-small">
+      <ul>
+        ...
+      </ul>
+    </div>
 
 `pagination-mini`
 
-<div class="pagination pagination-mini">
-  <ul>
-    ...
-  </ul>
-</div>
+    <div class="pagination pagination-mini">
+      <ul>
+        ...
+      </ul>
+    </div>
 
 `pagination-centered`
 
@@ -872,214 +870,220 @@ Components: Pagination
 
 `pager`
 
-<ul class="pager">
-  <li><a href="#">Previous</a></li>
-  <li><a href="#">Next</a></li>
-</ul>
+    <ul class="pager">
+      <li><a href="#">Previous</a></li>
+      <li><a href="#">Next</a></li>
+    </ul>
 
 `pageraligned`
 
-<ul class="pager">
-  <li class="previous">
-    <a href="#">&larr; Older</a>
-  </li>
-  <li class="next">
-    <a href="#">Newer &rarr;</a>
-  </li>
-</ul>
+    <ul class="pager">
+      <li class="previous">
+        <a href="#">&larr; Older</a>
+      </li>
+      <li class="next">
+        <a href="#">Newer &rarr;</a>
+      </li>
+    </ul>
 
 
-Components: Labels and badges
+TODO Components: Labels and badges
 =====================
 
 `label`
 
-<span class="label">Default</span>
+    <span class="label">Default</span>
 
 `labelsuccess`
 
-<span class="label label-success">Success</span>
+    <span class="label label-success">Success</span>
 
 `labelwarning`
 
-<span class="label label-warning">Warning</span>
+    <span class="label label-warning">Warning</span>
 
 `labelimportant`
 
-<span class="label label-important">Important</span>
+    <span class="label label-important">Important</span>
 
 `labelinfo`
 
-<span class="label label-info">Info</span>
+    <span class="label label-info">Info</span>
 
 `labelinverse`
 
-<span class="label label-inverse">Inverse</span>
+    <span class="label label-inverse">Inverse</span>
 
 `badge`
 
-<span class="badge">1</span>
+    <span class="badge">1</span>
 
 `badgesuccess`
 
-<span class="badge badge-success">2</span>
+    <span class="badge badge-success">2</span>
 
 `badgewarning`
 
-<span class="badge badge-warning">4</span>
+    <span class="badge badge-warning">4</span>
 
 `badgeimportant`
 
-<span class="badge badge-important">6</span>
+    <span class="badge badge-important">6</span>
 
 `badgeinfo`
 
-<span class="badge badge-info">8</span>
+    <span class="badge badge-info">8</span>
 
 `badgeinverse`
 
-<span class="badge badge-inverse">10</span>
+    <span class="badge badge-inverse">10</span>
 
 
-Components: Typography
+TODO Components: Typography
 =====================
 
 `herounit`
 
-<div class="hero-unit">
-  <h1>Heading</h1>
-  <p>Tagline</p>
-  <p>
-    <a class="btn btn-primary btn-large">
-      Learn more
-    </a>
-  </p>
-</div>
+    <div class="hero-unit">
+      <h1>Heading</h1>
+      <p>Tagline</p>
+      <p>
+        <a class="btn btn-primary btn-large">
+          Learn more
+        </a>
+      </p>
+    </div>
 
 `pageheader`
 
-<div class="page-header">
-  <h1>Example page header <small>Subtext for header</small></h1>
-</div>
+    <div class="page-header">
+      <h1>Example page header <small>Subtext for header</small></h1>
+    </div>
 
 
-Components: Thumbnails
+TODO Components: Thumbnails
 =====================
 
 `thumbnails`
 
-<ul class="thumbnails">
-  <li class="span4">
-    <a href="#" class="thumbnail">
-      <img data-src="holder.js/300x200" alt="">
-    </a>
-  </li>
-  ...
-</ul>
+    <ul class="thumbnails">
+      <li class="span4">
+        <a href="#" class="thumbnail">
+          <img data-src="holder.js/300x200" alt="">
+        </a>
+      </li>
+      ...
+    </ul>
 
 `thumbnailsdiv`
 
-<ul class="thumbnails">
-  <li class="span4">
-    <div class="thumbnail">
-      <img data-src="holder.js/300x200" alt="">
-      <h3>Thumbnail label</h3>
-      <p>Thumbnail caption...</p>
-    </div>
-  </li>
-  ...
-</ul>
+    <ul class="thumbnails">
+      <li class="span4">
+        <div class="thumbnail">
+          <img data-src="holder.js/300x200" alt="">
+          <h3>Thumbnail label</h3>
+          <p>Thumbnail caption...</p>
+        </div>
+      </li>
+      ...
+    </ul>
 
 
 
 
-Components: Alerts
+TODO Components: Alerts
 =====================
 
 `alert`
 
-<div class="alert">
-  <button type="button" class="close" data-dismiss="alert">&times;</button>
-  <strong>Warning!</strong> Best check yo self, you're not looking too good.
-</div>
+    <div class="alert">
+      <button type="button" class="close" data-dismiss="alert">&times;</button>
+      <strong>Warning!</strong> Best check yo self, you're not looking too good.
+    </div>
 
 `alertblock`
 
-<div class="alert alert-block">
-  <button type="button" class="close" data-dismiss="alert">&times;</button>
-  <h4>Warning!</h4>
-  Best check yo self, you're not...
-</div>
+    <div class="alert alert-block">
+      <button type="button" class="close" data-dismiss="alert">&times;</button>
+      <h4>Warning!</h4>
+      Best check yo self, you're not...
+    </div>
 
-<div class="alert alert-error">
-  ...
-</div>
+`alerterror`
 
-<div class="alert alert-success">
-  ...
-</div>
+    <div class="alert alert-error">
+      ...
+    </div>
 
-<div class="alert alert-info">
-  ...
-</div>
+`alertsuccess`
+
+    <div class="alert alert-success">
+      ...
+    </div>
+
+`alertinfo`
+
+    <div class="alert alert-info">
+      ...
+    </div>
 
 
-Components: Progress bar
+TODO Components: Progress bar
 =====================
 
 `progress`
 
-<div class="progress">
-  <div class="bar" style="width: 60%;"></div>
-</div>
+    <div class="progress">
+      <div class="bar" style="width: 60%;"></div>
+    </div>
 
 `progressstriped`
 
-<div class="progress progress-striped">
-  <div class="bar" style="width: 20%;"></div>
-</div>
+    <div class="progress progress-striped">
+      <div class="bar" style="width: 20%;"></div>
+    </div>
 
 `progressstripedactive`
 
-<div class="progress progress-striped active">
-  <div class="bar" style="width: 40%;"></div>
-</div>
+    <div class="progress progress-striped active">
+      <div class="bar" style="width: 40%;"></div>
+    </div>
 
 `progressstacked`
 
-<div class="progress">
-  <div class="bar bar-success" style="width: 35%;"></div>
-  <div class="bar bar-warning" style="width: 20%;"></div>
-  <div class="bar bar-danger" style="width: 10%;"></div>
-</div>
+    <div class="progress">
+      <div class="bar bar-success" style="width: 35%;"></div>
+      <div class="bar bar-warning" style="width: 20%;"></div>
+      <div class="bar bar-danger" style="width: 10%;"></div>
+    </div>
 
 `progressinfo`
 
-<div class="progress progress-info">
-  <div class="bar" style="width: 20%"></div>
-</div>
+    <div class="progress progress-info">
+      <div class="bar" style="width: 20%"></div>
+    </div>
 
 `progresssuccess`
 
-<div class="progress progress-success">
-  <div class="bar" style="width: 40%"></div>
-</div>
+    <div class="progress progress-success">
+      <div class="bar" style="width: 40%"></div>
+    </div>
 
 `progresswarning`
 
-<div class="progress progress-warning">
-  <div class="bar" style="width: 60%"></div>
-</div>
+    <div class="progress progress-warning">
+      <div class="bar" style="width: 60%"></div>
+    </div>
 
 `progressdanger`
 
-<div class="progress progress-danger">
-  <div class="bar" style="width: 80%"></div>
-</div>
+    <div class="progress progress-danger">
+      <div class="bar" style="width: 80%"></div>
+    </div>
 
 
 
-Components: Media object
+TODO Components: Media object
 =====================
 
 `media`
@@ -1118,7 +1122,7 @@ Components: Media object
       </li>
     </ul>
 
-Components: Misc
+TODO Components: Misc
 =====================
 
 `well`
@@ -1146,3 +1150,4 @@ Components: Misc
 `aclose`
 
     <a class="close" href="#">&times;</a>
+
