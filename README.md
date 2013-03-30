@@ -1035,57 +1035,57 @@ Components: Alerts
     </div>
 
 
-TODO Components: Progress bar
+Components: Progress bar
 =====================
 
 `progress`
 
     <div class="progress">
-      <div class="bar" style="width: 60%;"></div>
+      <div class="bar" style="width: ${1:60%};"></div>
     </div>
 
 `progressstriped`
 
     <div class="progress progress-striped">
-      <div class="bar" style="width: 20%;"></div>
+      <div class="bar" style="width: ${1:20}%;"></div>
     </div>
 
 `progressstripedactive`
 
     <div class="progress progress-striped active">
-      <div class="bar" style="width: 40%;"></div>
+      <div class="bar" style="width: ${1:40}%;"></div>
     </div>
 
 `progressstacked`
 
     <div class="progress">
-      <div class="bar bar-success" style="width: 35%;"></div>
-      <div class="bar bar-warning" style="width: 20%;"></div>
-      <div class="bar bar-danger" style="width: 10%;"></div>
+      <div class="bar bar-success" style="width: ${1:35}%;"></div>
+      <div class="bar bar-warning" style="width: ${2:20}%;"></div>
+      <div class="bar bar-danger" style="width: ${3:10}%;"></div>
     </div>
 
 `progressinfo`
 
     <div class="progress progress-info">
-      <div class="bar" style="width: 20%"></div>
+      <div class="bar" style="width: ${1:50}%"></div>
     </div>
 
 `progresssuccess`
 
     <div class="progress progress-success">
-      <div class="bar" style="width: 40%"></div>
+      <div class="bar" style="width: ${1:50}%"></div>
     </div>
 
 `progresswarning`
 
     <div class="progress progress-warning">
-      <div class="bar" style="width: 60%"></div>
+      <div class="bar" style="width: ${1:50}%"></div>
     </div>
 
 `progressdanger`
 
     <div class="progress progress-danger">
-      <div class="bar" style="width: 80%"></div>
+      <div class="bar" style="width: ${1:50}%"></div>
     </div>
 
 
