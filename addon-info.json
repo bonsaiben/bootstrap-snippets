@@ -1,0 +1,9 @@
+{
+  "name" : "bootstrap-snippets",
+  "author" : "Benjamin Sullivan",
+  "maintainer" : "Benjamin Sullivan",
+  "repository" : {"type": "git", "url": "git://github.com/bonsaiben/bootstrap-snippets.git"},
+  "dependencies" : {
+  },
+  "description" : "Twitter Bootstrap snippets for snipmate"
+}
