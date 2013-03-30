@@ -815,7 +815,7 @@ Components: Breadcrumbs
       <li class="active">${5:Data}</li>
     </ul>
 
-TODO Components: Pagination
+Components: Pagination
 =====================
 
 `pagination`
@@ -832,57 +832,57 @@ TODO Components: Pagination
       </ul>
     </div>
 
-`pagination-large`
+`paginationlarge`
 
     <div class="pagination pagination-large">
       <ul>
-        ...
+        ${1:...}
       </ul>
     </div>
 
-`pagination-small`
+`paginationsmall`
 
     <div class="pagination pagination-small">
       <ul>
-        ...
+        ${1:...}
       </ul>
     </div>
 
-`pagination-mini`
+`paginationmini`
 
     <div class="pagination pagination-mini">
       <ul>
-        ...
+        ${1:...}
       </ul>
     </div>
 
-`pagination-centered`
+`paginationcentered`
 
     <div class="pagination pagination-centered">
-      ...
+      ${1:...}
     </div>
 
-`pagination-right`
+`paginationright`
 
     <div class="pagination pagination-right">
-      ...
+      ${1:...}
     </div>
 
 `pager`
 
     <ul class="pager">
-      <li><a href="#">Previous</a></li>
-      <li><a href="#">Next</a></li>
+      <li><a href="${1:#}">${2:Previous}</a></li>
+      <li><a href="${3:#}">${4:Next}</a></li>
     </ul>
 
 `pageraligned`
 
     <ul class="pager">
       <li class="previous">
-        <a href="#">&larr; Older</a>
+        <a href="${1:#}">${2:&larr; Older}</a>
       </li>
       <li class="next">
-        <a href="#">Newer &rarr;</a>
+        <a href="${3:#}">${4:Newer &rarr;}</a>
       </li>
     </ul>
 
