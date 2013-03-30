@@ -1129,26 +1129,33 @@ Components: Media object
       </li>
     </ul>
 
-TODO Components: Misc
+Components: Misc
 =====================
+
+Well
+----
 
 `well`
 
     <div class="well">
-      ...
+      ${1:...}
     </div>
 
 `welllarge`
 
     <div class="well well-large">
-      ...
+      ${1:...}
     </div>
 
 `wellsmall`
 
     <div class="well well-small">
-      ...
+      ${1:...}
     </div>
+
+
+Close button
+------------
 
 `close`
 
