@@ -3,10 +3,6 @@ Bootstrap Snippets
 
 This repository contains HTML and Haml snippet files for Twitter Bootstrap, for the famous [snipmate](https://github.com/garbas/vim-snipmate) plugin for Vim.
 
-HTML and Haml snippets of Twitter Bootstrap scaffolding, base css and components.
-
-Generally the snippet trigger will be the name of the relevant class (without hyphens).
-
 Dependencies
 ------------
 
