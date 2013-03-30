@@ -887,56 +887,63 @@ Components: Pagination
     </ul>
 
 
-TODO Components: Labels and badges
+Components: Labels and badges
 =====================
+
+Labels
+------
 
 `label`
 
-    <span class="label">Default</span>
+    <span class="label">${1:Default}</span>
 
 `labelsuccess`
 
-    <span class="label label-success">Success</span>
+    <span class="label label-success">${1:Success}</span>
 
 `labelwarning`
 
-    <span class="label label-warning">Warning</span>
+    <span class="label label-warning">${1:Warning}</span>
 
 `labelimportant`
 
-    <span class="label label-important">Important</span>
+    <span class="label label-important">${1:Important}</span>
 
 `labelinfo`
 
-    <span class="label label-info">Info</span>
+    <span class="label label-info">${1:Info}</span>
 
 `labelinverse`
 
-    <span class="label label-inverse">Inverse</span>
+    <span class="label label-inverse">${1:Inverse}</span>
+
+
+Badges
+------
 
 `badge`
 
-    <span class="badge">1</span>
+    <span class="badge">${1:1}</span>
 
 `badgesuccess`
 
-    <span class="badge badge-success">2</span>
+    <span class="badge badge-success">${1:2}</span>
 
 `badgewarning`
 
-    <span class="badge badge-warning">4</span>
+    <span class="badge badge-warning">${1:4}</span>
 
 `badgeimportant`
 
-    <span class="badge badge-important">6</span>
+    <span class="badge badge-important">${1:6}</span>
 
 `badgeinfo`
 
-    <span class="badge badge-info">8</span>
+    <span class="badge badge-info">${1:8}</span>
 
 `badgeinverse`
 
-    <span class="badge badge-inverse">10</span>
+    <span class="badge badge-inverse">${1:10}</span>
 
 
 TODO Components: Typography
