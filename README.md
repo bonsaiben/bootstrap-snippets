@@ -1090,22 +1090,22 @@ Components: Progress bar
 
 
 
-TODO Components: Media object
+Components: Media object
 =====================
 
 `media`
 
     <div class="media">
       <a class="pull-left" href="#">
-        <img class="media-object" data-src="holder.js/64x64">
+        <img class="media-object" src="${1:image.jpg}">
       </a>
       <div class="media-body">
         <h4 class="media-heading">Media heading</h4>
-        ...
+        ${2:...}
 
         <!-- Nested media object -->
         <div class="media">
-          ...
+          ${3:...}
         </div>
       </div>
     </div>
@@ -1115,15 +1115,15 @@ TODO Components: Media object
     <ul class="media-list">
       <li class="media">
         <a class="pull-left" href="#">
-          <img class="media-object" data-src="holder.js/64x64">
+          <img class="media-object" src="${1:image.jpg}">
         </a>
         <div class="media-body">
           <h4 class="media-heading">Media heading</h4>
-          ...
+          ${2:...}
 
           <!-- Nested media object -->
           <div class="media">
-            ...
+            ${3:...}
          </div>
         </div>
       </li>

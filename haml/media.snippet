@@ -1,0 +1,10 @@
+.media
+  %a.pull-left{:href => "#"}
+    %img.media-object{:src => "${1:image.jpg}"}
+  .media-body
+    %h4.media-heading Media heading
+    ${2:...}
+
+    <!-- Nested media object -->
+    .media
+      ${3:...}
