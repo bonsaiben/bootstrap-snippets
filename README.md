@@ -968,18 +968,18 @@ Components: Typography
     </div>
 
 
-TODO Components: Thumbnails
+Components: Thumbnails
 =====================
 
 `thumbnails`
 
     <ul class="thumbnails">
       <li class="span4">
-        <a href="#" class="thumbnail">
-          <img data-src="holder.js/300x200" alt="">
+        <a href="${1:#}" class="thumbnail">
+          <img src="${2:image.jpg}" alt="">
         </a>
       </li>
-      ...
+      ${3:...}
     </ul>
 
 `thumbnailsdiv`
@@ -987,12 +987,12 @@ TODO Components: Thumbnails
     <ul class="thumbnails">
       <li class="span4">
         <div class="thumbnail">
-          <img data-src="holder.js/300x200" alt="">
-          <h3>Thumbnail label</h3>
-          <p>Thumbnail caption...</p>
+          <img src="${1:image.jpg}" alt="">
+          <h3>${2:Thumbnail label}</h3>
+          <p>${3:Thumbnail caption...}</p>
         </div>
       </li>
-      ...
+      ${4:...}
     </ul>
 
 
