@@ -63,7 +63,17 @@ Lead body copy
 
 Alignment classes
 
-    TODO
+`textleft`
+
+    <p class="text-left">${1:Left aligned text.}</p>
+
+`textcenter`
+
+    <p class="text-center">${1:Center aligned text.}</p>
+
+`textright`
+
+    <p class="text-right">${1:Right aligned text.}</p>
 
 Emphasis classes
 
@@ -101,9 +111,10 @@ Lists: Unstyled
       <li>${1:...}</li>
     </ul>
 
-Lists: Unstyled
+Lists: Inline
 
-    TODO
+`inline`
+
     <ul class="inline">
       <li>...</li>
     </ul>
@@ -227,15 +238,8 @@ Optional layouts: Horizontal form
 
 `checkboxinline`
 
-    TODO
     <label class="checkbox inline">
-      <input type="checkbox" id="inlineCheckbox1" value="option1"> 1
-    </label>
-    <label class="checkbox inline">
-      <input type="checkbox" id="inlineCheckbox2" value="option2"> 2
-    </label>
-    <label class="checkbox inline">
-      <input type="checkbox" id="inlineCheckbox3" value="option3"> 3
+      <input type="checkbox" id="${1:inlineCheckbox1}" value="${2:option1}"> ${3:1}
     </label>
 
 Extending form controls
@@ -258,11 +262,10 @@ Prepended and appended inputs
 
 `inputprependappend`
 
-    TODO
     <div class="input-prepend input-append">
-      <span class="add-on">$</span>
-      <input class="span2" id="appendedPrependedInput" type="text">
-      <span class="add-on">.00</span>
+      <span class="add-on">${1:$}</span>
+      <input class="span2" id="${2:appendedPrependedInput}" type="text">
+      <span class="add-on">${3:.00}</span>
     </div>
 
 `inputappendbtn`
@@ -291,34 +294,31 @@ Control sizing
 
 `inputblocklevel`
 
-    TODO
-    <input class="input-block-level" type="text" placeholder=".input-block-level">
-
+    <input class="input-block-level" type="text">
 
 `inputmini`
 
-<input class="input-mini" type="text">
+    <input class="input-mini" type="text">
 
 `inputsmall`
 
-<input class="input-small" type="text">
+    <input class="input-small" type="text">
 
 `inputmedium`
 
-<input class="input-medium" type="text">
+    <input class="input-medium" type="text">
 
 `inputlarge`
 
-<input class="input-large" type="text">
+    <input class="input-large" type="text">
 
 `inputxlarge`
 
-<input class="input-xlarge" type="text">
+    <input class="input-xlarge" type="text">
 
 `inputxxlarge`
 
-<input class="input-xxlarge" type="text">
-
+    <input class="input-xxlarge" type="text">
 
 
 `controlsrow`
@@ -330,8 +330,7 @@ Control sizing
 
 `uneditableinput`
 
-    TODO
-    <span class="input-xlarge uneditable-input">Some value here</span>
+    <span class="input-large uneditable-input">${1:Some value here}</span>
 
 Form actions
 
@@ -361,36 +360,59 @@ Base CSS: Buttons
 
 `btn`
 
-    TODO
     <button type="button" class="btn">${2:Default}</button>
 
 `abtn`
 
-    <a href="${1:#}" class="btn btn-${2:primary}">${3:Text}</a>
+    <a href="${1:#}" class="btn">${2:Text}</a>
 
 `btnprimary`
 
     <button type="button" class="btn btn-primary">${1:Default}</button>
 
+`abtnprimary`
+
+    <a href="${1:#}" class="btn btn-primary">${2:Text}</a>
+
 `btninfo`
 
     <button type="button" class="btn btn-info">${1:Default}</button>
+
+`abtninfo`
+
+    <a href="${1:#}" class="btn btn-info">${2:Text}</a>
 
 `btnsuccess`
 
     <button type="button" class="btn btn-success">${1:Default}</button>
 
+`abtnsuccess`
+
+    <a href="${1:#}" class="btn btn-success">${2:Text}</a>
+
 `btnwarning`
 
     <button type="button" class="btn btn-warning">${1:Default}</button>
+
+`abtnwarning`
+
+    <a href="${1:#}" class="btn btn-warning">${2:Text}</a>
 
 `btndanger`
 
     <button type="button" class="btn btn-danger">${1:Default}</button>
 
+`abtndanger`
+
+    <a href="${1:#}" class="btn btn-danger">${2:Text}</a>
+
 `btninverse`
 
     <button type="button" class="btn btn-inverse">${1:Default}</button>
+
+`abtninverse`
+
+    <a href="${1:#}" class="btn btn-inverse">${2:Text}</a>
 
 `btnlink`
 
@@ -400,47 +422,62 @@ Base CSS: Buttons
 
     <button type="button" class="btn btn-large">${1:Default}</button>
 
+`abtnlarge`
+
+    <a href="${1:#}" class="btn btn-large">${2:Text}</a>
+
 `btnsmall`
 
     <button type="button" class="btn btn-small">${1:Default}</button>
+
+`abtnsmall`
+
+    <a href="${1:#}" class="btn btn-small">${2:Text}</a>
 
 `btnmini`
 
     <button type="button" class="btn btn-mini">${1:Default}</button>
 
+`abtnmini`
+
+    <a href="${1:#}" class="btn btn-mini">${2:Text}</a>
+
 `btnblock`
 
-    <button class="btn btn-large btn-block btn-${1:primary}" type="button">${2:Block level button}</button>
+    <button class="btn btn-large btn-block" type="button">${1:Block level button}</button>
+
+`abtnblock`
+
+    <a href="${1:#}" class="btn btn-block">${2:Text}</a>
 
 
 Disabled state
 
 `adisabled`
 
-<a href="#" class="btn disabled">Primary link</a>
+    <a href="#" class="btn disabled">${1:Primary link}</a>
 
 `btndisabled`
 
-<button type="button" class="btn disabled" disabled="disabled">Primary button</button>
+    <button type="button" class="btn disabled" disabled="disabled">${1:Primary button}</button>
 
 
 
 Base CSS: Images
 ----------------
 
-TODO
-
 `imgrounded`
 
-    <img src="..." class="img-rounded">
+    <img src="${1:...}" class="img-rounded">
 
 `imgcircle`
 
-    <img src="..." class="img-circle">
+    <img src="${1:...}" class="img-circle">
 
 `imgpolaroid`
 
-    <img src="..." class="img-polaroid">
+    <img src="${1:...}" class="img-polaroid">
+
 
 Base CSS: Icons
 ---------------
@@ -456,8 +493,6 @@ Base CSS: Icons
 
 Other
 -----
-
-
 
 `btndropdown`
 
@@ -537,22 +572,22 @@ Other
     <div class="navbar">
       <div class="navbar-inner">
         <div class="container">
-     
+
           <!-- .btn-navbar is used as the toggle for collapsed navbar content -->
           <a class="btn btn-navbar" data-toggle="collapse" data-target=".nav-collapse">
             <span class="icon-bar"></span>
             <span class="icon-bar"></span>
             <span class="icon-bar"></span>
           </a>
-     
+
           <!-- Be sure to leave the brand out there if you want it shown -->
           <a class="brand" href="#">${1:Project name}</a>
-     
+
           <!-- Everything you want hidden at 940px or less, place within here -->
           <div class="nav-collapse collapse">
             ${2:<!-- .nav, .navbar-search, .navbar-form, etc -->}
           </div>
-     
+
         </div>
       </div>
     </div>
