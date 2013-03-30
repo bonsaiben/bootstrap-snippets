@@ -946,17 +946,17 @@ Badges
     <span class="badge badge-inverse">${1:10}</span>
 
 
-TODO Components: Typography
+Components: Typography
 =====================
 
 `herounit`
 
     <div class="hero-unit">
-      <h1>Heading</h1>
-      <p>Tagline</p>
+      <h1>${1:Heading}</h1>
+      <p>${2:Tagline}</p>
       <p>
         <a class="btn btn-primary btn-large">
-          Learn more
+          ${3:Learn more}
         </a>
       </p>
     </div>
@@ -964,7 +964,7 @@ TODO Components: Typography
 `pageheader`
 
     <div class="page-header">
-      <h1>Example page header <small>Subtext for header</small></h1>
+      <h1>${1:Example page header} <small>${2:Subtext for header}</small></h1>
     </div>
 
 
