@@ -804,15 +804,15 @@ Components: Navbar
 
 
 
-TODO Components: Breadcrumbs
+Components: Breadcrumbs
 =====================
 
 `breadcrumb`
 
     <ul class="breadcrumb">
-      <li><a href="#">Home</a> <span class="divider">/</span></li>
-      <li><a href="#">Library</a> <span class="divider">/</span></li>
-      <li class="active">Data</li>
+      <li><a href="${1:#}">${2:Home}</a> <span class="divider">/</span></li>
+      <li><a href="${3:#}">${4:Library}</a> <span class="divider">/</span></li>
+      <li class="active">${5:Data}</li>
     </ul>
 
 TODO Components: Pagination
