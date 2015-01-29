@@ -1,7 +1,9 @@
 Bootstrap Snippets
 ==================
 
-HTML and Haml snippet files for Twitter Bootstrap 2.3.1, for the [snipmate](https://github.com/garbas/vim-snipmate) plugin for Vim.
+Work in progress
+
+HTML and Haml snippet files for [Twitter Bootstrap 3.3.2](http://getbootstrap.com/), for the [snipmate](https://github.com/garbas/vim-snipmate) plugin for Vim.
 
 Dependencies
 ------------
@@ -20,7 +22,7 @@ Installation using [Pathogen](https://github.com/tpope/vim-pathogen)
     $ cd ~/.vim
     $ mkdir bundle
     $ cd bundle
-    $ git clone -b bootstrap-2-3-1 git://github.com/bonsaiben/bootstrap-snippets.git
+    $ git clone git://github.com/bonsaiben/bootstrap-snippets.git
 
     # Install dependencies:
     $ git clone https://github.com/garbas/vim-snipmate.git
