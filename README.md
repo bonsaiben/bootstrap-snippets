@@ -36,7 +36,7 @@ Generally the snippet trigger will be the name of the relevant class or combinat
 
 For example, `btnprimary` becomes:
 
-    %button.btn.btn-primary{:type => "button"} ${1:Default}
+    <button type="button" class="btn btn-primary">${1:Default}</button>
 
 Notable exceptions to this rule:
 
