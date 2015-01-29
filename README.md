@@ -1,7 +1,7 @@
 Bootstrap Snippets
 ==================
 
-This repository contains HTML and Haml snippet files for Twitter Bootstrap, for the famous [snipmate](https://github.com/garbas/vim-snipmate) plugin for Vim.
+HTML and Haml snippet files for Twitter Bootstrap 2.3.1, for the [snipmate](https://github.com/garbas/vim-snipmate) plugin for Vim.
 
 Dependencies
 ------------
@@ -20,7 +20,7 @@ Installation using [Pathogen](https://github.com/tpope/vim-pathogen)
     $ cd ~/.vim
     $ mkdir bundle
     $ cd bundle
-    $ git clone git://github.com/bonsaiben/bootstrap-snippets.git
+    $ git clone -b bootstrap-2-3-1 git://github.com/bonsaiben/bootstrap-snippets.git
 
     # Install dependencies:
     $ git clone https://github.com/garbas/vim-snipmate.git
@@ -30,9 +30,38 @@ Installation using [Pathogen](https://github.com/tpope/vim-pathogen)
 Usage
 -----
 
-Generally the snippet trigger will be the name of the relevant class or combination of classes (without hyphens).
+Generally the snippet trigger will be the name of the relevant class or combination of classes (no hyphens).
 
-For example, `btnprimary` converts to:
+For example, `btnprimary` becomes:
 
     %button.btn.btn-primary{:type => "button"} ${1:Default}
 
+Notable exceptions to this rule:
+
+- `abtn`
+- `abtnblock`
+- `abtndanger`
+- `abtninfo`
+- `abtninverse`
+- `abtnlarge`
+- `abtnmini`
+- `abtnprimary`
+- `abtnsmall`
+- `abtnsuccess`
+- `abtnwarning`
+- `aclose`
+- `adisabled`
+- `btndropdown`
+- `btndropdownsplit`
+- `btndropup`
+- `inputappendbtn`
+- `inputappendbtndropdown`
+- `inputprependappend`
+- `navbarcollapse`
+- `navpillsdropdown`
+- `navpillsstacked`
+- `navtabsdropdown`
+- `navtabsstacked`
+- `pageraligned`
+- `progressstacked`
+- `thumbnailsdiv`
