@@ -22,7 +22,7 @@ HTML and Haml snippet files for [Twitter Bootstrap 3.3.2](http://getbootstrap.co
     $ git clone https://github.com/MarcWeber/vim-addon-mw-utils.git
 
     # Install bootstrap-snippets
-    $ git clone git://github.com/bonsaiben/bootstrap-snippets.git
+    $ git clone -b bootstrap-3-3-2 git://github.com/bonsaiben/bootstrap-snippets.git
 
 
 ## Usage
