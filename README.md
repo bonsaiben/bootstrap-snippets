@@ -7,8 +7,8 @@ HTML and Haml snippet files for [Twitter Bootstrap 3.3.2](http://getbootstrap.co
 ## Dependencies
 
 - [vim-snipmate](https://github.com/garbas/vim-snipmate)
-- [tlib\_vim](https://github.com/tomtom/tlib_vim.git)
-- [vim-addon-mw-utils](https://github.com/MarcWeber/vim-addon-mw-utils.git)
+- [tlib\_vim](https://github.com/tomtom/tlib_vim)
+- [vim-addon-mw-utils](https://github.com/MarcWeber/vim-addon-mw-utils)
 
 ## Installation using [Pathogen](https://github.com/tpope/vim-pathogen)
 
