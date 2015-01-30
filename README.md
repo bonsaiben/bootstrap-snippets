@@ -2,6 +2,8 @@
 
 HTML snippet files for [Twitter Bootstrap 3.3.2](http://getbootstrap.com/), for the [snipMate](https://github.com/garbas/vim-snipmate) plugin for Vim.
 
+![Animation](https://cloud.githubusercontent.com/assets/227274/5981940/c07ea88c-a901-11e4-859d-d87eeff19354.gif)
+
 ## Dependencies
 
 - [vim-snipmate](https://github.com/garbas/vim-snipmate)
