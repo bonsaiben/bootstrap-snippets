@@ -1,841 +1,2055 @@
-snippet abtn
-	<a href="${1:#}" class="btn">${2:Text}</a>
+snippet bootstrapcdn Bootstrap
+	<!-- Latest compiled and minified CSS -->
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.2/css/bootstrap.min.css">
+	
+	<!-- Optional theme -->
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.2/css/bootstrap-theme.min.css">
+	
+	<!-- Latest compiled and minified JavaScript -->
+	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.2/js/bootstrap.min.js"></script>
 
-snippet abtnblock
-	<a href="${1:#}" class="btn btn-block">${2:Text}</a>
 
-snippet abtndanger
-	<a href="${1:#}" class="btn btn-danger">${2:Text}</a>
+snippet basictemplate Bootstrap
+	<!DOCTYPE html>
+	<html lang="en">
+	  <head>
+	    <meta charset="utf-8">
+	    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+	    <meta name="viewport" content="width=device-width, initial-scale=1">
+	    <title>Bootstrap 101 Template</title>
+	
+	    <!-- Bootstrap -->
+	    <link href="css/bootstrap.min.css" rel="stylesheet">
+	
+	    <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
+	    <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+	    <!--[if lt IE 9]>
+	      <script src="https://oss.maxcdn.com/html5shiv/3.7.2/html5shiv.min.js"></script>
+	      <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
+	    <![endif]-->
+	  </head>
+	  <body>
+	    <h1>Hello, world!</h1>
+	
+	    <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
+	    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.2/jquery.min.js"></script>
+	    <!-- Include all compiled plugins (below), or include individual files as needed -->
+	    <script src="js/bootstrap.min.js"></script>
+	  </body>
+	</html>
 
-snippet abtninfo
-	<a href="${1:#}" class="btn btn-info">${2:Text}</a>
 
-snippet abtninverse
-	<a href="${1:#}" class="btn btn-inverse">${2:Text}</a>
 
-snippet abtnlarge
-	<a href="${1:#}" class="btn btn-large">${2:Text}</a>
+snippet html5 Bootstrap
+	<!DOCTYPE html>
+	<html lang="en">
+	  ...
+	</html>
 
-snippet abtnmini
-	<a href="${1:#}" class="btn btn-mini">${2:Text}</a>
 
-snippet abtnprimary
-	<a href="${1:#}" class="btn btn-primary">${2:Text}</a>
+snippet viewport Bootstrap
+	<meta name="viewport" content="width=device-width, initial-scale=1">
 
-snippet abtnsmall
-	<a href="${1:#}" class="btn btn-small">${2:Text}</a>
+snippet viewportnozoom Bootstrap
+	<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
 
-snippet abtnsuccess
-	<a href="${1:#}" class="btn btn-success">${2:Text}</a>
 
-snippet abtnwarning
-	<a href="${1:#}" class="btn btn-warning">${2:Text}</a>
-
-snippet aclose
-	<a class="close" href="#">&times;</a>
-
-snippet adisabled
-	<a href="#" class="btn disabled">${1:Primary link}</a>
-
-snippet alert
-	<div class="alert">
-	  <button type="button" class="close" data-dismiss="alert">&times;</button>
-	  <strong>${1:Warning!}</strong> ${2:Best check yo self, you're not looking too good.}
+snippet container Bootstrap
+	<div class="container">
+	  ...
 	</div>
 
-snippet alertblock
-	<div class="alert alert-block">
-	  <button type="button" class="close" data-dismiss="alert">&times;</button>
-	  <h4>${1:Warning!}</h4>
-	  ${2:Best check yo self, you're not...}
-	</div>
-
-snippet alerterror
-	<div class="alert alert-error">
-	  ${1:...}
-	</div>
-
-
-snippet alertinfo
-	<div class="alert alert-info">
-	  ${1:...}
-	</div>
-
-
-snippet alertsuccess
-	<div class="alert alert-success">
-	  ${1:...}
+snippet containerfluid Bootstrap
+	<div class="container-fluid">
+	  ...
 	</div>
 
 
-snippet badge
-	<span class="badge">${1:1}</span>
+snippet row Bootstrap
+	<div class="row">
+	  ...
+	</div>
 
-snippet badgeimportant
-	<span class="badge badge-important">${1:2}</span>
+snippet colxs Bootstrap
+	<div class="col-xs-...">
+	  ...
+	</div>
 
-snippet badgeinfo
-	<span class="badge badge-info">${1:2}</span>
+snippet colsm Bootstrap
+	<div class="col-sm-...">
+	  ...
+	</div>
 
-snippet badgeinverse
-	<span class="badge badge-inverse">${1:2}</span>
+snippet colmd Bootstrap
+	<div class="col-md-...">
+	  ...
+	</div>
 
-snippet badgesuccess
-	<span class="badge badge-success">${1:2}</span>
+snippet collg Bootstrap
+	<div class="col-lg-...">
+	  ...
+	</div>
 
-snippet badgewarning
-	<span class="badge badge-warning">${1:2}</span>
+snippet colxsoffset Bootstrap
+	<div class="col-xs-offset-...">
+	  ...
+	</div>
 
-snippet breadcrumb
-	<ul class="breadcrumb">
-	  <li><a href="${1:#}">${2:Home}</a> <span class="divider">/</span></li>
-	  <li><a href="${3:#}">${4:Library}</a> <span class="divider">/</span></li>
-	  <li class="active">${5:Data}</li>
+snippet colsmoffset Bootstrap
+	<div class="col-sm-offset-...">
+	  ...
+	</div>
+
+snippet colmdoffset Bootstrap
+	<div class="col-md-offset-...">
+	  ...
+	</div>
+
+snippet collgoffset Bootstrap
+	<div class="col-lg-offset-...">
+	  ...
+	</div>
+
+snippet colxspush Bootstrap
+	<div class="col-xs-push-...">
+	  ...
+	</div>
+
+snippet colsmpush Bootstrap
+	<div class="col-sm-push-...">
+	  ...
+	</div>
+
+snippet colmdpush Bootstrap
+	<div class="col-md-push-...">
+	  ...
+	</div>
+
+snippet collgpush Bootstrap
+	<div class="col-lg-push-...">
+	  ...
+	</div>
+
+snippet colxspull Bootstrap
+	<div class="col-xs-pull-...">
+	  ...
+	</div>
+
+snippet colsmpull Bootstrap
+	<div class="col-sm-pull-...">
+	  ...
+	</div>
+
+snippet colmdpull Bootstrap
+	<div class="col-md-pull-...">
+	  ...
+	</div>
+
+snippet collgpull Bootstrap
+	<div class="col-lg-pull-...">
+	  ...
+	</div>
+
+
+snippet h1 Bootstrap
+	<h1>...</h1>
+
+snippet h2 Bootstrap
+	<h2>...</h2>
+
+snippet h3 Bootstrap
+	<h3>...</h3>
+
+snippet h4 Bootstrap
+	<h4>...</h4>
+
+snippet h5 Bootstrap
+	<h5>...</h5>
+
+snippet h6 Bootstrap
+	<h6>...</h6>
+
+
+snippet h1small Bootstrap
+	<h1>... <small>...</small></h1>
+
+snippet h2small Bootstrap
+	<h2>... <small>...</small></h2>
+
+snippet h3small Bootstrap
+	<h3>... <small>...</small></h3>
+
+snippet h4small Bootstrap
+	<h4>... <small>...</small></h4>
+
+snippet h5small Bootstrap
+	<h5>... <small>...</small></h5>
+
+snippet h6small Bootstrap
+	<h6>... <small>...</small></h6>
+
+snippet p Bootstrap
+	<p>...</p>
+
+snippet lead Bootstrap
+	<p class="lead">...</p>
+
+snippet mark Bootstrap
+	<mark>...</mark>
+
+snippet del Bootstrap
+	<del>...</del>
+
+snippet s Bootstrap
+	<s>...</s>
+
+snippet ins Bootstrap
+	<ins>...</ins>
+
+snippet u Bootstrap
+	<u>...</u>
+
+snippet small Bootstrap
+	<small>...</small>
+
+snippet strong Bootstrap
+	<strong>...</strong>
+
+snippet em Bootstrap
+	<em>...</em>
+
+snippet textleft Bootstrap
+	<p class="text-left">...</p>
+
+snippet textcenter Bootstrap
+	<p class="text-center">...</p>
+
+snippet textright Bootstrap
+	<p class="text-right">...</p>
+
+snippet textjustify Bootstrap
+	<p class="text-justify">...</p>
+
+snippet textnowrap Bootstrap
+	<p class="text-nowrap">...</p>
+
+
+snippet textlowercase Bootstrap
+	<p class="text-lowercase">...</p>
+
+snippet textuppercase Bootstrap
+	<p class="text-uppercase">...</p>
+
+snippet textcapitalize Bootstrap
+	<p class="text-capitalize">...</p>
+
+snippet abbr Bootstrap
+	<abbr title="...">...</abbr>
+
+
+snippet initialism Bootstrap
+	<abbr title="..." class="initialism">...</abbr>
+
+snippet address Bootstrap
+	<address>
+	  <strong>Twitter, Inc.</strong><br>
+	  795 Folsom Ave, Suite 600<br>
+	  San Francisco, CA 94107<br>
+	  <abbr title="Phone">P:</abbr> (123) 456-7890
+	</address>
+	
+	<address>
+	  <strong>Full Name</strong><br>
+	  <a href="mailto:#">first.last@example.com</a>
+	</address>
+
+snippet blockquote Bootstrap
+	<blockquote>
+	  <p>...</p>
+	</blockquote>
+
+snippet blockquotesource Bootstrap
+	<blockquote>
+	  <p>...</p>
+	  <footer>... <cite title="...">...</cite></footer>
+	</blockquote>
+
+snippet blockquotereverse Bootstrap
+	<blockquote class="blockquote-reverse">
+	  ...
+	</blockquote>
+
+snippet ul Bootstrap
+	<ul>
+	  <li>...</li>
 	</ul>
 
-snippet btn
-	<button type="button" class="btn">${1:Default}</button>
+snippet ol Bootstrap
+	<ol>
+	  <li>...</li>
+	</ol>
 
-snippet btnblock
-	<button class="btn btn-large btn-block" type="button">${1:Block level button}</button>
+snippet listunstyled Bootstrap
+	<ul class="list-unstyled">
+	  <li>...</li>
+	</ul>
 
-snippet btndanger
-	<button type="button" class="btn btn-danger">${1:Default}</button>
+snippet listinline Bootstrap
+	<ul class="list-inline">
+	  <li>...</li>
+	</ul>
 
-snippet btndisabled
-	<button type="button" class="btn disabled" disabled="disabled">${1:Primary button}</button>
-
-snippet btndropdown
-	<div class="btn-group">
-	  <a class="btn dropdown-toggle" data-toggle="dropdown" href="#">
-	    ${1:Action}
-	    <span class="caret"></span>
-	  </a>
-	  <ul class="dropdown-menu">
-	    ${2:<!-- dropdown menu links -->}
-	  </ul>
-	</div>
-
-snippet btndropdownsplit
-	<div class="btn-group">
-	  <button class="btn">${1:Action}</button>
-	  <button class="btn dropdown-toggle" data-toggle="dropdown">
-	    <span class="caret"></span>
-	  </button>
-	  <ul class="dropdown-menu">
-	    ${2:<!-- dropdown menu links -->}
-	  </ul>
-	</div>
-
-snippet btndropup
-	<div class="btn-group dropup">
-	  <button class="btn">${1:Dropup}</button>
-	  <button class="btn dropdown-toggle" data-toggle="dropdown">
-	    <span class="caret"></span>
-	  </button>
-	  <ul class="dropdown-menu">
-	    ${2:<!-- dropdown menu links -->}
-	  </ul>
-	</div>
-
-
-snippet btngroup
-	<div class="btn-group">
-	  <button class="btn">${1:1}</button>
-	  <button class="btn">${2:2}</button>
-	  <button class="btn">${3:3}</button>
-	</div>
-
-snippet btngroupvertical
-	<div class="btn-group btn-group-vertical">
-	  ${1:...}
-	</div>
-
-snippet btninfo
-	<button type="button" class="btn btn-info">${1:Default}</button>
-
-snippet btninverse
-	<button type="button" class="btn btn-inverse">${1:Default}</button>
-
-snippet btnlarge
-	<button type="button" class="btn btn-large">${1:Default}</button>
-
-snippet btnlink
-	<button type="button" class="btn btn-link">${1:Default}</button>
-
-snippet btnmini
-	<button type="button" class="btn btn-mini">${1:Default}</button>
-
-snippet btnprimary
-	<button type="button" class="btn btn-primary">${1:Default}</button>
-
-snippet btnsmall
-	<button type="button" class="btn btn-small">${1:Default}</button>
-
-snippet btnsuccess
-	<button type="button" class="btn btn-success">${1:Default}</button>
-
-snippet btntoolbar
-	<div class="btn-toolbar">
-	  <div class="btn-group">
-	    ${1:...}
-	  </div>
-	</div>
-
-snippet btnwarning
-	<button type="button" class="btn btn-warning">${1:Default}</button>
-
-snippet checkboxinline
-	<label class="checkbox inline">
-	  <input type="checkbox" id="${1:inlineCheckbox1}" value="${2:option1}"> ${3:1}
-	</label>
-
-snippet close
-	<button class="close">&times;</button>
-
-snippet container
-	<div class="container">
-	  ${1:...}
-	</div>
-
-snippet containerfluid
-	<div class="container-fluid">
-	  ${1:...}
-	</div>
-
-snippet controlsrow
-	<div class="controls controls-row">
-	  <input class="${1:span4}" type="text" placeholder="${2:.span4}">
-	  <input class="${3:span1}" type="text" placeholder="${4:.span1}">
-	</div>
-
-snippet dlhorizontal
-	<dl class="dl-horizontal">
-	  <dt>${1:...}</dt>
-	  <dd>${2:...}</dd>
+snippet dl Bootstrap
+	<dl>
+	  <dt>...</dt>
+	  <dd>...</dd>
 	</dl>
 
-snippet dropdownmenu
+snippet dlhorizontal Bootstrap
+	<dl class="dl-horizontal">
+	  <dt>...</dt>
+	  <dd>...</dd>
+	</dl>
+
+
+
+snippet code Bootstrap
+	<code>...</code>
+
+snippet kbd Bootstrap
+	<kbd>...</kbd>
+
+snippet pre Bootstrap
+	<pre>...</pre>
+
+snippet var Bootstrap
+	<var>...</var>
+
+
+snippet samp Bootstrap
+	<samp>...</samp>
+
+
+
+snippet table Bootstrap
+	<table class="table">
+	  ...
+	</table>
+
+snippet tablestriped Bootstrap
+	<table class="table table-striped">
+	  ...
+	</table>
+
+snippet tablebordered Bootstrap
+	<table class="table table-bordered">
+	  ...
+	</table>
+
+snippet tablehover Bootstrap
+	<table class="table table-hover">
+	  ...
+	</table>
+
+snippet tablecondensed Bootstrap
+	<table class="table table-condensed">
+	  ...
+	</table>
+
+
+snippet tractive Bootstrap
+	<tr class="active">...</tr>
+
+snippet trsuccess Bootstrap
+	<tr class="success">...</tr>
+
+snippet trwarning Bootstrap
+	<tr class="warning">...</tr>
+
+snippet trdanger Bootstrap
+	<tr class="danger">...</tr>
+
+snippet trinfo Bootstrap
+	<tr class="info">...</tr>
+
+
+snippet tdactive Bootstrap
+	<td class="active">...</td>
+
+snippet tdsuccess Bootstrap
+	<td class="success">...</td>
+
+snippet tdwarning Bootstrap
+	<td class="warning">...</td>
+
+snippet tddanger Bootstrap
+	<td class="danger">...</td>
+
+snippet tdinfo Bootstrap
+	<td class="info">...</td>
+
+
+snippet thactive Bootstrap
+	<th class="active">...</th>
+
+snippet thsuccess Bootstrap
+	<th class="success">...</th>
+
+snippet thwarning Bootstrap
+	<th class="warning">...</th>
+
+snippet thdanger Bootstrap
+	<th class="danger">...</th>
+
+snippet thinfo Bootstrap
+	<th class="info">...</th>
+
+snippet tableresponsive Bootstrap
+	<div class="table-responsive">
+	  <table class="table">
+	    ...
+	  </table>
+	</div>
+
+
+
+snippet form Bootstrap
+	<form>
+	  <div class="form-group">
+	    <label for="exampleInputEmail1">Email address</label>
+	    <input type="email" class="form-control" id="exampleInputEmail1" placeholder="Enter email">
+	  </div>
+	  <div class="form-group">
+	    <label for="exampleInputPassword1">Password</label>
+	    <input type="password" class="form-control" id="exampleInputPassword1" placeholder="Password">
+	  </div>
+	  <div class="form-group">
+	    <label for="exampleInputFile">File input</label>
+	    <input type="file" id="exampleInputFile">
+	    <p class="help-block">Example block-level help text here.</p>
+	  </div>
+	  <div class="checkbox">
+	    <label>
+	      <input type="checkbox"> Check me out
+	    </label>
+	  </div>
+	  <button type="submit" class="btn btn-default">Submit</button>
+	</form>
+
+snippet forminline Bootstrap
+	<form class="form-inline">
+	  <div class="form-group">
+	    <label class="sr-only" for="exampleInputEmail3">Email address</label>
+	    <input type="email" class="form-control" id="exampleInputEmail3" placeholder="Enter email">
+	  </div>
+	  <div class="form-group">
+	    <label class="sr-only" for="exampleInputPassword3">Password</label>
+	    <input type="password" class="form-control" id="exampleInputPassword3" placeholder="Password">
+	  </div>
+	  <div class="checkbox">
+	    <label>
+	      <input type="checkbox"> Remember me
+	    </label>
+	  </div>
+	  <button type="submit" class="btn btn-default">Sign in</button>
+	</form>
+
+snippet formhorizontal Bootstrap
+	<form class="form-horizontal">
+	  <div class="form-group">
+	    <label for="inputEmail3" class="col-sm-2 control-label">Email</label>
+	    <div class="col-sm-10">
+	      <input type="email" class="form-control" id="inputEmail3" placeholder="Email">
+	    </div>
+	  </div>
+	  <div class="form-group">
+	    <label for="inputPassword3" class="col-sm-2 control-label">Password</label>
+	    <div class="col-sm-10">
+	      <input type="password" class="form-control" id="inputPassword3" placeholder="Password">
+	    </div>
+	  </div>
+	  <div class="form-group">
+	    <div class="col-sm-offset-2 col-sm-10">
+	      <div class="checkbox">
+	        <label>
+	          <input type="checkbox"> Remember me
+	        </label>
+	      </div>
+	    </div>
+	  </div>
+	  <div class="form-group">
+	    <div class="col-sm-offset-2 col-sm-10">
+	      <button type="submit" class="btn btn-default">Sign in</button>
+	    </div>
+	  </div>
+	</form>
+
+snippet input Bootstrap
+	<input type="text" class="form-control" placeholder="Text input">
+
+snippet textarea Bootstrap
+	<textarea class="form-control" rows="3"></textarea>
+
+snippet checkbox Bootstrap
+	<div class="checkbox">
+	  <label>
+	    <input type="checkbox" value="">
+	    Option one is this and that&mdash;be sure to include why it's great
+	  </label>
+	</div>
+	<div class="checkbox disabled">
+	  <label>
+	    <input type="checkbox" value="" disabled>
+	    Option two is disabled
+	  </label>
+	</div>
+
+snippet radio Bootstrap
+	<div class="radio">
+	  <label>
+	    <input type="radio" name="optionsRadios" id="optionsRadios1" value="option1" checked>
+	    Option one is this and that&mdash;be sure to include why it's great
+	  </label>
+	</div>
+	<div class="radio">
+	  <label>
+	    <input type="radio" name="optionsRadios" id="optionsRadios2" value="option2">
+	    Option two can be something else and selecting it will deselect option one
+	  </label>
+	</div>
+	<div class="radio disabled">
+	  <label>
+	    <input type="radio" name="optionsRadios" id="optionsRadios3" value="option3" disabled>
+	    Option three is disabled
+	  </label>
+	</div>
+
+snippet checkboxinline Bootstrap
+	<label class="checkbox-inline">
+	  <input type="checkbox" id="inlineCheckbox1" value="option1"> 1
+	</label>
+	<label class="checkbox-inline">
+	  <input type="checkbox" id="inlineCheckbox2" value="option2"> 2
+	</label>
+	<label class="checkbox-inline">
+	  <input type="checkbox" id="inlineCheckbox3" value="option3"> 3
+	</label>
+
+snippet radioinline Bootstrap
+	<label class="radio-inline">
+	  <input type="radio" name="inlineRadioOptions" id="inlineRadio1" value="option1"> 1
+	</label>
+	<label class="radio-inline">
+	  <input type="radio" name="inlineRadioOptions" id="inlineRadio2" value="option2"> 2
+	</label>
+	<label class="radio-inline">
+	  <input type="radio" name="inlineRadioOptions" id="inlineRadio3" value="option3"> 3
+	</label>
+
+snippet select Bootstrap
+	<select class="form-control">
+	  <option>1</option>
+	  <option>2</option>
+	  <option>3</option>
+	  <option>4</option>
+	  <option>5</option>
+	</select>
+
+snippet selectmultiple Bootstrap
+	<select multiple class="form-control">
+	  <option>1</option>
+	  <option>2</option>
+	  <option>3</option>
+	  <option>4</option>
+	  <option>5</option>
+	</select>
+
+snippet formcontrolstatic Bootstrap
+	<div class="form-group">
+	  <label class="col-sm-2 control-label">Email</label>
+	  <div class="col-sm-10">
+	    <p class="form-control-static">email@example.com</p>
+	  </div>
+	</div>
+
+snippet inputdisabled Bootstrap
+	<input class="form-control" id="disabledInput" type="text" placeholder="Disabled input here..." disabled>
+
+snippet fieldsetdisabled Bootstrap
+	<fieldset disabled>
+	  <div class="form-group">
+	    <label for="disabledTextInput">Disabled input</label>
+	    <input type="text" id="disabledTextInput" class="form-control" placeholder="Disabled input">
+	  </div>
+	  <div class="form-group">
+	    <label for="disabledSelect">Disabled select menu</label>
+	    <select id="disabledSelect" class="form-control">
+	      <option>Disabled select</option>
+	    </select>
+	  </div>
+	  <div class="checkbox">
+	    <label>
+	      <input type="checkbox"> Can't check this
+	    </label>
+	  </div>
+	  <button type="submit" class="btn btn-primary">Submit</button>
+	</fieldset>
+
+snippet inputreadonly Bootstrap
+	<input class="form-control" type="text" placeholder="Readonly input here…" readonly>
+
+snippet formgrouphassuccess Bootstrap
+	<div class="form-group has-success">
+	  <label class="control-label" for="inputSuccess1">Input with success</label>
+	  <input type="text" class="form-control" id="inputSuccess1">
+	</div>
+
+snippet formgrouphaswarning Bootstrap
+	<div class="form-group has-warning">
+	  <label class="control-label" for="inputWarning1">Input with warning</label>
+	  <input type="text" class="form-control" id="inputWarning1">
+	</div>
+
+snippet formgrouphaserror Bootstrap
+	<div class="form-group has-error">
+	  <label class="control-label" for="inputError1">Input with error</label>
+	  <input type="text" class="form-control" id="inputError1">
+	</div>
+
+snippet checkboxhassuccess Bootstrap
+	<div class="has-success">
+	  <div class="checkbox">
+	    <label>
+	      <input type="checkbox" id="checkboxSuccess" value="option1">
+	      Checkbox with success
+	    </label>
+	  </div>
+	</div>
+
+snippet checkboxhaswarning Bootstrap
+	<div class="has-warning">
+	  <div class="checkbox">
+	    <label>
+	      <input type="checkbox" id="checkboxWarning" value="option1">
+	      Checkbox with warning
+	    </label>
+	  </div>
+	</div>
+
+snippet checkboxhaserror Bootstrap
+	<div class="has-error">
+	  <div class="checkbox">
+	    <label>
+	      <input type="checkbox" id="checkboxError" value="option1">
+	      Checkbox with error
+	    </label>
+	  </div>
+	</div>
+
+
+snippet formgrouphasfeedback Bootstrap
+	<div class="form-group has-success has-feedback">
+	  <label class="control-label" for="inputGroupSuccess1">Input group with success</label>
+	  <div class="input-group">
+	    <span class="input-group-addon">@</span>
+	    <input type="text" class="form-control" id="inputGroupSuccess1" aria-describedby="inputGroupSuccess1Status">
+	  </div>
+	  <span class="glyphicon glyphicon-ok form-control-feedback" aria-hidden="true"></span>
+	  <span id="inputGroupSuccess1Status" class="sr-only">(success)</span>
+	</div>
+
+snippet inputlg Bootstrap
+	<input class="form-control input-lg" type="text" placeholder=".input-lg">
+
+snippet inputsm Bootstrap
+	<input class="form-control input-sm" type="text" placeholder=".input-sm">
+
+snippet selectlg Bootstrap
+	<select class="form-control input-lg">...</select>
+
+snippet selectsm Bootstrap
+	<select class="form-control input-sm">...</select>
+
+snippet formgrouplg Bootstrap
+	<div class="form-group form-group-lg">
+	  <label class="col-sm-2 control-label" for="formGroupInputLarge">Large label</label>
+	  <div class="col-sm-10">
+	    <input class="form-control" type="text" id="formGroupInputLarge" placeholder="Large input">
+	  </div>
+	</div>
+
+snippet formgroupsm Bootstrap
+	<div class="form-group form-group-sm">
+	  <label class="col-sm-2 control-label" for="formGroupInputSmall">Small label</label>
+	  <div class="col-sm-10">
+	    <input class="form-control" type="text" id="formGroupInputSmall" placeholder="Small input">
+	  </div>
+	</div>
+
+snippet inputhelpblock Bootstrap
+	<label class="sr-only" for="inputHelpBlock">Input with help text</label>
+	<input type="text" id="inputHelpBlock" class="form-control" aria-describedby="helpBlock">
+	...
+	<span id="helpBlock" class="help-block">A block of help text that breaks onto a new line and may extend beyond one line.</span>
+
+
+
+
+snippet btn Bootstrap
+	<button class="btn btn-default" type="submit">Button</button>
+
+snippet abtn Bootstrap
+	<a class="btn btn-default" href="#" role="button">Link</a>
+
+snippet inputbtn Bootstrap
+	<input class="btn btn-default" type="button" value="Input">
+
+snippet submitbtn Bootstrap
+	<input class="btn btn-default" type="submit" value="Submit">
+
+
+snippet btndefault Bootstrap
+	<button type="button" class="btn btn-default">Default</button>
+
+snippet abtndefault Bootstrap
+	<a href="#" class="btn btn-default" role="button">Default</a>
+
+snippet btnprimary Bootstrap
+	<button type="button" class="btn btn-primary">Primary</button>
+
+snippet abtnprimary Bootstrap
+	<a href="#" class="btn btn-primary" role="button">Primary</a>
+
+snippet btnsuccess Bootstrap
+	<button type="button" class="btn btn-success">Success</button>
+
+snippet abtnsuccess Description
+	<a href="#" class="btn btn-success" role="button">Success</a>
+
+snippet btninfo Bootstrap
+	<button type="button" class="btn btn-info">Info</button>
+
+snippet abtninfo Bootstrap
+	<a href="#" class="btn btn-info" role="button">Info</a>
+
+snippet btnwarning Bootstrap
+	<button type="button" class="btn btn-warning">Warning</button>
+
+snippet abtnwarning Bootstrap
+	<a href="#" class="btn btn-warning" role="button">Warning</a>
+
+snippet btndanger Bootstrap
+	<button type="button" class="btn btn-danger">Danger</button>
+
+snippet abtndanger Bootstrap
+	<a href="#" class="btn btn-danger" role="button">Danger</a>
+
+snippet btnlink Bootstrap
+	<button type="button" class="btn btn-link">Link</button>
+
+snippet abtnlink Bootstrap
+	<a href="#" class="btn btn-link" role="button">Link</a>
+
+
+snippet btnlg Bootstrap
+	<button type="button" class="btn btn-default btn-lg">Large button</button>
+
+snippet abtnlg Bootstrap
+	<a href="#" class="btn btn-default btn-lg" role="button">Large button</a>
+
+snippet btnsm Bootstrap
+	<button type="button" class="btn btn-default btn-sm">Small button</button>
+
+snippet abtnsm Bootstrap
+	<a href="#" class="btn btn-default btn-sm" role="button">Small button</a>
+
+snippet btnxs Bootstrap
+	<button type="button" class="btn btn-default btn-xs">Extra small button</button>
+
+snippet abtnxs Bootstrap
+	<a href="#" class="btn btn-default btn-xs" role="button">Extra small button</a>
+
+snippet btnblock Bootstrap
+	<button type="button" class="btn btn-default btn-block">Block level button</button>
+
+snippet abtnblock Bootstrap
+	<a href="#" class="btn btn-default btn-block" role="button">Block level button</a>
+
+snippet btnactive Bootstrap
+	<button type="button" class="btn btn-default active">Button</button>
+
+snippet abtnactive Bootstrap
+	<a href="#" class="btn btn-default active" role="button">Link</a>
+
+snippet btndisabled Bootstrap
+	<button type="button" class="btn btn-default" disabled="disabled">Button</button>
+
+snippet abtndisabled Bootstrap
+	<a href="#" class="btn btn-default disabled" role="button">Link</a>
+
+
+
+snippet imgresponsive Bootstrap
+	<img src="..." class="img-responsive" alt="Responsive image">
+
+snippet imgrounded Bootstrap
+	<img src="..." alt="..." class="img-rounded">
+
+snippet imgcircle Bootstrap
+	<img src="..." alt="..." class="img-circle">
+
+snippet imgthumbnail Bootstrap
+	<img src="..." alt="..." class="img-thumbnail">
+
+
+
+snippet textmuted Bootstrap
+	<p class="text-muted">...</p>
+
+snippet textprimary Bootstrap
+	<p class="text-primary">...</p>
+
+snippet textsuccess Bootstrap
+	<p class="text-success">...</p>
+
+snippet textinfo Bootstrap
+	<p class="text-info">...</p>
+
+snippet textwarning Bootstrap
+	<p class="text-warning">...</p>
+
+snippet textdanger Bootstrap
+	<p class="text-danger">...</p>
+
+
+snippet bgprimary Bootstrap
+	<p class="bg-primary">...</p>
+
+snippet bgsuccess Bootstrap
+	<p class="bg-success">...</p>
+
+snippet bginfo Bootstrap
+	<p class="bg-info">...</p>
+
+snippet bgwarning Bootstrap
+	<p class="bg-warning">...</p>
+
+snippet bgdanger Bootstrap
+	<p class="bg-danger">...</p>
+
+snippet close Bootstrap
+	<button type="button" class="close" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+
+snippet caret Bootstrap
+	<span class="caret"></span>
+
+
+snippet pullleft Bootstrap
+	<div class="pull-left">...</div>
+
+snippet pullright Bootstrap
+	<div class="pull-right">...</div>
+
+snippet centerblock Bootstrap
+	<div class="center-block">...</div>
+
+snippet clearfix Bootstrap
+	<div class="clearfix">...</div>
+
+
+snippet show Bootstrap
+	<div class="show">...</div>
+
+snippet hidden Bootstrap
+	<div class="hidden">...</div>
+
+snippet invisible Bootstrap
+	<div class="invisible">...</div>
+
+snippet sronlyfocusable Bootstrap
+	<a class="sr-only sr-only-focusable" href="#content">Skip to main content</a>
+
+snippet texthide Bootstrap
+	<h1 class="text-hide">Custom heading</h1>
+
+
+snippet hiddenxs Bootstrap
+	<div class="hidden-xs"></div>
+
+snippet hiddensm Bootstrap
+	<div class="hidden-sm"></div>
+
+snippet hiddenmd Bootstrap
+	<div class="hidden-md"></div>
+
+snippet hiddenlg Bootstrap
+	<div class="hidden-lg"></div>
+
+snippet visiblexsblock Bootstrap
+	<div class="visible-xs-block"></div>
+
+snippet visiblexsinline Bootstrap
+	<div class="visible-xs-inline"></div>
+
+snippet visiblexsinlineblock Bootstrap
+	<div class="visible-xs-inline-block"></div>
+
+snippet visiblesmblock Bootstrap
+	<div class="visible-sm-block"></div>
+
+snippet visiblesminline Bootstrap
+	<div class="visible-sm-inline"></div>
+
+snippet visiblesminlineblock Bootstrap
+	<div class="visible-sm-inline-block"></div>
+
+snippet visiblemdblock Bootstrap
+	<div class="visible-md-block"></div>
+
+snippet visiblemdinline Bootstrap
+	<div class="visible-md-inline"></div>
+
+snippet visiblemdinlineblock Bootstrap
+	<div class="visible-md-inline-block"></div>
+
+snippet visiblelgblock Bootstrap
+	<div class="visible-lg-block"></div>
+
+snippet visiblelginline Bootstrap
+	<div class="visible-lg-inline"></div>
+
+snippet visiblelginlineblock Bootstrap
+	<div class="visible-lg-inline-block"></div>
+
+snippet visibleprintblock Bootstrap
+	<div class="visible-print-block"></div>
+
+snippet visibleprintinline Bootstrap
+	<div class="visible-print-inline"></div>
+
+snippet visibleprintinlineblock Bootstrap
+	<div class="visible-print-inline-block"></div>
+
+snippet hiddenprint Bootstrap
+	<div class="hidden-print"></div>
+
+
+
+
+snippet glyphicon Bootstrap
+	<span class="glyphicon glyphicon-..." aria-hidden="true"></span>
+
+
+snippet dropdown Bootstrap
 	<div class="dropdown">
-	  <!-- Link or button to toggle dropdown -->
-	  <ul class="dropdown-menu" role="menu" aria-labelledby="dLabel">
-	    <li><a tabindex="-1" href="#">${1:Action}</a></li>
-	    <li><a tabindex="-1" href="#">${2:Another action}</a></li>
-	    <li><a tabindex="-1" href="#">${3:Something else here}</a></li>
-	    <li class="divider"></li>
-	    <li><a tabindex="-1" href="#">${4:Separated link}</a></li>
+	  <button class="btn btn-default dropdown-toggle" type="button" id="dropdownMenu1" data-toggle="dropdown" aria-expanded="true">
+	    Dropdown
+	    <span class="caret"></span>
+	  </button>
+	  <ul class="dropdown-menu" role="menu" aria-labelledby="dropdownMenu1">
+	    <li role="presentation"><a role="menuitem" tabindex="-1" href="#">Action</a></li>
+	    <li role="presentation"><a role="menuitem" tabindex="-1" href="#">Another action</a></li>
+	    <li role="presentation"><a role="menuitem" tabindex="-1" href="#">Something else here</a></li>
+	    <li role="presentation"><a role="menuitem" tabindex="-1" href="#">Separated link</a></li>
 	  </ul>
 	</div>
 
-snippet form
-	<form>
-	  <fieldset>
-	    <legend>${1:Legend}</legend>
-	    <label>${2:Label name}</label>
-	    <input type="text" placeholder="${3:Type something…}">
-	    <span class="help-block">${4:Example block-level help text here.}</span>
-	    <label class="checkbox">
-	      <input type="checkbox"> ${5:Check me out}
-	    </label>
-	    <button type="submit" class="btn">${6:Submit}</button>
-	  </fieldset>
-	</form>
-
-snippet formactions
-	<div class="form-actions">
-	  <button type="submit" class="btn btn-primary">${1:Save changes}</button>
-	  <button type="button" class="btn">${2:Cancel}</button>
-	</div>
-
-snippet formhorizontal
-	<form class="form-horizontal">
-	  <div class="control-group">
-	    <label class="control-label" for="inputEmail">Email</label>
-	    <div class="controls">
-	      <input type="text" id="inputEmail" placeholder="Email">
-	    </div>
-	  </div>
-	  <div class="control-group">
-	    <label class="control-label" for="inputPassword">Password</label>
-	    <div class="controls">
-	      <input type="password" id="inputPassword" placeholder="Password">
-	    </div>
-	  </div>
-	  <div class="control-group">
-	    <div class="controls">
-	      <label class="checkbox">
-	        <input type="checkbox"> Remember me
-	      </label>
-	      <button type="submit" class="btn">Sign in</button>
-	    </div>
-	  </div>
-	</form>
-
-snippet forminline
-	<form class="form-inline">
-	  <input type="text" class="input-small" placeholder="${1:Email}">
-	  <input type="password" class="input-small" placeholder="${2:Password}">
-	  <label class="checkbox">
-	    <input type="checkbox"> ${3:Remember me}
-	  </label>
-	  <button type="submit" class="btn">${4:Sign in}</button>
-	</form>
-
-snippet formsearch
-	<form class="form-search">
-	  <input type="text" class="input-medium search-query">
-	  <button type="submit" class="btn">${1:Search}</button>
-	</form>
-
-snippet helpblock
-	<span class="help-block">${1:A longer block of help text that breaks onto a new line and may extend beyond one line.}</span>
-
-snippet helpinline
-	<span class="help-inline">${1:Inline help text}</span>
-
-snippet herounit
-	<div class="hero-unit">
-	  <h1>${1:Heading}</h1>
-	  <p>${2:Tagline}</p>
-	  <p>
-	    <a class="btn btn-primary btn-large">
-	      ${3:Learn more}
-	    </a>
-	  </p>
-	</div>
-
-
-snippet icon
-	<i class="icon-${1:search}"></i>
-
-snippet iconwhite
-	<i class="icon-${1:search} icon-white"></i>
-
-snippet imgcircle
-	<img src="${1:...}" class="img-circle">
-
-snippet imgpolaroid
-	<img src="${1:...}" class="img-polaroid">
-
-snippet imgrounded
-	<img src="${1:...}" class="img-rounded">
-
-snippet initialism
-	<abbr title="${1:HyperText Markup Language}" class="initialism">${2:HTML}</abbr>
-
-snippet inline
-	<ul class="inline">
-	  <li>${1:...}</li>
+snippet dropdownmenuright Bootstrap
+	<ul class="dropdown-menu dropdown-menu-right" role="menu" aria-labelledby="dLabel">
+	  ...
 	</ul>
 
-snippet inputappend
-	<div class="input-append">
-	  <input class="span2" id="appendedInput" type="text">
-	  <span class="add-on">${1:.00}</span>
+snippet dropdownheader Bootstrap
+	<li role="presentation" class="dropdown-header">...</li>
+
+snippet divider Bootstrap
+	<li role="presentation" class="divider"></li>
+
+snippet lidisabled Bootstrap
+	<li role="presentation" class="disabled"><a role="menuitem" tabindex="-1" href="#">...</a></li>
+
+
+snippet btngroup Bootstrap
+	<div class="btn-group" role="group" aria-label="...">
+	  <button type="button" class="btn btn-default">Left</button>
+	  <button type="button" class="btn btn-default">Middle</button>
+	  <button type="button" class="btn btn-default">Right</button>
 	</div>
 
-snippet inputappendbtn
-	<div class="input-append">
-	  <input class="span2" id="appendedInputButton" type="text">
-	  <button class="btn" type="button">${1:Go!}</button>
+snippet abtngroup Bootstrap
+	<div class="btn-group" role="group" aria-label="...">
+	  <a class="btn btn-default" href="#" role="button">Left</a>
+	  <a class="btn btn-default" href="#" role="button">Middle</a>
+	  <a class="btn btn-default" href="#" role="button">Right</a>
 	</div>
 
-snippet inputappendbtndropdown
-	<div class="input-append">
-	  <input class="span2" id="appendedDropdownButton" type="text">
-	  <div class="btn-group">
-	    <button class="btn dropdown-toggle" data-toggle="dropdown">
-	      ${1:Action}
-	      <span class="caret"></span>
-	    </button>
-	    <ul class="dropdown-menu">
-	      ${2:...}
+snippet btntoolbar Bootstrap
+	<div class="btn-toolbar" role="toolbar" aria-label="...">
+	  <div class="btn-group" role="group" aria-label="...">...</div>
+	  <div class="btn-group" role="group" aria-label="...">...</div>
+	  <div class="btn-group" role="group" aria-label="...">...</div>
+	</div>
+
+snippet btngrouplg Bootstrap
+	<div class="btn-group btn-group-lg" role="group" aria-label="...">...</div>
+
+snippet btngroupsm Bootstrap
+	<div class="btn-group btn-group-sm" role="group" aria-label="...">...</div>
+
+snippet btngroupxs Bootstrap
+	<div class="btn-group btn-group-xs" role="group" aria-label="...">...</div>
+
+snippet btngroupvertical Bootstrap
+	<div class="btn-group-vertical" role="group" aria-label="...">
+	  ...
+	</div>
+
+snippet btngroupjustified Bootstrap
+	<div class="btn-group btn-group-justified" role="group" aria-label="...">
+	  <div class="btn-group" role="group">
+	    <button type="button" class="btn btn-default">Left</button>
+	  </div>
+	  <div class="btn-group" role="group">
+	    <button type="button" class="btn btn-default">Middle</button>
+	  </div>
+	  <div class="btn-group" role="group">
+	    <button type="button" class="btn btn-default">Right</button>
+	  </div>
+	</div>
+
+snippet abtngroupjustified Bootstrap
+	<div class="btn-group btn-group-justified" role="group" aria-label="...">
+	  <a class="btn btn-default" href="#" role="button">Left</a>
+	  <a class="btn btn-default" href="#" role="button">Middle</a>
+	  <a class="btn btn-default" href="#" role="button">Right</a>
+	</div>
+
+
+snippet btndropdown Bootstrap
+	<div class="btn-group">
+	  <button type="button" class="btn btn-default dropdown-toggle" data-toggle="dropdown" aria-expanded="false">
+	    Action <span class="caret"></span>
+	  </button>
+	  <ul class="dropdown-menu" role="menu">
+	    <li><a href="#">Action</a></li>
+	    <li><a href="#">Another action</a></li>
+	    <li><a href="#">Something else here</a></li>
+	    <li class="divider"></li>
+	    <li><a href="#">Separated link</a></li>
+	  </ul>
+	</div>
+
+snippet btndropdownsplit Bootstrap
+	<div class="btn-group">
+	  <button type="button" class="btn btn-danger">Action</button>
+	  <button type="button" class="btn btn-danger dropdown-toggle" data-toggle="dropdown" aria-expanded="false">
+	    <span class="caret"></span>
+	    <span class="sr-only">Toggle Dropdown</span>
+	  </button>
+	  <ul class="dropdown-menu" role="menu">
+	    <li><a href="#">Action</a></li>
+	    <li><a href="#">Another action</a></li>
+	    <li><a href="#">Something else here</a></li>
+	    <li class="divider"></li>
+	    <li><a href="#">Separated link</a></li>
+	  </ul>
+	</div>
+
+snippet btndropup Bootstrap
+	<div class="btn-group dropup">
+	  <button type="button" class="btn btn-default">Dropup</button>
+	  <button type="button" class="btn btn-default dropdown-toggle" data-toggle="dropdown" aria-expanded="false">
+	    <span class="caret"></span>
+	    <span class="sr-only">Toggle Dropdown</span>
+	  </button>
+	  <ul class="dropdown-menu" role="menu">
+	    <!-- Dropdown menu links -->
+	  </ul>
+	</div>
+
+
+snippet inputgroup Bootstrap
+	<div class="input-group">
+	  <span class="input-group-addon">$</span>
+	  <input type="text" class="form-control" aria-label="Amount (to the nearest dollar)">
+	  <span class="input-group-addon">.00</span>
+	</div>
+
+snippet inputgrouplg Bootstrap
+	<div class="input-group input-group-lg">
+	  <span class="input-group-addon" id="sizing-addon1">@</span>
+	  <input type="text" class="form-control" placeholder="Username" aria-describedby="sizing-addon1">
+	</div>
+
+snippet inputgroupsm Bootstrap
+	<div class="input-group input-group-sm">
+	  <span class="input-group-addon" id="sizing-addon3">@</span>
+	  <input type="text" class="form-control" placeholder="Username" aria-describedby="sizing-addon3">
+	</div>
+
+snippet inputgroupcheckbox Bootstrap
+	<div class="input-group">
+	  <span class="input-group-addon">
+	    <input type="checkbox" aria-label="...">
+	  </span>
+	  <input type="text" class="form-control" aria-label="...">
+	</div>
+
+snippet inputgroupradio Bootstrap
+	<div class="input-group">
+	  <span class="input-group-addon">
+	    <input type="radio" aria-label="...">
+	  </span>
+	  <input type="text" class="form-control" aria-label="...">
+	</div>
+
+snippet inputgroupbtn Bootstrap
+	<div class="input-group">
+	  <input type="text" class="form-control" placeholder="Search for...">
+	  <span class="input-group-btn">
+	    <button class="btn btn-default" type="button">Go!</button>
+	  </span>
+	</div>
+
+snippet inputgroupbtndropdown Bootstrap
+	<div class="input-group">
+	  <input type="text" class="form-control" aria-label="...">
+	  <div class="input-group-btn">
+	    <button type="button" class="btn btn-default dropdown-toggle" data-toggle="dropdown" aria-expanded="false">Action <span class="caret"></span></button>
+	    <ul class="dropdown-menu dropdown-menu-right" role="menu">
+	      <li><a href="#">Action</a></li>
+	      <li><a href="#">Another action</a></li>
+	      <li><a href="#">Something else here</a></li>
+	      <li class="divider"></li>
+	      <li><a href="#">Separated link</a></li>
 	    </ul>
+	  </div><!-- /btn-group -->
+	</div>
+
+snippet inputgroupbtndropdownsplit Bootstrap
+	<div class="input-group">
+	  <input type="text" class="form-control" aria-label="...">
+	  <div class="input-group-btn">
+	    <!-- Button and dropdown menu -->
 	  </div>
 	</div>
 
-snippet inputblocklevel
-	<input class="input-block-level" type="text">
-
-snippet inputlarge
-	<input class="input-large" type="text">
-
-snippet inputmedium
-	<input class="input-medium" type="text">
-
-snippet inputmini
-	<input class="input-mini" type="text">
-
-snippet inputprepend
-	<div class="input-prepend">
-	  <span class="add-on">${1:@}</span>
-	  <input class="span2" id="prependedInput" type="text" placeholder="${2:Username}">
-	</div>
-
-snippet inputprependappend
-	<div class="input-prepend input-append">
-	  <span class="add-on">${1:$}</span>
-	  <input class="span2" id="${2:appendedPrependedInput}" type="text">
-	  <span class="add-on">${3:.00}</span>
-	</div>
 
 
-snippet inputsmall
-	<input class="input-small" type="text">
-
-snippet inputxlarge
-	<input class="input-xlarge" type="text">
-
-snippet inputxxlarge
-	<input class="input-xxlarge" type="text">
-
-snippet label
-	<span class="label">${1:Default}</span>
-
-snippet labelimportant
-	<span class="label label-important">${1:Important}</span>
-
-snippet labelinfo
-	<span class="label label-info">${1:Info}</span>
-
-snippet labelinverse
-	<span class="label label-inverse">${1:Inverse}</span>
-
-snippet labelsuccess
-	<span class="label label-success">${1:Success}</span>
-
-snippet labelwarning
-	<span class="label label-warning">${1:Warning}</span>
-
-snippet lead
-	<p class="lead">${1:...}</p>
-
-snippet media
-	<div class="media">
-	  <a class="pull-left" href="#">
-	    <img class="media-object" src="${1:image.jpg}">
-	  </a>
-	  <div class="media-body">
-	    <h4 class="media-heading">Media heading</h4>
-	    ${2:...}
-
-	    <!-- Nested media object -->
-	    <div class="media">
-	      ${3:...}
-	    </div>
-	  </div>
-	</div>
-
-snippet medialist
-	<ul class="media-list">
-	  <li class="media">
-	    <a class="pull-left" href="#">
-	      <img class="media-object" src="${1:image.jpg}">
-	    </a>
-	    <div class="media-body">
-	      <h4 class="media-heading">Media heading</h4>
-	      ${2:...}
-
-	      <!-- Nested media object -->
-	      <div class="media">
-	        ${3:...}
-	      </div>
-	    </div>
-	  </li>
+snippet navtabs Bootstrap
+	<ul class="nav nav-tabs">
+	  <li role="presentation" class="active"><a href="#">Home</a></li>
+	  <li role="presentation"><a href="#">Profile</a></li>
+	  <li role="presentation"><a href="#">Messages</a></li>
 	</ul>
 
-snippet muted
-	<p class="muted">${1:Fusce dapibus, tellus ac cursus commodo, tortor mauris nibh.}</p>
-
-snippet navbar
-	<div class="navbar">
-	  <div class="navbar-inner">
-	    <a class="brand" href="#">${1:Title}</a>
-	    <ul class="nav">
-	      <li class="active"><a href="#">${2:Home}</a></li>
-	      <li><a href="#">${3:Link}</a></li>
-	      <li><a href="#">${4:Link}</a></li>
-	    </ul>
-	  </div>
-	</div>
-
-snippet navbarcollapse
-	<div class="navbar">
-	  <div class="navbar-inner">
-	    <div class="container">
-	 
-	      <!-- .btn-navbar is used as the toggle for collapsed navbar content -->
-	      <a class="btn btn-navbar" data-toggle="collapse" data-target=".nav-collapse">
-	        <span class="icon-bar"></span>
-	        <span class="icon-bar"></span>
-	        <span class="icon-bar"></span>
-	      </a>
-	 
-	      <!-- Be sure to leave the brand out there if you want it shown -->
-	      <a class="brand" href="#">${1:Project name}</a>
-	 
-	      <!-- Everything you want hidden at 940px or less, place within here -->
-	      <div class="nav-collapse collapse">
-	        ${2:<!-- .nav, .navbar-search, .navbar-form, etc -->}
-	      </div>
-	 
-	    </div>
-	  </div>
-	</div>
-
-snippet navbarfixedbottom
-	<div class="navbar navbar-fixed-bottom">
-	  ${1:...}
-	</div>
-
-snippet navbarfixedtop
-	<div class="navbar navbar-fixed-top">
-	  ${1:...}
-	</div>
-
-snippet navbarform
-	<form class="navbar-form pull-left">
-	  <input type="text" class="span2">
-	  <button type="submit" class="btn">${1:Submit}</button>
-	</form>
-
-snippet navbarsearch
-	<form class="navbar-search pull-left">
-	  <input type="text" class="search-query" placeholder="${1:Search}">
-	</form>
-
-snippet navbarstatictop
-	<div class="navbar navbar-static-top">
-	  ${1:...}
-	</div>
-
-snippet navlist
-	<ul class="nav nav-list">
-	  <li class="nav-header">${1:List header}</li>
-	  <li class="active"><a href="#">${2:Home}</a></li>
-	  <li><a href="#">${3:Library}</a></li>
-	  <li class="divider"></li>
-	  ${4:...}
-	</ul>
-
-snippet navpills
+snippet navpills Bootstrap
 	<ul class="nav nav-pills">
-	  <li class="active">
-	    <a href="#">${1:Home}</a>
-	  </li>
-	  <li><a href="#">${2:...}</a></li>
-	  <li><a href="#">${3:...}</a></li>
+	  <li role="presentation" class="active"><a href="#">Home</a></li>
+	  <li role="presentation"><a href="#">Profile</a></li>
+	  <li role="presentation"><a href="#">Messages</a></li>
 	</ul>
 
-snippet navpillsdropdown
-	<ul class="nav nav-pills">
-	  <li class="dropdown">
-	    <a class="dropdown-toggle" data-toggle="dropdown" href="#">
-	        ${1:Dropdown}
-	        <b class="caret"></b>
-	      </a>
-	    <ul class="dropdown-menu">
-	      ${2:<!-- links -->}
-	    </ul>
-	  </li>
-	</ul>
-
-snippet navpillsstacked
+snippet navpillsstacked Bootstrap
 	<ul class="nav nav-pills nav-stacked">
-	  ${1:...}
+	  ...
 	</ul>
 
-snippet navtabs
-	<ul class="nav nav-tabs">
-	  <li class="active">
-	    <a href="#">${1:Home}</a>
-	  </li>
-	  <li><a href="#">${2:...}</a></li>
-	  <li><a href="#">${3:...}</a></li>
+snippet navtabsjustified Bootstrap
+	<ul class="nav nav-tabs nav-justified">
+	  ...
 	</ul>
 
-snippet navtabsdropdown
+snippet navpillsjustified Bootstrap
+	<ul class="nav nav-pills nav-justified">
+	  ...
+	</ul>
+
+snippet navtabsdropdown Bootstrap
 	<ul class="nav nav-tabs">
-	  <li class="dropdown">
-	    <a class="dropdown-toggle" data-toggle="dropdown" href="#">
-	      ${1:Dropdown}
-	      <b class="caret"></b>
+	  ...
+	  <li role="presentation" class="dropdown">
+	    <a class="dropdown-toggle" data-toggle="dropdown" href="#" role="button" aria-expanded="false">
+	      Dropdown <span class="caret"></span>
 	    </a>
-	    <ul class="dropdown-menu">
-	      ${2:<!-- links -->}
+	    <ul class="dropdown-menu" role="menu">
+	      ...
 	    </ul>
 	  </li>
+	  ...
 	</ul>
 
-snippet navtabsstacked
-	<ul class="nav nav-tabs nav-stacked">
-	  ${1:...}
-	</ul>
-
-snippet pageheader
-	<div class="page-header">
-	  <h1>${1:Example page header} <small>${2:Subtext for header}</small></h1>
-	</div>
-
-snippet pager
-	<ul class="pager">
-	  <li><a href="${1:#}">${2:Previous}</a></li>
-	  <li><a href="${3:#}">${4:Next}</a></li>
-	</ul>
-
-
-snippet pageraligned
-	<ul class="pager">
-	  <li class="previous">
-	    <a href="${1:#}">${2:&larr; Older}</a>
+snippet navpillsdropdown Bootstrap
+	<ul class="nav nav-pills">
+	  ...
+	  <li role="presentation" class="dropdown">
+	    <a class="dropdown-toggle" data-toggle="dropdown" href="#" role="button" aria-expanded="false">
+	      Dropdown <span class="caret"></span>
+	    </a>
+	    <ul class="dropdown-menu" role="menu">
+	      ...
+	    </ul>
 	  </li>
-	  <li class="next">
-	    <a href="${3:#}">${4:Newer &rarr;}</a>
-	  </li>
+	  ...
 	</ul>
 
 
-snippet pagination
-	<div class="pagination">
-	  <ul>
-	    <li><a href="#">Prev</a></li>
-	    <li><a href="#">1</a></li>
+
+
+snippet navbar Bootstrap
+	<nav class="navbar navbar-default">
+	  <div class="container-fluid">
+	    <!-- Brand and toggle get grouped for better mobile display -->
+	    <div class="navbar-header">
+	      <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
+	        <span class="sr-only">Toggle navigation</span>
+	        <span class="icon-bar"></span>
+	        <span class="icon-bar"></span>
+	        <span class="icon-bar"></span>
+	      </button>
+	      <a class="navbar-brand" href="#">Brand</a>
+	    </div>
+	
+	    <!-- Collect the nav links, forms, and other content for toggling -->
+	    <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+	      <ul class="nav navbar-nav">
+	        <li class="active"><a href="#">Link <span class="sr-only">(current)</span></a></li>
+	        <li><a href="#">Link</a></li>
+	        <li class="dropdown">
+	          <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-expanded="false">Dropdown <span class="caret"></span></a>
+	          <ul class="dropdown-menu" role="menu">
+	            <li><a href="#">Action</a></li>
+	            <li><a href="#">Another action</a></li>
+	            <li><a href="#">Something else here</a></li>
+	            <li class="divider"></li>
+	            <li><a href="#">Separated link</a></li>
+	            <li class="divider"></li>
+	            <li><a href="#">One more separated link</a></li>
+	          </ul>
+	        </li>
+	      </ul>
+	      <form class="navbar-form navbar-left" role="search">
+	        <div class="form-group">
+	          <input type="text" class="form-control" placeholder="Search">
+	        </div>
+	        <button type="submit" class="btn btn-default">Submit</button>
+	      </form>
+	      <ul class="nav navbar-nav navbar-right">
+	        <li><a href="#">Link</a></li>
+	        <li class="dropdown">
+	          <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-expanded="false">Dropdown <span class="caret"></span></a>
+	          <ul class="dropdown-menu" role="menu">
+	            <li><a href="#">Action</a></li>
+	            <li><a href="#">Another action</a></li>
+	            <li><a href="#">Something else here</a></li>
+	            <li class="divider"></li>
+	            <li><a href="#">Separated link</a></li>
+	          </ul>
+	        </li>
+	      </ul>
+	    </div><!-- /.navbar-collapse -->
+	  </div><!-- /.container-fluid -->
+	</nav>
+
+snippet navbarform Bootstrap
+	<form class="navbar-form navbar-left" role="search">
+	  <div class="form-group">
+	    <input type="text" class="form-control" placeholder="Search">
+	  </div>
+	  <button type="submit" class="btn btn-default">Submit</button>
+	</form>
+
+snippet navbarbtn Bootstrap
+	<button type="button" class="btn btn-default navbar-btn">Sign in</button>
+
+snippet navbartext Bootstrap
+	<p class="navbar-text">Signed in as Mark Otto</p>
+
+snippet navbarlink Bootstrap
+	<a href="#" class="navbar-link">Mark Otto</a>
+
+snippet navbarfixedtop Bootstrap
+	<nav class="navbar navbar-default navbar-fixed-top">
+	  <div class="container">
+	    ...
+	  </div>
+	</nav>
+
+snippet navbarfixedbottom Bootstrap
+	<nav class="navbar navbar-default navbar-fixed-bottom">
+	  <div class="container">
+	    ...
+	  </div>
+	</nav>
+
+snippet navbarstatictop Bootstrap
+	<nav class="navbar navbar-default navbar-static-top">
+	  <div class="container">
+	    ...
+	  </div>
+	</nav>
+
+snippet navbarinverse Bootstrap
+	<nav class="navbar navbar-inverse">
+	  ...
+	</nav>
+
+
+
+
+snippet breadcrumb Bootstrap
+	<ol class="breadcrumb">
+	  <li><a href="#">Home</a></li>
+	  <li><a href="#">Library</a></li>
+	  <li class="active">Data</li>
+	</ol>
+
+
+
+snippet pagination Bootstrap
+	<nav>
+	  <ul class="pagination">
+	    <li class="disabled">
+	      <a href="#" aria-label="Previous">
+	        <span aria-hidden="true">&laquo;</span>
+	      </a>
+	    </li>
+	    <li class="active"><a href="#">1</a></li>
 	    <li><a href="#">2</a></li>
 	    <li><a href="#">3</a></li>
 	    <li><a href="#">4</a></li>
 	    <li><a href="#">5</a></li>
+	    <li>
+	      <a href="#" aria-label="Next">
+	        <span aria-hidden="true">&raquo;</span>
+	      </a>
+	    </li>
+	  </ul>
+	</nav>
+
+snippet paginationlg Bootstrap
+	<nav><ul class="pagination pagination-lg">...</ul></nav>
+
+snippet paginationsm Bootstrap
+	<nav><ul class="pagination pagination-sm">...</ul></nav>
+
+snippet pager Bootstrap
+	<nav>
+	  <ul class="pager">
+	    <li><a href="#">Previous</a></li>
 	    <li><a href="#">Next</a></li>
 	  </ul>
-	</div>
+	</nav>
 
-snippet paginationcentered
-	<div class="pagination pagination-centered">
-	  ${1:...}
-	</div>
-
-snippet paginationlarge
-	<div class="pagination pagination-large">
-	  <ul>
-	    ${1:...}
+snippet pageraligned Bootstrap
+	<nav>
+	  <ul class="pager">
+	    <li class="previous"><a href="#"><span aria-hidden="true">&larr;</span> Older</a></li>
+	    <li class="next"><a href="#">Newer <span aria-hidden="true">&rarr;</span></a></li>
 	  </ul>
+	</nav>
+
+
+
+snippet label Bootstrap
+	<span class="label label-default">Default</span>
+
+snippet labeldefault Bootstrap
+	<span class="label label-default">Default</span>
+
+snippet labelprimary Bootstrap
+	<span class="label label-primary">Primary</span>
+
+snippet labelsuccess Bootstrap
+	<span class="label label-success">Success</span>
+
+snippet labelinfo Bootstrap
+	<span class="label label-info">Info</span>
+
+snippet labelwarning Bootstrap
+	<span class="label label-warning">Warning</span>
+
+snippet labeldanger Bootstrap
+	<span class="label label-danger">Danger</span>
+
+
+
+snippet badge Bootstrap
+	<a href="#">Inbox <span class="badge">42</span></a>
+
+snippet badgebtn Bootstrap
+	<button class="btn btn-primary" type="button">
+	  Messages <span class="badge">4</span>
+	</button>
+
+snippet badgenav Bootstrap
+	<ul class="nav nav-pills" role="tablist">
+	  <li role="presentation" class="active"><a href="#">Home <span class="badge">42</span></a></li>
+	  <li role="presentation"><a href="#">Profile</a></li>
+	  <li role="presentation"><a href="#">Messages <span class="badge">3</span></a></li>
+	</ul>
+
+
+snippet jumbotron Bootstrap
+	<div class="jumbotron">
+	  <h1>Hello, world!</h1>
+	  <p>...</p>
+	  <p><a class="btn btn-primary btn-lg" href="#" role="button">Learn more</a></p>
+	</div>
+
+snippet jumbotroncontainer Bootstrap
+	<div class="jumbotron">
+	  <div class="container">
+	    ...
+	  </div>
 	</div>
 
 
-snippet paginationmini
-	<div class="pagination pagination-mini">
-	  <ul>
-	    ${1:...}
-	  </ul>
+
+snippet pageheader Bootstrap
+	<div class="page-header">
+	  <h1>Example page header <small>Subtext for header</small></h1>
 	</div>
 
 
-snippet paginationright
-	<div class="pagination pagination-right">
-	  ${1:...}
+
+snippet thumbnail Bootstrap
+	<a href="#" class="thumbnail">
+	  <img src="..." alt="...">
+	</a>
+
+snippet thumbnailcontent Bootstrap
+	<div class="thumbnail">
+	  <img src="..." alt="...">
+	  <div class="caption">
+	    <h3>Thumbnail label</h3>
+	    <p>...</p>
+	    <p><a href="#" class="btn btn-primary" role="button">Button</a> <a href="#" class="btn btn-default" role="button">Button</a></p>
+	  </div>
 	</div>
 
-snippet paginationsmall
-	<div class="pagination pagination-small">
-	  <ul>
-	    ${1:...}
-	  </ul>
+
+
+snippet alert Bootstrap
+	<div class="alert alert-success" role="alert">...</div>
+
+snippet alertsuccess Bootstrap
+	<div class="alert alert-success" role="alert">...</div>
+
+snippet alertinfo Bootstrap
+	<div class="alert alert-info" role="alert">...</div>
+
+snippet alertwarning Bootstrap
+	<div class="alert alert-warning" role="alert">...</div>
+
+snippet alertdanger Bootstrap
+	<div class="alert alert-danger" role="alert">...</div>
+
+snippet alertdismissible Bootstrap
+	<div class="alert alert-warning alert-dismissible" role="alert">
+	  <button type="button" class="close" data-dismiss="alert" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+	  <strong>Warning!</strong> Better check yourself, you're not looking too good.
+	</div>
+
+snippet alertlink Bootstrap
+	<div class="alert alert-success" role="alert">
+	  <a href="#" class="alert-link">...</a>
 	</div>
 
 
-snippet prescrollable
-	<pre class="pre-scrollable">
-	  ${1:&lt;p&gt;Sample text here...&lt;/p&gt;}
-	</pre>
 
-snippet progress
+snippet progress Bootstrap
 	<div class="progress">
-	  <div class="bar" style="width: ${1:60}%;"></div>
+	  <div class="progress-bar" role="progressbar" aria-valuenow="60" aria-valuemin="0" aria-valuemax="100" style="width: 60%;">
+	    <span class="sr-only">60% Complete</span>
+	  </div>
 	</div>
 
-snippet progressdanger
-	<div class="progress progress-danger">
-	  <div class="bar" style="width: ${1:50}%"></div>
-	</div>
-
-snippet progressinfo
-	<div class="progress progress-info">
-	  <div class="bar" style="width: ${1:50}%"></div>
-	</div>
-
-snippet progressstacked
+snippet progresssuccess Bootstrap
 	<div class="progress">
-	  <div class="bar bar-success" style="width: ${1:35}%;"></div>
-	  <div class="bar bar-warning" style="width: ${2:20}%;"></div>
-	  <div class="bar bar-danger" style="width: ${3:10}%;"></div>
-	</div>
-
-snippet progressstriped
-	<div class="progress progress-striped">
-	  <div class="bar" style="width: ${1:20}%;"></div>
-	</div>
-
-snippet progressstripedactive
-	<div class="progress progress-striped active">
-	  <div class="bar" style="width: ${1:40}%;"></div>
-	</div>
-
-snippet progresssuccess
-	<div class="progress progress-success">
-	  <div class="bar" style="width: ${1:50}%"></div>
-	</div>
-
-snippet progresswarning
-	<div class="progress progress-warning">
-	  <div class="bar" style="width: ${1:50}%"></div>
-	</div>
-
-snippet row
-	<div class="row">
-	  <div class="span${1:4}">${2:...}</div>
-	  <div class="span${3:8}">${4:...}</div>
-	</div>
-
-snippet rowfluid
-	<div class="row-fluid">
-	  <div class="span${1:4}">${2:...}</div>
-	  <div class="span${3:8}">${4:...}</div>
-	</div>
-
-snippet tabbable
-	<div class="tabbable"> <!-- Only required for left/right tabs -->
-	  <ul class="nav nav-tabs">
-	    <li class="active"><a href="#tab1" data-toggle="tab">${1:Section 1}</a></li>
-	    <li><a href="#tab2" data-toggle="tab">${2:Section 2}</a></li>
-	  </ul>
-	  <div class="tab-content">
-	    <div class="tab-pane active" id="tab1">
-	      <p>${3:I'm in Section 1.}</p>
-	    </div>
-	    <div class="tab-pane" id="tab2">
-	      <p>${4:Howdy, I'm in Section 2.}</p>
-	    </div>
+	  <div class="progress-bar progress-bar-success" role="progressbar" aria-valuenow="40" aria-valuemin="0" aria-valuemax="100" style="width: 40%">
+	    <span class="sr-only">40% Complete (success)</span>
 	  </div>
 	</div>
 
-snippet tabbabletabsbelow
-	<div class="tabbable tabs-below">
-	  <div class="tab-content">
-	    ${1:...}
+snippet progressinfo Bootstrap
+	<div class="progress">
+	  <div class="progress-bar progress-bar-info" role="progressbar" aria-valuenow="20" aria-valuemin="0" aria-valuemax="100" style="width: 20%">
+	    <span class="sr-only">20% Complete</span>
 	  </div>
-	  <ul class="nav nav-tabs">
-	    ${2:...}
-	  </ul>
 	</div>
 
-snippet tabbabletabsleft
-	<div class="tabbable tabs-left">
-	  <div class="tab-content">
-	    ${1:...}
+snippet progresswarning Bootstrap
+	<div class="progress">
+	  <div class="progress-bar progress-bar-warning" role="progressbar" aria-valuenow="60" aria-valuemin="0" aria-valuemax="100" style="width: 60%">
+	    <span class="sr-only">60% Complete (warning)</span>
 	  </div>
-	  <ul class="nav nav-tabs">
-	    ${2:...}
-	  </ul>
 	</div>
 
-snippet tabbabletabsright
-	<div class="tabbable tabs-right">
-	  <div class="tab-content">
-	    ${1:...}
+snippet progressdanger Bootstrap
+	<div class="progress">
+	  <div class="progress-bar progress-bar-danger" role="progressbar" aria-valuenow="80" aria-valuemin="0" aria-valuemax="100" style="width: 80%">
+	    <span class="sr-only">80% Complete (danger)</span>
 	  </div>
-	  <ul class="nav nav-tabs">
-	    ${2:...}
-	  </ul>
 	</div>
 
-snippet table
-	<table class="table">
-	  ${1:...}
-	</table>
+snippet progressstriped Bootstrap
+	<div class="progress">
+	  <div class="progress-bar progress-bar-success progress-bar-striped" role="progressbar" aria-valuenow="40" aria-valuemin="0" aria-valuemax="100" style="width: 40%">
+	    <span class="sr-only">40% Complete (success)</span>
+	  </div>
+	</div>
 
-snippet tablebordered
-	<table class="table table-bordered">
-	  ${1:...}
-	</table>
+snippet progressstripedactive Bootstrap
+	<div class="progress">
+	  <div class="progress-bar progress-bar-striped active" role="progressbar" aria-valuenow="45" aria-valuemin="0" aria-valuemax="100" style="width: 45%">
+	    <span class="sr-only">45% Complete</span>
+	  </div>
+	</div>
 
-snippet tablecondensed
-	<table class="table table-condensed">
-	  ${1:...}
-	</table>
+snippet progressstacked Bootstrap
+	<div class="progress">
+	  <div class="progress-bar progress-bar-success" style="width: 35%">
+	    <span class="sr-only">35% Complete (success)</span>
+	  </div>
+	  <div class="progress-bar progress-bar-warning progress-bar-striped" style="width: 20%">
+	    <span class="sr-only">20% Complete (warning)</span>
+	  </div>
+	  <div class="progress-bar progress-bar-danger" style="width: 10%">
+	    <span class="sr-only">10% Complete (danger)</span>
+	  </div>
+	</div>
 
-snippet tablehover
-	<table class="table table-hover">
-	  ${1:...}
-	</table>
 
-snippet tablestriped
-	<table class="table table-striped">
-	  ${1:...}
-	</table>
 
-snippet textcenter
-	<p class="text-center">${1:Center aligned text.}</p>
-
-snippet texterror
-	<p class="text-error">${1:Donec ullamcorper nulla non metus auctor fringilla.}</p>
-
-snippet textinfo
-	<p class="text-info">${1:Aenean eu leo quam. Pellentesque ornare sem lacinia quam venenatis.}</p>
-
-snippet textleft
-	<p class="text-left">${1:Left aligned text.}</p>
-
-snippet textright
-	<p class="text-right">${1:Right aligned text.}</p>
-
-snippet textsuccess
-	<p class="text-success">${1:Duis mollis, est non commodo luctus, nisi erat porttitor ligula.}</p>
-
-snippet textwarning
-	<p class="text-warning">${1:Etiam porta sem malesuada magna mollis euismod.}</p>
-
-snippet thumbnails
-	<ul class="thumbnails">
-	  <li class="span4">
-	    <a href="${1:#}" class="thumbnail">
-	      <img src="${2:image.jpg}" alt="">
+snippet media Bootstrap
+	<div class="media">
+	  <div class="media-left">
+	    <a href="#">
+	      <img class="media-object" src="..." alt="...">
 	    </a>
-	  </li>
-	  ${3:...}
-	</ul>
+	  </div>
+	  <div class="media-body">
+	    <h4 class="media-heading">Media heading</h4>
+	    ...
+	  </div>
+	</div>
 
+snippet medialeft Bootstrap
+	<div class="media-left">
+	  <a href="#">
+	    <img class="media-object" src="..." alt="...">
+	  </a>
+	</div>
 
-snippet thumbnailsdiv
-	<ul class="thumbnails">
-	  <li class="span4">
-	    <div class="thumbnail">
-	      <img src="${1:image.jpg}" alt="">
-	      <h3>${2:Thumbnail label}</h3>
-	      <p>${3:Thumbnail caption...}</p>
+snippet mediabody Bootstrap
+	<div class="media-body">
+	  <h4 class="media-heading">Media heading</h4>
+	  ...
+	</div>
+
+snippet mediaright Bootstrap
+	<div class="media-right">
+	  <a href="#">
+	    <img class="media-object" src="..." alt="...">
+	  </a>
+	</div>
+
+snippet mediamiddle Bootstrap
+	<div class="media-left media-middle">
+	  <a href="#">
+	    <img class="media-object" src="..." alt="...">
+	  </a>
+	</div>
+
+snippet mediabottom Bootstrap
+	<div class="media-left media-bottom">
+	  <a href="#">
+	    <img class="media-object" src="..." alt="...">
+	  </a>
+	</div>
+
+snippet medialist Bootstrap
+	<ul class="media-list">
+	  <li class="media">
+	    <div class="media-left">
+	      <a href="#">
+	        <img class="media-object" src="..." alt="...">
+	      </a>
+	    </div>
+	    <div class="media-body">
+	      <h4 class="media-heading">Media heading</h4>
+	      ...
 	    </div>
 	  </li>
-	  ${4:...}
 	</ul>
 
-snippet uneditableinput
-	<span class="input-large uneditable-input">${1:Some value here}</span>
 
-snippet unstyled
-	<ul class="unstyled">
-	  <li>${1:...}</li>
+snippet listgroup Bootstrap
+	<ul class="list-group">
+	  <li class="list-group-item">Cras justo odio</li>
+	  <li class="list-group-item">Dapibus ac facilisis in</li>
+	  <li class="list-group-item">Morbi leo risus</li>
+	  <li class="list-group-item">Porta ac consectetur ac</li>
+	  <li class="list-group-item">Vestibulum at eros</li>
 	</ul>
 
-snippet well
-	<div class="well">
-	  ${1:...}
+snippet listgroupitem Bootstrap
+	<li class="list-group-item">Cras justo odio</li>
+
+snippet listgroupitembadge Bootstrap
+	<li class="list-group-item">
+	  <span class="badge">14</span>
+	  Cras justo odio
+	</li>
+
+snippet alistgroupitem Bootstrap
+	<a href="#" class="list-group-item active">Cras justo odio</a>
+
+snippet listgroupitemdisabled Bootstrap
+	<a href="#" class="list-group-item disabled">Cras justo odio</a>
+
+snippet listgroupitemsuccess Bootstrap
+	<li class="list-group-item list-group-item-success">Dapibus ac facilisis in</li>
+
+snippet listgroupiteminfo Bootstrap
+	<li class="list-group-item list-group-item-info">Cras sit amet nibh libero</li>
+
+snippet listgroupitemwarning Bootstrap
+	<li class="list-group-item list-group-item-warning">Porta ac consectetur ac</li>
+
+snippet listgroupitemdanger Bootstrap
+	<li class="list-group-item list-group-item-danger">Vestibulum at eros</li>
+
+snippet alistgroupitemsuccess Bootstrap
+	<a href="#" class="list-group-item list-group-item-success">Dapibus ac facilisis in</a>
+
+snippet alistgroupiteminfo Bootstrap
+	<a href="#" class="list-group-item list-group-item-info">Cras sit amet nibh libero</a>
+
+snippet alistgroupitemwarning Bootstrap
+	<a href="#" class="list-group-item list-group-item-warning">Porta ac consectetur ac</a>
+
+snippet alistgroupitemdanger Bootstrap
+	<a href="#" class="list-group-item list-group-item-danger">Vestibulum at eros</a>
+
+snippet listgroupitemcontent Bootstrap
+	<li href="#" class="list-group-item">
+	  <h4 class="list-group-item-heading">List group item heading</h4>
+	  <p class="list-group-item-text">...</p>
+	</li>
+
+snippet alistgroupitemcontent Bootstrap
+	<a href="#" class="list-group-item active">
+	  <h4 class="list-group-item-heading">List group item heading</h4>
+	  <p class="list-group-item-text">...</p>
+	</a>
+
+
+
+
+snippet panel Bootstrap
+	<div class="panel panel-default">
+	  <div class="panel-body">
+	    Basic panel example
+	  </div>
 	</div>
 
-snippet welllarge
-	<div class="well well-large">
-	  ${1:...}
+snippet panelheading Bootstrap
+	<div class="panel-heading">Panel heading without title</div>
+
+snippet panelheadingtitle Bootstrap
+	<div class="panel-heading">
+	  <h3 class="panel-title">Panel title</h3>
 	</div>
 
-snippet wellsmall
-	<div class="well well-small">
-	  ${1:...}
+snippet panelbody Bootstrap
+	<div class="panel-body">
+	  Panel content
 	</div>
+
+snippet panelfooter Bootstrap
+	<div class="panel-footer">Panel footer</div>
+
+snippet paneldefault Bootstrap
+	<div class="panel panel-default">
+	  <div class="panel-body">
+	    Basic panel example
+	  </div>
+	</div>
+
+snippet panelprimary Bootstrap
+	<div class="panel panel-primary">...</div>
+
+snippet panelsuccess Bootstrap
+	<div class="panel panel-success">...</div>
+
+snippet panelinfo Bootstrap
+	<div class="panel panel-info">...</div>
+
+snippet panelwarning Bootstrap
+	<div class="panel panel-warning">...</div>
+
+snippet paneldanger Bootstrap
+	<div class="panel panel-danger">...</div>
+
+snippet paneltable Bootstrap
+	<div class="panel panel-default">
+	  <!-- Default panel contents -->
+	  <div class="panel-heading">Panel heading</div>
+	  <div class="panel-body">
+	    <p>...</p>
+	  </div>
+	
+	  <!-- Table -->
+	  <table class="table">
+	    ...
+	  </table>
+	</div>
+
+snippet panellistgroup Bootstrap
+	<div class="panel panel-default">
+	  <!-- Default panel contents -->
+	  <div class="panel-heading">Panel heading</div>
+	  <div class="panel-body">
+	    <p>...</p>
+	  </div>
+	
+	  <!-- List group -->
+	  <ul class="list-group">
+	    <li class="list-group-item">Cras justo odio</li>
+	    <li class="list-group-item">Dapibus ac facilisis in</li>
+	    <li class="list-group-item">Morbi leo risus</li>
+	    <li class="list-group-item">Porta ac consectetur ac</li>
+	    <li class="list-group-item">Vestibulum at eros</li>
+	  </ul>
+	</div>
+
+
+
+snippet embedresponsive Bootstrap
+	<!-- 16:9 aspect ratio -->
+	<div class="embed-responsive embed-responsive-16by9">
+	  <iframe class="embed-responsive-item" src="..."></iframe>
+	</div>
+	
+	<!-- 4:3 aspect ratio -->
+	<div class="embed-responsive embed-responsive-4by3">
+	  <iframe class="embed-responsive-item" src="..."></iframe>
+	</div>
+
+
+
+snippet well Bootstrap
+	<div class="well">...</div>
+
+snippet welllg Bootstrap
+	<div class="well well-lg">...</div>
+
+snippet wellsm Bootstrap
+	<div class="well well-sm">...</div>
+
+
+
+
+snippet modal Bootstrap
+	<div class="modal fade">
+	  <div class="modal-dialog">
+	    <div class="modal-content">
+	      <div class="modal-header">
+	        <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+	        <h4 class="modal-title">Modal title</h4>
+	      </div>
+	      <div class="modal-body">
+	        <p>One fine body&hellip;</p>
+	      </div>
+	      <div class="modal-footer">
+	        <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+	        <button type="button" class="btn btn-primary">Save changes</button>
+	      </div>
+	    </div><!-- /.modal-content -->
+	  </div><!-- /.modal-dialog -->
+	</div><!-- /.modal -->
+
+snippet modallg Bootstrap
+	<div class="modal fade bs-example-modal-lg" tabindex="-1" role="dialog" aria-labelledby="myLargeModalLabel" aria-hidden="true">
+	  <div class="modal-dialog modal-lg">
+	    <div class="modal-content">
+	      ...
+	    </div>
+	  </div>
+	</div>
+
+snippet modalsm Bootstrap
+	<div class="modal fade bs-example-modal-sm" tabindex="-1" role="dialog" aria-labelledby="mySmallModalLabel" aria-hidden="true">
+	  <div class="modal-dialog modal-sm">
+	    <div class="modal-content">
+	      ...
+	    </div>
+	  </div>
+	</div>
+
+
+
+snippet scrollspy Bootstrap
+	<body data-spy="scroll" data-target=".navbar-example">
+	  ...
+	  <div class="navbar-example">
+	    <ul class="nav nav-tabs" role="tablist">
+	      ...
+	    </ul>
+	  </div>
+	  ...
+	</body>
+
+
+snippet tabpanel Bootstrap
+	<div role="tabpanel">
+	
+	  <!-- Nav tabs -->
+	  <ul class="nav nav-tabs" role="tablist">
+	    <li role="presentation" class="active"><a href="#home" aria-controls="home" role="tab" data-toggle="tab">Home</a></li>
+	    <li role="presentation"><a href="#profile" aria-controls="profile" role="tab" data-toggle="tab">Profile</a></li>
+	    <li role="presentation"><a href="#messages" aria-controls="messages" role="tab" data-toggle="tab">Messages</a></li>
+	    <li role="presentation"><a href="#settings" aria-controls="settings" role="tab" data-toggle="tab">Settings</a></li>
+	  </ul>
+	
+	  <!-- Tab panes -->
+	  <div class="tab-content">
+	    <div role="tabpanel" class="tab-pane active" id="home">...</div>
+	    <div role="tabpanel" class="tab-pane" id="profile">...</div>
+	    <div role="tabpanel" class="tab-pane" id="messages">...</div>
+	    <div role="tabpanel" class="tab-pane" id="settings">...</div>
+	  </div>
+	
+	</div>
+
+
+snippet tooltip Bootstrap
+	<button type="button" class="btn btn-default" data-toggle="tooltip" title="Tooltip on left">Tooltip on left</button>
+
+snippet atooltip Bootstrap
+	<a href="#" data-toggle="tooltip" title="Tooltip on left">Tooltip on left</a>
+
+snippet tooltiptop Bootstrap
+	<button type="button" class="btn btn-default" data-toggle="tooltip" data-placement="top" title="Tooltip on top">Tooltip on top</button>
+
+snippet atooltiptop Bootstrap
+	<a href="#" data-toggle="tooltip" data-placement="top" title="Tooltip on top">Tooltip on top</a>
+
+snippet tooltipleft Bootstrap
+	<button type="button" class="btn btn-default" data-toggle="tooltip" data-placement="left" title="Tooltip on left">Tooltip on left</button>
+
+snippet atooltipleft Bootstrap
+	<a href="#" data-toggle="tooltip" data-placement="left" title="Tooltip on left">Tooltip on left</a>
+
+snippet tooltipbottom Bootstrap
+	<button type="button" class="btn btn-default" data-toggle="tooltip" data-placement="bottom" title="Tooltip on bottom">Tooltip on bottom</button>
+
+snippet atooltipbottom Bootstrap
+	<a href="#" data-toggle="tooltip" data-placement="bottom" title="Tooltip on bottom">Tooltip on bottom</a>
+
+snippet tooltipright Bootstrap
+	<button type="button" class="btn btn-default" data-toggle="tooltip" data-placement="right" title="Tooltip on right">Tooltip on right</button>
+
+snippet atooltipright Bootstrap
+	<a href="#" data-toggle="tooltip" data-placement="right" title="Tooltip on right">Tooltip on right</a>
+
+
+
+snippet popover Bootstrap
+	<button type="button" class="btn btn-default" data-toggle="popover" title="Popover title" data-content="And here's some amazing content. It's very engaging. Right?">Click to toggle popover</button>
+
+snippet apopover Bootstrap
+	<a class="btn btn-default" role="button" data-toggle="popover" title="Dismissible popover" data-content="And here's some amazing content. It's very engaging. Right?">Dismissible popover</a>
+
+snippet popovertop Bootstrap
+	<button type="button" class="btn btn-default" data-container="body" data-toggle="popover" data-placement="top" data-content="Vivamus sagittis lacus vel augue laoreet rutrum faucibus.">
+	  Popover on top
+	</button>
+
+snippet apopovertop Bootstrap
+	<a class="btn btn-default" role="button" data-toggle="popover" data-placement="top" title="Popover on top" data-content="And here's some amazing content. It's very engaging. Right?">Popover on top</a>
+
+snippet popoverleft Bootstrap
+	<button type="button" class="btn btn-default" data-container="body" data-toggle="popover" data-placement="left" data-content="Vivamus sagittis lacus vel augue laoreet rutrum faucibus.">
+	  Popover on left
+	</button>
+
+snippet apopoverleft Bootstrap
+	<a class="btn btn-default" role="button" data-toggle="popover" data-placement="left" title="Popover on left" data-content="And here's some amazing content. It's very engaging. Right?">Popover on left</a>
+
+snippet popoverbottom Bootstrap
+	<button type="button" class="btn btn-default" data-container="body" data-toggle="popover" data-placement="bottom" data-content="Vivamus
+	sagittis lacus vel augue laoreet rutrum faucibus.">
+	  Popover on bottom
+	</button>
+
+snippet apopoverbottom Bootstrap
+	<a class="btn btn-default" role="button" data-toggle="popover" data-placement="bottom" title="Popover on bottom" data-content="And here's some amazing content. It's very engaging. Right?">Popover on bottom</a>
+
+snippet popoverright Bootstrap
+	<button type="button" class="btn btn-default" data-container="body" data-toggle="popover" data-placement="right" data-content="Vivamus sagittis lacus vel augue laoreet rutrum faucibus.">
+	  Popover on right
+	</button>
+
+snippet apopoverright Bootstrap
+	<a class="btn btn-default" role="button" data-toggle="popover" data-placement="right" title="Popover on right" data-content="Vivamus sagittis lacus vel augue laoreet rutrum faucibus.">Popover on right</a>
+
+snippet apopoverdismissible Bootstrap
+	<a tabindex="0" class="btn btn-default" role="button" data-toggle="popover" data-trigger="focus" title="Dismissible popover" data-content="And here's some amazing content. It's very engaging. Right?">Dismissible popover</a>
+
+
+
+snippet btnstatetext Bootstrap
+	<button type="button" id="myButton" data-loading-text="Loading..." class="btn btn-default" autocomplete="off">
+	  Loading state
+	</button>
+
+snippet btnsingletoggle Bootstrap
+	<button type="button" class="btn btn-default" data-toggle="button" aria-pressed="false" autocomplete="off">
+	  Single toggle
+	</button>
+
+snippet btngroupcheckbox Bootstrap
+	<div class="btn-group" data-toggle="buttons">
+	  <label class="btn btn-primary active">
+	    <input type="checkbox" autocomplete="off" checked> Checkbox 1 (pre-checked)
+	  </label>
+	  <label class="btn btn-primary">
+	    <input type="checkbox" autocomplete="off"> Checkbox 2
+	  </label>
+	  <label class="btn btn-primary">
+	    <input type="checkbox" autocomplete="off"> Checkbox 3
+	  </label>
+	</div>
+
+snippet btngroupradio Bootstrap
+	<div class="btn-group" data-toggle="buttons">
+	  <label class="btn btn-primary active">
+	    <input type="radio" name="options" id="option1" autocomplete="off" checked> Radio 1 (preselected)
+	  </label>
+	  <label class="btn btn-primary">
+	    <input type="radio" name="options" id="option2" autocomplete="off"> Radio 2
+	  </label>
+	  <label class="btn btn-primary">
+	    <input type="radio" name="options" id="option3" autocomplete="off"> Radio 3
+	  </label>
+	</div>
+
+
+
+snippet btncollapse Bootstrap
+	<button class="btn btn-primary" type="button" data-toggle="collapse" data-target="#collapseExample" aria-expanded="false" aria-controls="collapseExample">
+	  Button with data-target
+	</button>
+	<div class="collapse" id="collapseExample">
+	  <div class="well">
+	    ...
+	  </div>
+	</div>
+
+snippet abtncollapse Bootstrap
+	<a class="btn btn-primary" data-toggle="collapse" href="#collapseExample" aria-expanded="false" aria-controls="collapseExample">
+	  Link with href
+	</a>
+	<div class="collapse" id="collapseExample">
+	  <div class="well">
+	    ...
+	  </div>
+	</div>
+
+snippet accordian Bootstrap
+	<div class="panel-group" id="accordion" role="tablist" aria-multiselectable="true">
+	  <div class="panel panel-default">
+	    <div class="panel-heading" role="tab" id="headingOne">
+	      <h4 class="panel-title">
+	        <a data-toggle="collapse" data-parent="#accordion" href="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
+	          Collapsible Group Item #1
+	        </a>
+	      </h4>
+	    </div>
+	    <div id="collapseOne" class="panel-collapse collapse in" role="tabpanel" aria-labelledby="headingOne">
+	      <div class="panel-body">
+	        Anim pariatur cliche reprehenderit, enim eiusmod high life accusamus terry richardson ad squid. 3 wolf moon officia aute, non cupidatat skateboard dolor brunch. Food truck quinoa nesciunt laborum eiusmod. Brunch 3 wolf moon tempor, sunt aliqua put a bird on it squid single-origin coffee nulla assumenda shoreditch et. Nihil anim keffiyeh helvetica, craft beer labore wes anderson cred nesciunt sapiente ea proident. Ad vegan excepteur butcher vice lomo. Leggings occaecat craft beer farm-to-table, raw denim aesthetic synth nesciunt you probably haven't heard of them accusamus labore sustainable VHS.
+	      </div>
+	    </div>
+	  </div>
+	  <div class="panel panel-default">
+	    <div class="panel-heading" role="tab" id="headingTwo">
+	      <h4 class="panel-title">
+	        <a class="collapsed" data-toggle="collapse" data-parent="#accordion" href="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+	          Collapsible Group Item #2
+	        </a>
+	      </h4>
+	    </div>
+	    <div id="collapseTwo" class="panel-collapse collapse" role="tabpanel" aria-labelledby="headingTwo">
+	      <div class="panel-body">
+	        Anim pariatur cliche reprehenderit, enim eiusmod high life accusamus terry richardson ad squid. 3 wolf moon officia aute, non cupidatat skateboard dolor brunch. Food truck quinoa nesciunt laborum eiusmod. Brunch 3 wolf moon tempor, sunt aliqua put a bird on it squid single-origin coffee nulla assumenda shoreditch et. Nihil anim keffiyeh helvetica, craft beer labore wes anderson cred nesciunt sapiente ea proident. Ad vegan excepteur butcher vice lomo. Leggings occaecat craft beer farm-to-table, raw denim aesthetic synth nesciunt you probably haven't heard of them accusamus labore sustainable VHS.
+	      </div>
+	    </div>
+	  </div>
+	  <div class="panel panel-default">
+	    <div class="panel-heading" role="tab" id="headingThree">
+	      <h4 class="panel-title">
+	        <a class="collapsed" data-toggle="collapse" data-parent="#accordion" href="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
+	          Collapsible Group Item #3
+	        </a>
+	      </h4>
+	    </div>
+	    <div id="collapseThree" class="panel-collapse collapse" role="tabpanel" aria-labelledby="headingThree">
+	      <div class="panel-body">
+	        Anim pariatur cliche reprehenderit, enim eiusmod high life accusamus terry richardson ad squid. 3 wolf moon officia aute, non cupidatat skateboard dolor brunch. Food truck quinoa nesciunt laborum eiusmod. Brunch 3 wolf moon tempor, sunt aliqua put a bird on it squid single-origin coffee nulla assumenda shoreditch et. Nihil anim keffiyeh helvetica, craft beer labore wes anderson cred nesciunt sapiente ea proident. Ad vegan excepteur butcher vice lomo. Leggings occaecat craft beer farm-to-table, raw denim aesthetic synth nesciunt you probably haven't heard of them accusamus labore sustainable VHS.
+	      </div>
+	    </div>
+	  </div>
+	</div>
+
+
+
+snippet carousel Bootstrap
+	<div id="carousel-example-generic" class="carousel slide" data-ride="carousel">
+	  <!-- Indicators -->
+	  <ol class="carousel-indicators">
+	    <li data-target="#carousel-example-generic" data-slide-to="0" class="active"></li>
+	    <li data-target="#carousel-example-generic" data-slide-to="1"></li>
+	    <li data-target="#carousel-example-generic" data-slide-to="2"></li>
+	  </ol>
+	
+	  <!-- Wrapper for slides -->
+	  <div class="carousel-inner" role="listbox">
+	    <div class="item active">
+	      <img src="..." alt="...">
+	      <div class="carousel-caption">
+	        ...
+	      </div>
+	    </div>
+	    <div class="item">
+	      <img src="..." alt="...">
+	      <div class="carousel-caption">
+	        ...
+	      </div>
+	    </div>
+	    ...
+	  </div>
+	
+	  <!-- Controls -->
+	  <a class="left carousel-control" href="#carousel-example-generic" role="button" data-slide="prev">
+	    <span class="glyphicon glyphicon-chevron-left" aria-hidden="true"></span>
+	    <span class="sr-only">Previous</span>
+	  </a>
+	  <a class="right carousel-control" href="#carousel-example-generic" role="button" data-slide="next">
+	    <span class="glyphicon glyphicon-chevron-right" aria-hidden="true"></span>
+	    <span class="sr-only">Next</span>
+	  </a>
+	</div>
+
+
+
+snippet affix Bootstrap
+	<div data-spy="affix" data-offset-top="60" data-offset-bottom="200">
+	  ...
+	</div>
+
+
 
