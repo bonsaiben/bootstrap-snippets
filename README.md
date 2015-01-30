@@ -1584,3 +1584,1191 @@ See the full trigger glossary below.
 <div class="hidden-print"></div>
 ```
 
+
+# Components
+
+## Glyphicons
+
+`glyphicon`
+
+```html
+<span class="glyphicon glyphicon-..." aria-hidden="true"></span>
+```
+
+## Dropdowns
+
+`dropdown`
+
+```html
+<div class="dropdown">
+  <button class="btn btn-default dropdown-toggle" type="button" id="dropdownMenu1" data-toggle="dropdown" aria-expanded="true">
+    Dropdown
+    <span class="caret"></span>
+  </button>
+  <ul class="dropdown-menu" role="menu" aria-labelledby="dropdownMenu1">
+    <li role="presentation"><a role="menuitem" tabindex="-1" href="#">Action</a></li>
+    <li role="presentation"><a role="menuitem" tabindex="-1" href="#">Another action</a></li>
+    <li role="presentation"><a role="menuitem" tabindex="-1" href="#">Something else here</a></li>
+    <li role="presentation"><a role="menuitem" tabindex="-1" href="#">Separated link</a></li>
+  </ul>
+</div>
+```
+
+`dropdownmenuright`
+
+```html
+<ul class="dropdown-menu dropdown-menu-right" role="menu" aria-labelledby="dLabel">
+  ...
+</ul>
+```
+
+`dropdownheader`
+
+```html
+<li role="presentation" class="dropdown-header">...</li>
+```
+
+`divider`
+
+```html
+<li role="presentation" class="divider"></li>
+```
+
+`lidisabled`
+
+```html
+<li role="presentation" class="disabled"><a role="menuitem" tabindex="-1" href="#">...</a></li>
+```
+
+## Button groups
+
+`btngroup`
+
+```html
+<div class="btn-group" role="group" aria-label="...">
+  <button type="button" class="btn btn-default">Left</button>
+  <button type="button" class="btn btn-default">Middle</button>
+  <button type="button" class="btn btn-default">Right</button>
+</div>
+```
+
+`abtngroup`
+
+```html
+<div class="btn-group" role="group" aria-label="...">
+  <a class="btn btn-default" href="#" role="button">Left</a>
+  <a class="btn btn-default" href="#" role="button">Middle</a>
+  <a class="btn btn-default" href="#" role="button">Right</a>
+</div>
+```
+
+`btntoolbar`
+
+```html
+<div class="btn-toolbar" role="toolbar" aria-label="...">
+  <div class="btn-group" role="group" aria-label="...">...</div>
+  <div class="btn-group" role="group" aria-label="...">...</div>
+  <div class="btn-group" role="group" aria-label="...">...</div>
+</div>
+```
+
+`btngrouplg`
+
+```html
+<div class="btn-group btn-group-lg" role="group" aria-label="...">...</div>
+```
+
+`btngroupsm`
+
+```html
+<div class="btn-group btn-group-sm" role="group" aria-label="...">...</div>
+```
+
+`btngroupxs`
+
+```html
+<div class="btn-group btn-group-xs" role="group" aria-label="...">...</div>
+```
+
+`btngroupvertical`
+
+```html
+<div class="btn-group-vertical" role="group" aria-label="...">
+  ...
+</div>
+```
+
+`btngroupjustified`
+
+```html
+<div class="btn-group btn-group-justified" role="group" aria-label="...">
+  <div class="btn-group" role="group">
+    <button type="button" class="btn btn-default">Left</button>
+  </div>
+  <div class="btn-group" role="group">
+    <button type="button" class="btn btn-default">Middle</button>
+  </div>
+  <div class="btn-group" role="group">
+    <button type="button" class="btn btn-default">Right</button>
+  </div>
+</div>
+```
+
+`abtngroupjustified`
+
+```html
+<div class="btn-group btn-group-justified" role="group" aria-label="...">
+  <a class="btn btn-default" href="#" role="button">Left</a>
+  <a class="btn btn-default" href="#" role="button">Middle</a>
+  <a class="btn btn-default" href="#" role="button">Right</a>
+</div>
+```
+
+## Button dropdowns
+
+`btndropdown`
+
+```html
+<div class="btn-group">
+  <button type="button" class="btn btn-default dropdown-toggle" data-toggle="dropdown" aria-expanded="false">
+    Action <span class="caret"></span>
+  </button>
+  <ul class="dropdown-menu" role="menu">
+    <li><a href="#">Action</a></li>
+    <li><a href="#">Another action</a></li>
+    <li><a href="#">Something else here</a></li>
+    <li class="divider"></li>
+    <li><a href="#">Separated link</a></li>
+  </ul>
+</div>
+```
+
+`btndropdownsplit`
+
+```html
+<div class="btn-group">
+  <button type="button" class="btn btn-danger">Action</button>
+  <button type="button" class="btn btn-danger dropdown-toggle" data-toggle="dropdown" aria-expanded="false">
+    <span class="caret"></span>
+    <span class="sr-only">Toggle Dropdown</span>
+  </button>
+  <ul class="dropdown-menu" role="menu">
+    <li><a href="#">Action</a></li>
+    <li><a href="#">Another action</a></li>
+    <li><a href="#">Something else here</a></li>
+    <li class="divider"></li>
+    <li><a href="#">Separated link</a></li>
+  </ul>
+</div>
+```
+
+`btndropup`
+
+```html
+<div class="btn-group dropup">
+  <button type="button" class="btn btn-default">Dropup</button>
+  <button type="button" class="btn btn-default dropdown-toggle" data-toggle="dropdown" aria-expanded="false">
+    <span class="caret"></span>
+    <span class="sr-only">Toggle Dropdown</span>
+  </button>
+  <ul class="dropdown-menu" role="menu">
+    <!-- Dropdown menu links -->
+  </ul>
+</div>
+```
+
+## Input groups
+
+`inputgroup`
+
+```html
+<div class="input-group">
+  <span class="input-group-addon">$</span>
+  <input type="text" class="form-control" aria-label="Amount (to the nearest dollar)">
+  <span class="input-group-addon">.00</span>
+</div>
+```
+
+`inputgrouplg`
+
+```html
+<div class="input-group input-group-lg">
+  <span class="input-group-addon" id="sizing-addon1">@</span>
+  <input type="text" class="form-control" placeholder="Username" aria-describedby="sizing-addon1">
+</div>
+```
+
+`inputgroupsm`
+
+```html
+<div class="input-group input-group-sm">
+  <span class="input-group-addon" id="sizing-addon3">@</span>
+  <input type="text" class="form-control" placeholder="Username" aria-describedby="sizing-addon3">
+</div>
+```
+
+`inputgroupcheckbox`
+
+```html
+<div class="input-group">
+  <span class="input-group-addon">
+    <input type="checkbox" aria-label="...">
+  </span>
+  <input type="text" class="form-control" aria-label="...">
+</div>
+```
+
+`inputgroupradio`
+
+```html
+<div class="input-group">
+  <span class="input-group-addon">
+    <input type="radio" aria-label="...">
+  </span>
+  <input type="text" class="form-control" aria-label="...">
+</div>
+```
+
+`inputgroupbtn`
+
+```html
+<div class="input-group">
+  <input type="text" class="form-control" placeholder="Search for...">
+  <span class="input-group-btn">
+    <button class="btn btn-default" type="button">Go!</button>
+  </span>
+</div>
+```
+
+`inputgroupbtndropdown`
+
+```html
+<div class="input-group">
+  <input type="text" class="form-control" aria-label="...">
+  <div class="input-group-btn">
+    <button type="button" class="btn btn-default dropdown-toggle" data-toggle="dropdown" aria-expanded="false">Action <span class="caret"></span></button>
+    <ul class="dropdown-menu dropdown-menu-right" role="menu">
+      <li><a href="#">Action</a></li>
+      <li><a href="#">Another action</a></li>
+      <li><a href="#">Something else here</a></li>
+      <li class="divider"></li>
+      <li><a href="#">Separated link</a></li>
+    </ul>
+  </div><!-- /btn-group -->
+</div>
+```
+
+`inputgroupbtndropdownsplit`
+
+```html
+<div class="input-group">
+  <input type="text" class="form-control" aria-label="...">
+  <div class="input-group-btn">
+    <!-- Button and dropdown menu -->
+  </div>
+</div>
+```
+
+
+## Navs
+
+`navtabs`
+
+```html
+<ul class="nav nav-tabs">
+  <li role="presentation" class="active"><a href="#">Home</a></li>
+  <li role="presentation"><a href="#">Profile</a></li>
+  <li role="presentation"><a href="#">Messages</a></li>
+</ul>
+```
+
+`navpills`
+
+```html
+<ul class="nav nav-pills">
+  <li role="presentation" class="active"><a href="#">Home</a></li>
+  <li role="presentation"><a href="#">Profile</a></li>
+  <li role="presentation"><a href="#">Messages</a></li>
+</ul>
+```
+
+`navpillsstacked`
+
+```html
+<ul class="nav nav-pills nav-stacked">
+  ...
+</ul>
+```
+
+`navtabsjustified`
+
+```html
+<ul class="nav nav-tabs nav-justified">
+  ...
+</ul>
+```
+
+`navpillsjustified`
+
+```html
+<ul class="nav nav-pills nav-justified">
+  ...
+</ul>
+```
+
+`navtabsdropdown`
+
+```html
+<ul class="nav nav-tabs">
+  ...
+  <li role="presentation" class="dropdown">
+    <a class="dropdown-toggle" data-toggle="dropdown" href="#" role="button" aria-expanded="false">
+      Dropdown <span class="caret"></span>
+    </a>
+    <ul class="dropdown-menu" role="menu">
+      ...
+    </ul>
+  </li>
+  ...
+</ul>
+```
+
+`navpillsdropdown`
+
+```html
+<ul class="nav nav-pills">
+  ...
+  <li role="presentation" class="dropdown">
+    <a class="dropdown-toggle" data-toggle="dropdown" href="#" role="button" aria-expanded="false">
+      Dropdown <span class="caret"></span>
+    </a>
+    <ul class="dropdown-menu" role="menu">
+      ...
+    </ul>
+  </li>
+  ...
+</ul>
+```
+
+
+
+## Navbar
+
+`navbar`
+
+```html
+<nav class="navbar navbar-default">
+  <div class="container-fluid">
+    <!-- Brand and toggle get grouped for better mobile display -->
+    <div class="navbar-header">
+      <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
+        <span class="sr-only">Toggle navigation</span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+      </button>
+      <a class="navbar-brand" href="#">Brand</a>
+    </div>
+
+    <!-- Collect the nav links, forms, and other content for toggling -->
+    <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+      <ul class="nav navbar-nav">
+        <li class="active"><a href="#">Link <span class="sr-only">(current)</span></a></li>
+        <li><a href="#">Link</a></li>
+        <li class="dropdown">
+          <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-expanded="false">Dropdown <span class="caret"></span></a>
+          <ul class="dropdown-menu" role="menu">
+            <li><a href="#">Action</a></li>
+            <li><a href="#">Another action</a></li>
+            <li><a href="#">Something else here</a></li>
+            <li class="divider"></li>
+            <li><a href="#">Separated link</a></li>
+            <li class="divider"></li>
+            <li><a href="#">One more separated link</a></li>
+          </ul>
+        </li>
+      </ul>
+      <form class="navbar-form navbar-left" role="search">
+        <div class="form-group">
+          <input type="text" class="form-control" placeholder="Search">
+        </div>
+        <button type="submit" class="btn btn-default">Submit</button>
+      </form>
+      <ul class="nav navbar-nav navbar-right">
+        <li><a href="#">Link</a></li>
+        <li class="dropdown">
+          <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-expanded="false">Dropdown <span class="caret"></span></a>
+          <ul class="dropdown-menu" role="menu">
+            <li><a href="#">Action</a></li>
+            <li><a href="#">Another action</a></li>
+            <li><a href="#">Something else here</a></li>
+            <li class="divider"></li>
+            <li><a href="#">Separated link</a></li>
+          </ul>
+        </li>
+      </ul>
+    </div><!-- /.navbar-collapse -->
+  </div><!-- /.container-fluid -->
+</nav>
+```
+
+`navbarform`
+
+```html
+<form class="navbar-form navbar-left" role="search">
+  <div class="form-group">
+    <input type="text" class="form-control" placeholder="Search">
+  </div>
+  <button type="submit" class="btn btn-default">Submit</button>
+</form>
+```
+
+`navbarbtn`
+
+```html
+<button type="button" class="btn btn-default navbar-btn">Sign in</button>
+```
+
+`navbartext`
+
+```html
+<p class="navbar-text">Signed in as Mark Otto</p>
+```
+
+`navbarlink`
+
+```html
+<a href="#" class="navbar-link">Mark Otto</a>
+```
+
+`navbarfixedtop`
+
+```html
+<nav class="navbar navbar-default navbar-fixed-top">
+  <div class="container">
+    ...
+  </div>
+</nav>
+```
+
+`navbarfixedbottom`
+
+```html
+<nav class="navbar navbar-default navbar-fixed-bottom">
+  <div class="container">
+    ...
+  </div>
+</nav>
+```
+
+`navbarstatictop`
+
+```html
+<nav class="navbar navbar-default navbar-static-top">
+  <div class="container">
+    ...
+  </div>
+</nav>
+```
+
+`navbarinverse`
+
+```html
+<nav class="navbar navbar-inverse">
+  ...
+</nav>
+```
+
+
+
+## Breadcrumbs
+
+`breadcrumb`
+
+```html
+<ol class="breadcrumb">
+  <li><a href="#">Home</a></li>
+  <li><a href="#">Library</a></li>
+  <li class="active">Data</li>
+</ol>
+```
+
+
+## Pagination
+
+`pagination`
+
+```html
+<nav>
+  <ul class="pagination">
+    <li class="disabled">
+      <a href="#" aria-label="Previous">
+        <span aria-hidden="true">&laquo;</span>
+      </a>
+    </li>
+    <li class="active"><a href="#">1</a></li>
+    <li><a href="#">2</a></li>
+    <li><a href="#">3</a></li>
+    <li><a href="#">4</a></li>
+    <li><a href="#">5</a></li>
+    <li>
+      <a href="#" aria-label="Next">
+        <span aria-hidden="true">&raquo;</span>
+      </a>
+    </li>
+  </ul>
+</nav>
+```
+
+`paginationlg`
+
+```html
+<nav><ul class="pagination pagination-lg">...</ul></nav>
+```
+
+`paginationsm`
+
+```html
+<nav><ul class="pagination pagination-sm">...</ul></nav>
+```
+
+`pager`
+
+```html
+<nav>
+  <ul class="pager">
+    <li><a href="#">Previous</a></li>
+    <li><a href="#">Next</a></li>
+  </ul>
+</nav>
+```
+
+`pageraligned`
+
+```html
+<nav>
+  <ul class="pager">
+    <li class="previous"><a href="#"><span aria-hidden="true">&larr;</span> Older</a></li>
+    <li class="next"><a href="#">Newer <span aria-hidden="true">&rarr;</span></a></li>
+  </ul>
+</nav>
+```
+
+
+## Labels
+
+`label`
+
+```html
+<span class="label label-default">Default</span>
+```
+
+`labeldefault`
+
+```html
+<span class="label label-default">Default</span>
+```
+
+`labelprimary`
+
+```html
+<span class="label label-primary">Primary</span>
+```
+
+`labelsuccess`
+
+```html
+<span class="label label-success">Success</span>
+```
+
+`labelinfo`
+
+```html
+<span class="label label-info">Info</span>
+```
+
+`labelwarning`
+
+```html
+<span class="label label-warning">Warning</span>
+```
+
+`labeldanger`
+
+```html
+<span class="label label-danger">Danger</span>
+```
+
+
+## Badges
+
+`badge`
+
+```html
+<a href="#">Inbox <span class="badge">42</span></a>
+```
+
+`badgebtn`
+
+```html
+<button class="btn btn-primary" type="button">
+  Messages <span class="badge">4</span>
+</button>
+```
+
+`badgenav`
+
+```html
+<ul class="nav nav-pills" role="tablist">
+  <li role="presentation" class="active"><a href="#">Home <span class="badge">42</span></a></li>
+  <li role="presentation"><a href="#">Profile</a></li>
+  <li role="presentation"><a href="#">Messages <span class="badge">3</span></a></li>
+</ul>
+```
+
+## Jumbotron
+
+`jumbotron`
+
+```html
+<div class="jumbotron">
+  <h1>Hello, world!</h1>
+  <p>...</p>
+  <p><a class="btn btn-primary btn-lg" href="#" role="button">Learn more</a></p>
+</div>
+```
+
+`jumbotroncontainer`
+
+```html
+<div class="jumbotron">
+  <div class="container">
+    ...
+  </div>
+</div>
+```
+
+
+## Page header
+
+`pageheader`
+
+```html
+<div class="page-header">
+  <h1>Example page header <small>Subtext for header</small></h1>
+</div>
+```
+
+
+## Thumbnails
+
+`thumbnail`
+
+```html
+<a href="#" class="thumbnail">
+  <img src="..." alt="...">
+</a>
+```
+
+`thumbnailcontent`
+
+```html
+<div class="thumbnail">
+  <img src="..." alt="...">
+  <div class="caption">
+    <h3>Thumbnail label</h3>
+    <p>...</p>
+    <p><a href="#" class="btn btn-primary" role="button">Button</a> <a href="#" class="btn btn-default" role="button">Button</a></p>
+  </div>
+</div>
+```
+
+
+## Alerts
+
+`alert`
+
+```html
+<div class="alert alert-success" role="alert">...</div>
+```
+
+`alertsuccess`
+
+```html
+<div class="alert alert-success" role="alert">...</div>
+```
+
+`alertinfo`
+
+```html
+<div class="alert alert-info" role="alert">...</div>
+```
+
+`alertwarning`
+
+```html
+<div class="alert alert-warning" role="alert">...</div>
+```
+
+`alertdanger`
+
+```html
+<div class="alert alert-danger" role="alert">...</div>
+```
+
+`alertdismissible`
+
+```html
+<div class="alert alert-warning alert-dismissible" role="alert">
+  <button type="button" class="close" data-dismiss="alert" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+  <strong>Warning!</strong> Better check yourself, you're not looking too good.
+</div>
+```
+
+`alertlink`
+
+```html
+<div class="alert alert-success" role="alert">
+  <a href="#" class="alert-link">...</a>
+</div>
+```
+
+
+## Progress bars
+
+`progress`
+
+```html
+<div class="progress">
+  <div class="progress-bar" role="progressbar" aria-valuenow="60" aria-valuemin="0" aria-valuemax="100" style="width: 60%;">
+    <span class="sr-only">60% Complete</span>
+  </div>
+</div>
+```
+
+`progresssuccess`
+
+```html
+<div class="progress">
+  <div class="progress-bar progress-bar-success" role="progressbar" aria-valuenow="40" aria-valuemin="0" aria-valuemax="100" style="width: 40%">
+    <span class="sr-only">40% Complete (success)</span>
+  </div>
+</div>
+```
+
+`progressinfo`
+
+```html
+<div class="progress">
+  <div class="progress-bar progress-bar-info" role="progressbar" aria-valuenow="20" aria-valuemin="0" aria-valuemax="100" style="width: 20%">
+    <span class="sr-only">20% Complete</span>
+  </div>
+</div>
+```
+
+`progresswarning`
+
+```html
+<div class="progress">
+  <div class="progress-bar progress-bar-warning" role="progressbar" aria-valuenow="60" aria-valuemin="0" aria-valuemax="100" style="width: 60%">
+    <span class="sr-only">60% Complete (warning)</span>
+  </div>
+</div>
+```
+
+`progressdanger`
+
+```html
+<div class="progress">
+  <div class="progress-bar progress-bar-danger" role="progressbar" aria-valuenow="80" aria-valuemin="0" aria-valuemax="100" style="width: 80%">
+    <span class="sr-only">80% Complete (danger)</span>
+  </div>
+</div>
+```
+
+`progressstriped`
+
+```html
+<div class="progress">
+  <div class="progress-bar progress-bar-success progress-bar-striped" role="progressbar" aria-valuenow="40" aria-valuemin="0" aria-valuemax="100" style="width: 40%">
+    <span class="sr-only">40% Complete (success)</span>
+  </div>
+</div>
+```
+
+`progressstripedactive`
+
+```html
+<div class="progress">
+  <div class="progress-bar progress-bar-striped active" role="progressbar" aria-valuenow="45" aria-valuemin="0" aria-valuemax="100" style="width: 45%">
+    <span class="sr-only">45% Complete</span>
+  </div>
+</div>
+```
+
+`progressstacked`
+
+```html
+<div class="progress">
+  <div class="progress-bar progress-bar-success" style="width: 35%">
+    <span class="sr-only">35% Complete (success)</span>
+  </div>
+  <div class="progress-bar progress-bar-warning progress-bar-striped" style="width: 20%">
+    <span class="sr-only">20% Complete (warning)</span>
+  </div>
+  <div class="progress-bar progress-bar-danger" style="width: 10%">
+    <span class="sr-only">10% Complete (danger)</span>
+  </div>
+</div>
+```
+
+
+## Media object
+
+`media`
+
+```html
+<div class="media">
+  <div class="media-left">
+    <a href="#">
+      <img class="media-object" src="..." alt="...">
+    </a>
+  </div>
+  <div class="media-body">
+    <h4 class="media-heading">Media heading</h4>
+    ...
+  </div>
+</div>
+```
+
+`medialeft`
+
+```html
+<div class="media-left">
+  <a href="#">
+    <img class="media-object" src="..." alt="...">
+  </a>
+</div>
+```
+
+`mediabody`
+
+```html
+<div class="media-body">
+  <h4 class="media-heading">Media heading</h4>
+  ...
+</div>
+```
+
+`mediaright`
+
+```html
+<div class="media-right">
+  <a href="#">
+    <img class="media-object" src="..." alt="...">
+  </a>
+</div>
+```
+
+`mediamiddle`
+
+```html
+<div class="media-left media-middle">
+  <a href="#">
+    <img class="media-object" src="..." alt="...">
+  </a>
+</div>
+```
+
+`mediabottom`
+
+```html
+<div class="media-left media-bottom">
+  <a href="#">
+    <img class="media-object" src="..." alt="...">
+  </a>
+</div>
+```
+
+`medialist`
+
+```html
+<ul class="media-list">
+  <li class="media">
+    <div class="media-left">
+      <a href="#">
+        <img class="media-object" src="..." alt="...">
+      </a>
+    </div>
+    <div class="media-body">
+      <h4 class="media-heading">Media heading</h4>
+      ...
+    </div>
+  </li>
+</ul>
+```
+
+## List group
+
+`listgroup`
+
+```html
+<ul class="list-group">
+  <li class="list-group-item">Cras justo odio</li>
+  <li class="list-group-item">Dapibus ac facilisis in</li>
+  <li class="list-group-item">Morbi leo risus</li>
+  <li class="list-group-item">Porta ac consectetur ac</li>
+  <li class="list-group-item">Vestibulum at eros</li>
+</ul>
+```
+
+`listgroupitem`
+
+```html
+<li class="list-group-item">Cras justo odio</li>
+```
+
+`listgroupitembadge`
+
+```html
+<li class="list-group-item">
+  <span class="badge">14</span>
+  Cras justo odio
+</li>
+```
+
+`alistgroupitem`
+
+```html
+<a href="#" class="list-group-item active">Cras justo odio</a>
+```
+
+`listgroupitemdisabled`
+
+```html
+<a href="#" class="list-group-item disabled">Cras justo odio</a>
+```
+
+`listgroupitemsuccess`
+
+```html
+<li class="list-group-item list-group-item-success">Dapibus ac facilisis in</li>
+```
+
+`listgroupiteminfo`
+
+```html
+<li class="list-group-item list-group-item-info">Cras sit amet nibh libero</li>
+```
+
+`listgroupitemwarning`
+
+```html
+<li class="list-group-item list-group-item-warning">Porta ac consectetur ac</li>
+```
+
+`listgroupitemdanger`
+
+```html
+<li class="list-group-item list-group-item-danger">Vestibulum at eros</li>
+```
+
+`alistgroupitemsuccess`
+
+```html
+<a href="#" class="list-group-item list-group-item-success">Dapibus ac facilisis in</a>
+```
+
+`alistgroupiteminfo`
+
+```html
+<a href="#" class="list-group-item list-group-item-info">Cras sit amet nibh libero</a>
+```
+
+`alistgroupitemwarning`
+
+```html
+<a href="#" class="list-group-item list-group-item-warning">Porta ac consectetur ac</a>
+```
+
+`alistgroupitemdanger`
+
+```html
+<a href="#" class="list-group-item list-group-item-danger">Vestibulum at eros</a>
+```
+
+`listgroupitemcontent`
+
+```html
+<li href="#" class="list-group-item">
+  <h4 class="list-group-item-heading">List group item heading</h4>
+  <p class="list-group-item-text">...</p>
+</li>
+```
+
+`alistgroupitemcontent`
+
+```html
+<a href="#" class="list-group-item active">
+  <h4 class="list-group-item-heading">List group item heading</h4>
+  <p class="list-group-item-text">...</p>
+</a>
+```
+
+
+
+## Panels
+
+`panel`
+
+```html
+<div class="panel panel-default">
+  <div class="panel-body">
+    Basic panel example
+  </div>
+</div>
+```
+
+`panelheading`
+
+```html
+<div class="panel-heading">Panel heading without title</div>
+```
+
+`panelheadingtitle`
+
+```html
+<div class="panel-heading">
+  <h3 class="panel-title">Panel title</h3>
+</div>
+```
+
+`panelbody`
+
+```html
+<div class="panel-body">
+  Panel content
+</div>
+```
+
+`panelfooter`
+
+```html
+<div class="panel-footer">Panel footer</div>
+```
+
+`paneldefault`
+
+```html
+<div class="panel panel-default">
+  <div class="panel-body">
+    Basic panel example
+  </div>
+</div>
+```
+
+`panelprimary`
+
+```html
+<div class="panel panel-primary">...</div>
+```
+
+`panelsuccess`
+
+```html
+<div class="panel panel-success">...</div>
+```
+
+`panelinfo`
+
+```html
+<div class="panel panel-info">...</div>
+```
+
+`panelwarning`
+
+```html
+<div class="panel panel-warning">...</div>
+```
+
+`paneldanger`
+
+```html
+<div class="panel panel-danger">...</div>
+```
+
+`paneltable`
+
+```html
+<div class="panel panel-default">
+  <!-- Default panel contents -->
+  <div class="panel-heading">Panel heading</div>
+  <div class="panel-body">
+    <p>...</p>
+  </div>
+
+  <!-- Table -->
+  <table class="table">
+    ...
+  </table>
+</div>
+```
+
+`panellistgroup`
+
+```html
+<div class="panel panel-default">
+  <!-- Default panel contents -->
+  <div class="panel-heading">Panel heading</div>
+  <div class="panel-body">
+    <p>...</p>
+  </div>
+
+  <!-- List group -->
+  <ul class="list-group">
+    <li class="list-group-item">Cras justo odio</li>
+    <li class="list-group-item">Dapibus ac facilisis in</li>
+    <li class="list-group-item">Morbi leo risus</li>
+    <li class="list-group-item">Porta ac consectetur ac</li>
+    <li class="list-group-item">Vestibulum at eros</li>
+  </ul>
+</div>
+```
+
+
+## Responsive embed
+
+`embedresponsive`
+
+```html
+<!-- 16:9 aspect ratio -->
+<div class="embed-responsive embed-responsive-16by9">
+  <iframe class="embed-responsive-item" src="..."></iframe>
+</div>
+
+<!-- 4:3 aspect ratio -->
+<div class="embed-responsive embed-responsive-4by3">
+  <iframe class="embed-responsive-item" src="..."></iframe>
+</div>
+```
+
+
+## Wells
+
+`well`
+
+```html
+<div class="well">...</div>
+```
+
+`welllg`
+
+```html
+<div class="well well-lg">...</div>
+```
+
+`wellsm`
+
+```html
+<div class="well well-sm">...</div>
+```
