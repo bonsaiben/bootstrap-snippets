@@ -1,8 +1,6 @@
 # Bootstrap Snippets
 
-Work in progress
-
-HTML and Haml snippet files for [Twitter Bootstrap 3.3.2](http://getbootstrap.com/), for the [snipmate](https://github.com/garbas/vim-snipmate) plugin for Vim.
+HTML snippet files for [Twitter Bootstrap 3.3.2](http://getbootstrap.com/), for the [snipMate](https://github.com/garbas/vim-snipmate) plugin for Vim.
 
 ## Dependencies
 
@@ -27,7 +25,7 @@ HTML and Haml snippet files for [Twitter Bootstrap 3.3.2](http://getbootstrap.co
 
 ## Usage
 
-Snippet triggers are meant to be as predictable as possible without being too long.
+Snippet triggers are meant to be as predictable as possible without being too long or redundant.
 
 Most triggers correspond directly to the name of the relevant tag or class name, minus hyphens. For example, `btnprimary` becomes:
 
@@ -43,7 +41,7 @@ See Trigger Glossary below for a full list of triggers.
 
 bootstrap-snippets ships with a dictionary file containing all of the triggers. This can be used as a vim dictionary for autocomplete (Insert mode CTRL+N/CTRL+P).
 
-To enable autocomplete, add the dictionary file to dictionary settings and include dictionaries in complete setting:
+Add the dictionary file and enable dictionary autocomplete:
 
 ```vim
 set dictionary+=~/.vim/bundle/bootstrap-snippets/dictionary
@@ -53,3 +51,8 @@ set complete+=k
 ## Trigger Glossary
 
 You can find a trigger glossary in the Wiki [here](https://github.com/bonsaiben/bootstrap-snippets/wiki/Trigger-Glossary).
+
+## TODO
+
+- Haml
+- Tab stops
