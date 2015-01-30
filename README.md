@@ -25,7 +25,7 @@ HTML snippet files for [Twitter Bootstrap 3.3.2](http://getbootstrap.com/), for 
 
 ## Usage
 
-In a Vim html file, type a trigger name in Insert mode, and press `Tab` to expand it into HTML markup.
+In an html file, type a trigger name in Insert mode, and press `Tab` to expand it into HTML markup.
 
 Trigger names are meant to be as predictable as possible without being too long or redundant.
 
