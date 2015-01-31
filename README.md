@@ -1,6 +1,6 @@
 # Bootstrap Snippets
 
-HTML snippet files for [Twitter Bootstrap 3.3.2](http://getbootstrap.com/), for the [snipMate](https://github.com/garbas/vim-snipmate) plugin for Vim.
+HTML and Haml snippets for [Twitter Bootstrap 3.3.2](http://getbootstrap.com/) markup, for the Vim plugin [snipMate](https://github.com/garbas/vim-snipmate).
 
 ![Animation](https://cloud.githubusercontent.com/assets/227274/5981940/c07ea88c-a901-11e4-859d-d87eeff19354.gif)
 
@@ -27,7 +27,7 @@ HTML snippet files for [Twitter Bootstrap 3.3.2](http://getbootstrap.com/), for 
 
 ## Usage
 
-In an html file, type a trigger name in Insert mode, and press `Tab` to expand it into HTML markup.
+In an html or haml file, type a trigger name in Insert mode, and press `Tab` to expand it into HTML markup.
 
 Trigger names are meant to be as predictable as possible without being too long or redundant.
 
@@ -70,7 +70,3 @@ set complete+=k
 
 You can find a trigger glossary in the Wiki [here](https://github.com/bonsaiben/bootstrap-snippets/wiki/Trigger-Glossary).
 
-## TODO
-
-- Haml
-- Tab stops
