@@ -1,0 +1,1729 @@
+snippet bootstrapcdn Bootstrap
+	/ Latest compiled and minified CSS
+	%link{:href => "https://maxcdn.bootstrapcdn.com/bootstrap/3.3.2/css/bootstrap.min.css", :rel => "stylesheet"}
+	
+	/ Optional theme
+	%link{:href => "https://maxcdn.bootstrapcdn.com/bootstrap/3.3.2/css/bootstrap-theme.min.css", :rel => "stylesheet"}
+	
+	/ Latest compiled and minified JavaScript
+	%script{:src => "https://maxcdn.bootstrapcdn.com/bootstrap/3.3.2/js/bootstrap.min.js"}
+
+
+snippet basictemplate Bootstrap
+	!!!
+	%html{:lang => "en"}
+	  %head
+	    %meta{:charset => "utf-8"}
+	    %meta{:content => "IE=edge", "http-equiv" => "X-UA-Compatible"}
+	    %meta{:content => "width=device-width, initial-scale=1", :name => "viewport"}
+	    %title Bootstrap 101 Template
+	
+	    / Bootstrap
+	    %link{:href => "css/bootstrap.min.css", :rel => "stylesheet"}
+	
+	    / HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries
+	    / WARNING: Respond.js doesn't work if you view the page via file://
+	    /[if lt IE 9]
+	      <script src="https://oss.maxcdn.com/html5shiv/3.7.2/html5shiv.min.js"></script>
+	      <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
+	  %body
+	    %h1 Hello, world!
+	
+	    / jQuery (necessary for Bootstrap's JavaScript plugins)
+	    %script{:src => "https://ajax.googleapis.com/ajax/libs/jquery/1.11.2/jquery.min.js"}
+	    / Include all compiled plugins (below), or include individual files as needed
+	    %script{:src => "js/bootstrap.min.js"}
+
+
+snippet html5 Bootstrap
+	!!!
+	%html{:lang => "en"}
+	  ${1:...}
+
+
+snippet viewport Bootstrap
+	%meta{:content => "width=device-width, initial-scale=1", :name => "viewport"}
+
+snippet viewportnozoom Bootstrap
+	%meta{:content => "width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no", :name => "viewport"}
+
+
+snippet container Bootstrap
+	.container
+	  ${1:...}
+
+snippet containerfluid Bootstrap
+	.container-fluid
+	  ${1:...}
+
+
+snippet row Bootstrap
+	.row
+	  ${1:...}
+
+snippet colxs Bootstrap
+	.col-xs-${1:1}
+	  ${2:...}
+
+snippet colsm Bootstrap
+	.col-sm-${1:1}
+	  ${2:...}
+
+snippet colmd Bootstrap
+	.col-md-${1:1}
+	  ${2:...}
+
+snippet collg Bootstrap
+	.col-lg-${1:1}
+	  ${2:...}
+
+snippet colxsoffset Bootstrap
+	.col-xs-offset-${1:1}
+	  ${2:...}
+
+snippet colsmoffset Bootstrap
+	.col-sm-offset-${1:1}
+	  ${2:...}
+
+snippet colmdoffset Bootstrap
+	.col-md-offset-${1:1}
+	  ${2:...}
+
+snippet collgoffset Bootstrap
+	.col-lg-offset-${1:1}
+	  ${2:...}
+
+snippet colxspush Bootstrap
+	.col-xs-push-${1:1}
+	  ${2:...}
+
+snippet colsmpush Bootstrap
+	.col-sm-push-${1:1}
+	  ${2:...}
+
+snippet colmdpush Bootstrap
+	.col-md-push-${1:1}
+	  ${2:...}
+
+snippet collgpush Bootstrap
+	.col-lg-push-${1:1}
+	  ${2:...}
+
+snippet colxspull Bootstrap
+	.col-xs-pull-${1:1}
+	  ${2:...}
+
+snippet colsmpull Bootstrap
+	.col-sm-pull-${1:1}
+	  ${2:...}
+
+snippet colmdpull Bootstrap
+	.col-md-pull-${1:1}
+	  ${2:...}
+
+snippet collgpull Bootstrap
+	.col-lg-pull-${1:1}
+	  ${2:...}
+
+
+snippet h1 Bootstrap
+	%h1 ${1:Bootstrap heading}
+
+snippet h2 Bootstrap
+	%h2 ${1:Bootstrap heading}
+
+snippet h3 Bootstrap
+	%h3 ${1:Bootstrap heading}
+
+snippet h4 Bootstrap
+	%h4 ${1:Bootstrap heading}
+
+snippet h5 Bootstrap
+	%h5 ${1:Bootstrap heading}
+
+snippet h6 Bootstrap
+	%h6 ${1:Bootstrap heading}
+
+
+snippet h1small Bootstrap
+	%h1
+	  ${1:Bootstrap heading}
+	  %small ${2:Secondary text}
+
+snippet h2small Bootstrap
+	%h2
+	  ${1:Bootstrap heading}
+	  %small ${2:Secondary text}
+
+snippet h3small Bootstrap
+	%h3
+	  ${1:Bootstrap heading}
+	  %small ${2:Secondary text}
+
+snippet h4small Bootstrap
+	%h4
+	  ${1:Bootstrap heading}
+	  %small ${2:Secondary text}
+
+snippet h5small Bootstrap
+	%h5
+	  ${1:Bootstrap heading}
+	  %small ${2:Secondary text}
+
+snippet h6small Bootstrap
+	%h6
+	  ${1:Bootstrap heading}
+	  %small ${2:Secondary text}
+
+snippet p Bootstrap
+	%p ${1:...}
+
+snippet lead Bootstrap
+	%p.lead ${1:...}
+
+snippet mark Bootstrap
+	%mark ${1:hightlight}
+
+snippet del Bootstrap
+	%del ${1:This line of text is meant to be treated as deleted text.}
+
+snippet s Bootstrap
+	%s ${1:This line of text is meant to be treated as no longer accurate.}
+
+snippet ins Bootstrap
+	%ins ${1:This line of text is meant to be treated as an addition to the document.}
+
+snippet u Bootstrap
+	%u ${1:This line of text will render as underlined}
+
+snippet small Bootstrap
+	%small ${1:This line of text is meant to be treated as fine print.}
+
+snippet strong Bootstrap
+	%strong ${1:bold text}
+
+snippet em Bootstrap
+	%em ${1:italicized text}
+
+snippet textleft Bootstrap
+	%p.text-left ${1:Left aligned text.}
+
+snippet textcenter Bootstrap
+	%p.text-center ${1:Center aligned text.}
+
+snippet textright Bootstrap
+	%p.text-right ${1:Right aligned text.}
+
+snippet textjustify Bootstrap
+	%p.text-justify ${1:Justified text.}
+
+snippet textnowrap Bootstrap
+	%p.text-nowrap ${1:No wrap text.}
+
+
+snippet textlowercase Bootstrap
+	%p.text-lowercase ${1:Lowercased text.}
+
+snippet textuppercase Bootstrap
+	%p.text-uppercase ${1:Uppercased text.}
+
+snippet textcapitalize Bootstrap
+	%p.text-capitalize ${1:Capitalized text.}
+
+snippet abbr Bootstrap
+	%abbr{:title => "${1:attribute}"} ${2:attr}
+
+
+snippet initialism Bootstrap
+	%abbr.initialism{:title => "${1:HyperText Markup Language}"} ${2:HTML}
+
+snippet address Bootstrap
+	%address
+	  %strong ${1:Twitter, Inc.}
+	  %br
+	  ${2:795 Folsom Ave, Suite 600}
+	  %br
+	  ${3:San Francisco, CA 94107}
+	  %br
+	  %abbr{:title => "Phone"} P: ${4:(123) 456-7890}
+	
+	%address
+	  %strong ${5:Full Name}
+	  %br
+	  %a{:href => "mailto:#"} ${6:first.last@example.com}
+
+snippet blockquote Bootstrap
+	%blockquote
+	  %p ${1:Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer posuere erat a ante.}
+
+snippet blockquotesource Bootstrap
+	%blockquote
+	  %p ${1:Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer posuere erat a ante.}
+	  %footer
+	    ${2:Someone famous in}
+	    %cite{:title => "${3:Source Title}"} $3
+
+snippet blockquotereverse Bootstrap
+	%blockquote.blockquote-reverse
+	  ${1:...}
+
+snippet ul Bootstrap
+	%ul
+	  %li ${1:...}
+
+snippet ol Bootstrap
+	%ol
+	  %li ${1:...}
+
+snippet listunstyled Bootstrap
+	%ul.list-unstyled
+	  %li ${1:...}
+
+snippet listinline Bootstrap
+	%ul.list-inline
+	  %li ${1:...}
+
+snippet dl Bootstrap
+	%dl
+	  %dt ${1:...}
+	  %dd ${2:...}
+
+snippet dlhorizontal Bootstrap
+	%dl.dl-horizontal
+	  %dt ${1:...}
+	  %dd ${2:...}
+
+
+
+snippet code Bootstrap
+	%code ${1:&lt;section&gt;}
+
+snippet kbd Bootstrap
+	%kbd ${1:cd}
+
+snippet pre Bootstrap
+	%pre ${1:&lt;p&gt;Sample text here...&lt;/p&gt;}
+
+snippet var Bootstrap
+	%var ${1:x}
+
+
+snippet samp Bootstrap
+	%samp ${1:This text is meant to be treated as sample output from a computer program.}
+
+
+
+snippet table Bootstrap
+	%table.table
+	  ${1:...}
+
+snippet tablestriped Bootstrap
+	%table.table.table-striped
+	  ${1:...}
+
+snippet tablebordered Bootstrap
+	%table.table.table-bordered
+	  ${1:...}
+
+snippet tablehover Bootstrap
+	%table.table.table-hover
+	  ${1:...}
+
+snippet tablecondensed Bootstrap
+	%table.table.table-condensed
+	  ${1:...}
+
+
+snippet tractive Bootstrap
+	%tr.active ${1:...}
+
+snippet trsuccess Bootstrap
+	%tr.success ${1:...}
+
+snippet trwarning Bootstrap
+	%tr.warning ${1:...}
+
+snippet trdanger Bootstrap
+	%tr.danger ${1:...}
+
+snippet trinfo Bootstrap
+	%tr.info ${1:...}
+
+
+snippet tdactive Bootstrap
+	%td.active ${1:...}
+
+snippet tdsuccess Bootstrap
+	%td.success ${1:...}
+
+snippet tdwarning Bootstrap
+	%td.warning ${1:...}
+
+snippet tddanger Bootstrap
+	%td.danger ${1:...}
+
+snippet tdinfo Bootstrap
+	%td.info ${1:...}
+
+
+snippet thactive Bootstrap
+	%th.active ${1:...}
+
+snippet thsuccess Bootstrap
+	%th.success ${1:...}
+
+snippet thwarning Bootstrap
+	%th.warning ${1:...}
+
+snippet thdanger Bootstrap
+	%th.danger ${1:...}
+
+snippet thinfo Bootstrap
+	%th.info ${1:...}
+
+snippet tableresponsive Bootstrap
+	%div.table-responsive
+	  %table.table
+	    ${1:...}
+
+
+snippet form Bootstrap
+	%form
+	  .form-group
+	    %label{:for => "exampleInputEmail1"} Email address
+	    %input#exampleInputEmail1.form-control{:placeholder => "Enter email", :type => "email"}
+	  .form-group
+	    %label{:for => "exampleInputPassword1"} Password
+	    %input#exampleInputPassword1.form-control{:placeholder => "Password", :type => "password"}
+	  .form-group
+	    %label{:for => "exampleInputFile"} File input
+	    %input#exampleInputFile{:type => "file"}
+	    %p.help-block Example block-level help text here.
+	  .checkbox
+	    %label
+	      %input{:type => "checkbox"}
+	      Check me out
+	  %button.btn.btn-default{:type => "submit"} Submit
+
+snippet forminline Bootstrap
+	%form.form-inline
+	  .form-group
+	    %label.sr-only{:for => "exampleInputEmail3"} Email address
+	    %input#exampleInputEmail3.form-control{:placeholder => "Enter email", :type => "email"}/
+	  .form-group
+	    %label.sr-only{:for => "exampleInputPassword3"} Password
+	    %input#exampleInputPassword3.form-control{:placeholder => "Password", :type => "password"}/
+	  .checkbox
+	    %label
+	      %input{:type => "checkbox"}/
+	      Remember me
+	  %button.btn.btn-default{:type => "submit"} Sign in
+
+snippet formhorizontal Bootstrap
+	%form.form-horizontal
+	  .form-group
+	    %label.col-sm-2.control-label{:for => "inputEmail3"} Email
+	    .col-sm-10
+	      %input#inputEmail3.form-control{:placeholder => "Email", :type => "email"}
+	  .form-group
+	    %label.col-sm-2.control-label{:for => "inputPassword3"} Password
+	    .col-sm-10
+	      %input#inputPassword3.form-control{:placeholder => "Password", :type => "password"}
+	  .form-group
+	    .col-sm-offset-2.col-sm-10
+	      .checkbox
+	        %label
+	          %input{:type => "checkbox"}
+	          Remember me
+	  .form-group
+	    .col-sm-offset-2.col-sm-10
+	      %button.btn.btn-default{:type => "submit"} Sign in
+
+snippet input Bootstrap
+	%input.form-control{:type => "text", :placeholder => "${1:Text input}"}
+
+snippet textarea Bootstrap
+	%textarea.form-control{:rows => "3"}
+
+snippet checkbox Bootstrap
+	.checkbox
+	  %label
+	    %input{:type => "checkbox", :value => "${1:}"}
+	    ${2:Option one is this and that&mdash;be sure to include why it's great}
+
+snippet radio Bootstrap
+	.radio
+	  %label
+	    %input{:checked => "checked", :id => "${2:optionsRadios1}", :name => "${1:optionsRadios}", :type => "radio", :value => "${3:option1}"}
+	    ${4:Option one is this and that—be sure to include why it's great}
+	.radio
+	  %label
+	    %input{:id => "${6:optionsRadios2}", :name => "${5:optionsRadios}", :type => "radio", :value => "${7:option2}"}
+	    ${8:Option two can be something else and selecting it will deselect option one}
+
+snippet checkboxinline Bootstrap
+	%label.checkbox-inline
+	  %input{:id => "${1:inlineCheckbox1}", :type => "checkbox", :value => "${2:option1}"}
+	  ${3:1}
+
+snippet radioinline Bootstrap
+	%label.radio-inline
+	  %input{:id => "${2:inlineRadio1}", :name => "${1:inlineRadioOptions}", :type => "radio", :value => "${3:option1}"}
+	  ${4:1}
+	%label.radio-inline
+	  %input{:id => "${6:inlineRadio2}", :name => "${5:inlineRadioOptions}", :type => "radio", :value => "${7:option2}"}
+	  ${8:2}
+
+snippet select Bootstrap
+	%select.form-control
+	  %option ${1:1}
+	  %option ${2:2}
+
+snippet selectmultiple Bootstrap
+	%select.form-control{:multiple => "multiple"}
+	  %option ${1:1}
+	  %option ${2:2}
+
+snippet formcontrolstatic Bootstrap
+	.form-group
+	  %label.col-sm-2.control-label ${1:Email}
+	  .col-sm-10
+	    %p.form-control-static ${2:email@example.com}
+
+snippet inputdisabled Bootstrap
+	%input.form-control{:disabled => "disabled", :id => "${1:disabledInput}", :placeholder => "${2:Disabled input here...}", :type => "text"}
+
+snippet fieldsetdisabled Bootstrap
+	%fieldset{:disabled => "disabled"}
+	  .form-group
+	    %label{:for => "disabledTextInput"} Disabled input
+	    %input#disabledTextInput.form-control{:placeholder => "Disabled input", :type => "text"}
+	  .form-group
+	    %label{:for => "disabledSelect"} Disabled select menu
+	    %select#disabledSelect.form-control
+	      %option Disabled select
+	  .checkbox
+	    %label
+	      %input{:type => "checkbox"}
+	      Can't check this
+	  %button.btn.btn-primary{:type => "submit"} Submit
+
+snippet inputreadonly Bootstrap
+	%input.form-control{:placeholder => "${1:Readonly input here...}", :readonly => "readonly", :type => "text"}
+
+snippet formgrouphassuccess Bootstrap
+	.form-group.has-success
+	  %label.control-label{:for => "$2"} ${1:Input with success}
+	  %input.form-control{:id => "${2:inputSuccess1}", :type => "text"}
+
+snippet formgrouphaswarning Bootstrap
+	.form-group.has-warning
+	  %label.control-label{:for => "$2"} ${1:Input with warning}
+	  %input.form-control{:id => "${2:inputWarning1}", :type => "text"}
+
+snippet formgrouphaserror Bootstrap
+	.form-group.has-error
+	  %label.control-label{:for => "$2"} ${1:Input with error}
+	  %input.form-control{:id => "${2:inputError1}", :type => "text"}
+
+snippet checkboxhassuccess Bootstrap
+	.has-success
+	  .checkbox
+	    %label
+	      %input{:id => "${1:checkboxSuccess}", :type => "checkbox", :value => "${2:option1}"}
+	      ${3:Checkbox with success}
+
+snippet checkboxhaswarning Bootstrap
+	.has-warning
+	  .checkbox
+	    %label
+	      %input{:id => "${1:checkboxWarning}", :type => "checkbox", :value => "${2:option1}"}
+	      ${3:Checkbox with warning}
+
+
+snippet checkboxhaserror Bootstrap
+	.has-error
+	  .checkbox
+	    %label
+	      %input{:id => "${1:checkboxError}", :type => "checkbox", :value => "${2:option1}"}
+	      ${3:Checkbox with error}
+
+
+snippet formgrouphasfeedback Bootstrap
+	.form-group.has-success.has-feedback
+	  %label.control-label{:for => "$3"} ${1:Input group with success}
+	  .input-group
+	    %span.input-group-addon ${2:@}
+	    %input.form-control{"aria-describedby" => "$3Status", :id => "${3:inputGroupSuccess1}", :type => "text"}
+	  %span.glyphicon.glyphicon-ok.form-control-feedback{"aria-hidden" => "true"}
+	  %span.sr-only{:id => "$3Status"} (success)
+
+snippet inputlg Bootstrap
+	%input.form-control.input-lg{:placeholder => "${1:.input-lg}", :type => "text"}
+
+snippet inputsm Bootstrap
+	%input.form-control.input-sm{:placeholder => "${1:.input-sm}", :type => "text"}
+
+snippet selectlg Bootstrap
+	%select.form-control.input-lg ${1:...}
+
+snippet selectsm Bootstrap
+	%select.form-control.input-sm ${1:...}
+
+snippet formgrouplg Bootstrap
+	.form-group.form-group-lg
+	  %label.col-sm-2.control-label{:for => "$2"} ${1:Large label}
+	  .col-sm-10
+	    %input.form-control{:id => "${2:formGroupInputLarge}", :placeholder => "${3:Large input}", :type => "text"}
+
+snippet formgroupsm Bootstrap
+	.form-group.form-group-sm
+	  %label.col-sm-2.control-label{:for => "$2"} ${1:Small label}
+	  .col-sm-10
+	    %input.form-control{:id => "${2:formGroupInputSmall}", :placeholder => "${3:Small input}", :type => "text"}
+
+snippet inputhelpblock Bootstrap
+	%label.sr-only{:for => "$2"} ${1:Input with help text}
+	%input.form-control{"aria-describedby" => "$3", :id => "${2:inputHelpBlock}", :type => "text"}
+	%span.help-block{:id => "${3:helpBlock}"} ${4:A block of help text that breaks onto a new line and may extend beyond one line.}
+
+snippet btn Bootstrap
+	%button.btn.btn-default{:type => "submit"} ${1:Button}
+
+snippet abtn Bootstrap
+	%a.btn.btn-default{:href => "${1:#}", :role => "button"} ${2:Link}
+
+snippet inputbtn Bootstrap
+	%input.btn.btn-default{:type => "button", :value => "${1:Input}"}
+
+snippet submitbtn Bootstrap
+	%input.btn.btn-default{:type => "submit", :value => "${1:Submit}"}
+
+snippet btndefault Bootstrap
+	%button.btn.btn-default{:type => "button"} ${1:Default}
+
+snippet abtndefault Bootstrap
+	%a.btn.btn-default{:href => "${1:#}", :role => "button"} ${2:Default}
+
+snippet btnprimary Bootstrap
+	%button.btn.btn-primary{:type => "button"} Primary
+
+snippet abtnprimary Bootstrap
+	%a.btn.btn-primary{:href => "${1:#}", :role => "button"} ${2:Primary}
+
+snippet btnsuccess Bootstrap
+	%button.btn.btn-success{:type => "button"} ${1:Success}
+
+snippet abtnsuccess Description
+	%a.btn.btn-success{:href => "${1:#}", :role => "button"} ${2:Success}
+
+snippet btninfo Bootstrap
+	%button.btn.btn-info{:type => "button"} ${1:Info}
+
+snippet abtninfo Bootstrap
+	%a.btn.btn-info{:href => "${1:#}", :role => "button"} ${2:Info}
+
+snippet btnwarning Bootstrap
+	%button.btn.btn-warning{:type => "button"} ${1:Warning}
+
+snippet abtnwarning Bootstrap
+	%a.btn.btn-warning{:href => "${1:#}", :role => "button"} ${2:Warning}
+
+snippet btndanger Bootstrap
+	%button.btn.btn-danger{:type => "button"} ${1:Danger}
+
+snippet abtndanger Bootstrap
+	%a.btn.btn-danger{:href => "${1:#}", :role => "button"} ${2:Danger}
+
+snippet btnlink Bootstrap
+	%button.btn.btn-link{:type => "button"} ${1:Link}
+
+snippet abtnlink Bootstrap
+	%a.btn.btn-link{:href => "${1:#}", :role => "button"} ${2:Link}
+
+snippet btnlg Bootstrap
+	%button.btn.btn-default.btn-lg{:type => "button"} ${1:Large button}
+
+snippet abtnlg Bootstrap
+	%a.btn.btn-default.btn-lg{:href => "${1:#}", :role => "button"} ${2:Large button}
+
+snippet btnsm Bootstrap
+	%button.btn.btn-default.btn-sm{:type => "button"} ${1:Small button}
+
+snippet abtnsm Bootstrap
+	%a.btn.btn-default.btn-sm{:href => "${1:#}", :role => "button"} ${2:Small button}
+
+snippet btnxs Bootstrap
+	%button.btn.btn-default.btn-xs{:type => "button"} ${1:Extra small button}
+
+snippet abtnxs Bootstrap
+	%a.btn.btn-default.btn-xs{:href => "${1:#}", :role => "button"} ${2:Extra small button}
+
+snippet btnblock Bootstrap
+	%button.btn.btn-default.btn-block{:type => "button"} ${1:Block level button}
+
+snippet abtnblock Bootstrap
+	%a.btn.btn-default.btn-block{:href => "${1:#}", :role => "button"} ${2:Block level button}
+
+snippet btnactive Bootstrap
+	%button.btn.btn-default.active{:type => "button"} ${1:Button}
+
+snippet abtnactive Bootstrap
+	%a.btn.btn-default.active{:href => "${1:#}", :role => "button"} ${2:Link}
+
+snippet btndisabled Bootstrap
+	%button.btn.btn-default{:disabled => "disabled", :type => "button"} ${1:Button}
+
+snippet abtndisabled Bootstrap
+	%a.btn.btn-default.disabled{:href => "${1:#}", :role => "button"} ${2:Link}
+
+snippet imgresponsive Bootstrap
+	%img.img-responsive{:alt => "${2:Responsive image}", :src => "${1:...}"}
+
+snippet imgrounded Bootstrap
+	%img.img-rounded{:alt => "${2:...}", :src => "${1:...}"}
+
+snippet imgcircle Bootstrap
+	%img.img-circle{:alt => "${2:...}", :src => "${1:...}"}
+
+snippet imgthumbnail Bootstrap
+	%img.img-thumbnail{:alt => "${2:...}", :src => "${1:...}"}
+
+snippet textmuted Bootstrap
+	%p.text-muted ${1:...}
+
+snippet textprimary Bootstrap
+	%p.text-primary ${1:...}
+
+snippet textsuccess Bootstrap
+	%p.text-success ${1:...}
+
+snippet textinfo Bootstrap
+	%p.text-info ${1:...}
+
+snippet textwarning Bootstrap
+	%p.text-warning ${1:...}
+
+snippet textdanger Bootstrap
+	%p.text-danger ${1:...}
+
+snippet bgprimary Bootstrap
+	%p.bg-primary ${1:...}
+
+snippet bgsuccess Bootstrap
+	%p.bg-success ${1:...}
+
+snippet bginfo Bootstrap
+	%p.bg-info ${1:...}
+
+snippet bgwarning Bootstrap
+	%p.bg-warning ${1:...}
+
+snippet bgdanger Bootstrap
+	%p.bg-danger ${1:...}
+
+snippet close Bootstrap
+	%button.close{"aria-label" => "Close", :type => "button"}
+	  %span{"aria-hidden" => "true"} ×
+
+snippet caret Bootstrap
+	%span.caret
+
+snippet pullleft Bootstrap
+	.pull-left ${1:...}
+
+snippet pullright Bootstrap
+	.pull-right ${1:...}
+
+snippet centerblock Bootstrap
+	.center-block ${1:...}
+
+snippet clearfix Bootstrap
+	.clearfix ${1:...}
+
+snippet show Bootstrap
+	.show ${1:...}
+
+snippet hidden Bootstrap
+	.hidden ${1:...}
+
+snippet invisible Bootstrap
+	.invisible ${1:...}
+
+snippet sronlyfocusable Bootstrap
+	%a.sr-only.sr-only-focusable{:href => "${1:#content}"} ${2:Skip to main content}
+
+snippet texthide Bootstrap
+	%h1.text-hide ${1:Custom heading}
+
+snippet hiddenxs Bootstrap
+	.hidden-xs ${1:...}
+
+snippet hiddensm Bootstrap
+	.hidden-sm ${1:...}
+
+snippet hiddenmd Bootstrap
+	.hidden-md ${1:...}
+
+snippet hiddenlg Bootstrap
+	.hidden-lg ${1:...}
+
+snippet visiblexsblock Bootstrap
+	.visible-xs-block ${1:...}
+
+snippet visiblexsinline Bootstrap
+	.visible-xs-inline ${1:...}
+
+snippet visiblexsinlineblock Bootstrap
+	.visible-xs-inline-block ${1:...}
+
+snippet visiblesmblock Bootstrap
+	.visible-sm-block ${1:...}
+
+snippet visiblesminline Bootstrap
+	.visible-sm-inline ${1:...}
+
+snippet visiblesminlineblock Bootstrap
+	.visible-sm-inline-block ${1:...}
+
+snippet visiblemdblock Bootstrap
+	.visible-md-block ${1:...}
+
+snippet visiblemdinline Bootstrap
+	.visible-md-inline ${1:...}
+
+snippet visiblemdinlineblock Bootstrap
+	.visible-md-inline-block ${1:...}
+
+snippet visiblelgblock Bootstrap
+	.visible-lg-block ${1:...}
+
+snippet visiblelginline Bootstrap
+	.visible-lg-inline ${1:...}
+
+snippet visiblelginlineblock Bootstrap
+	.visible-lg-inline-block ${1:...}
+
+snippet visibleprintblock Bootstrap
+	.visible-print-block ${1:...}
+
+snippet visibleprintinline Bootstrap
+	.visible-print-inline ${1:...}
+
+snippet visibleprintinlineblock Bootstrap
+	.visible-print-inline-block ${1:...}
+
+snippet hiddenprint Bootstrap
+	.hidden-print ${1:...}
+
+snippet glyphicon Bootstrap
+	%span.glyphicon{"aria-hidden" => "true", :class => "glyphicon-${1:heart}"}
+
+snippet dropdown Bootstrap
+	.dropdown
+	  %button.btn.btn-default.dropdown-toggle{"aria-expanded" => "true", "data-toggle" => "dropdown", :id => "${1:dropdownMenu1}", :type => "button"}
+	    ${2:Dropdown}
+	    %span.caret
+	  %ul.dropdown-menu{"aria-labelledby" => "$1", :role => "menu"}
+	    %li{:role => "presentation"}
+	      %a{:href => "${3:#}", :role => "menuitem", :tabindex => "-1"} ${4:Action}
+	    %li{:role => "presentation"}
+	      %a{:href => "${5:#}", :role => "menuitem", :tabindex => "-1"} ${6:Another action}
+
+snippet dropdownmenuright Bootstrap
+	%ul.dropdown-menu.dropdown-menu-right{"aria-labelledby" => "${1:dLabel}", :role => "menu"}
+	  ${2:...}
+
+snippet dropdownheader Bootstrap
+	%li.dropdown-header{:role => "presentation"} ${1:...}
+
+snippet divider Bootstrap
+	%li.divider{:role => "presentation"}
+
+snippet lidisabled Bootstrap
+	%li.disabled{:role => "presentation"}
+	  %a{:href => "${1:#}", :role => "menuitem", :tabindex => "-1"} ${2:...}
+
+snippet btngroup Bootstrap
+	.btn-group{"aria-label" => "${1:...}", :role => "group"}
+	  %button.btn.btn-default{:type => "button"} ${2:Left}
+	  %button.btn.btn-default{:type => "button"} ${3:Middle}
+	  %button.btn.btn-default{:type => "button"} ${4:Right}
+
+snippet abtngroup Bootstrap
+	.btn-group{"aria-label" => "${1:...}", :role => "group"}
+	  %a.btn.btn-default{:href => "${2:#}", :role => "button"} ${3:Left}
+	  %a.btn.btn-default{:href => "${4:#}", :role => "button"} ${5:Middle}
+	  %a.btn.btn-default{:href => "${6:#}", :role => "button"} ${7:Right}
+
+snippet btntoolbar Bootstrap
+	.btn-toolbar{"aria-label" => "${1:...}", :role => "toolbar"}
+	  .btn-group{"aria-label" => "${2:...}", :role => "group"} ${3:...}
+	  .btn-group{"aria-label" => "${4:...}", :role => "group"} ${5:...}
+	  .btn-group{"aria-label" => "${6:...}", :role => "group"} ${7:...}
+
+snippet btngrouplg Bootstrap
+	.btn-group.btn-group-lg{"aria-label" => "${1:...}", :role => "group"} ${2:...}
+
+snippet btngroupsm Bootstrap
+	.btn-group.btn-group-sm{"aria-label" => "${1:...}", :role => "group"} ${2:...}
+
+snippet btngroupxs Bootstrap
+	.btn-group.btn-group-xs{"aria-label" => "${1:...}", :role => "group"} ${2:...}
+
+snippet btngroupvertical Bootstrap
+	.btn-group-vertical{"aria-label" => "${1:...}", :role => "group"}
+	  ${2:...}
+
+snippet btngroupjustified Bootstrap
+	.btn-group.btn-group-justified{"aria-label" => "${1:...}", :role => "group"}
+	  .btn-group{:role => "group"}
+	    %button.btn.btn-default{:type => "button"} ${2:Left}
+	  .btn-group{:role => "group"}
+	    %button.btn.btn-default{:type => "button"} ${3:Middle}
+	  .btn-group{:role => "group"}
+	    %button.btn.btn-default{:type => "button"} ${4:Right}
+
+snippet abtngroupjustified Bootstrap
+	.btn-group.btn-group-justified{"aria-label" => "${1:...}", :role => "group"}
+	  %a.btn.btn-default{:href => "#", :role => "button"} ${2:Left}
+	  %a.btn.btn-default{:href => "#", :role => "button"} ${3:Middle}
+	  %a.btn.btn-default{:href => "#", :role => "button"} ${4:Right}
+
+snippet btndropdown Bootstrap
+	.btn-group
+	  %button.btn.btn-default.dropdown-toggle{"aria-expanded" => "false", "data-toggle" => "dropdown", :type => "button"}
+	    ${1:Action}
+	    %span.caret
+	  %ul.dropdown-menu{:role => "menu"}
+	    %li
+	      %a{:href => "${1:#}"} ${2:Action}
+	    %li
+	      %a{:href => "${3:#}"} ${4:Another action}
+	    %li
+	      %a{:href => "${5:#}"} ${6:Something else here}
+	    %li.divider
+	    %li
+	      %a{:href => "${7:#}"} ${8:Separated link}
+
+snippet btndropdownsplit Bootstrap
+	.btn-group
+	  %button.btn.btn-danger{:type => "button"} ${1:Action}
+	  %button.btn.btn-danger.dropdown-toggle{"aria-expanded" => "false", "data-toggle" => "dropdown", :type => "button"}
+	    %span.caret
+	    %span.sr-only Toggle Dropdown
+	  %ul.dropdown-menu{:role => "menu"}
+	    %li
+	      %a{:href => "${1:#}"} ${2:Action}
+	    %li
+	      %a{:href => "${3:#}"} ${4:Another} action
+	    %li
+	      %a{:href => "${5:#}"} ${6:Something} else here
+	    %li.divider
+	    %li
+	      %a{:href => "${7:#}"} ${8:Separated} link
+
+snippet btndropup Bootstrap
+	.btn-group.dropup
+	  %button.btn.btn-default{:type => "button"} ${1:Dropup}
+	  %button.btn.btn-default.dropdown-toggle{"aria-expanded" => "false", "data-toggle" => "dropdown", :type => "button"}
+	    %span.caret
+	    %span.sr-only Toggle Dropdown
+	  %ul.dropdown-menu{:role => "menu"}
+	    ${2:/Dropdown menu links}
+
+snippet inputgroup Bootstrap
+	.input-group
+	  %span.input-group-addon ${1:$}
+	  %input.form-control{"aria-label" => "${2:Amount (to the nearest dollar)}", :type => "text"}
+	  %span.input-group-addon ${3:.00}
+
+snippet inputgrouplg Bootstrap
+	.input-group.input-group-lg
+	  %span.input-group-addon{:id => "${1:sizing-addon1}"} ${2:@}
+	  %input.form-control{"aria-describedby" => "$1", :placeholder => "${3:Username}", :type => "text"}
+
+snippet inputgroupsm Bootstrap
+	.input-group.input-group-sm
+	  %span.input-group-addon{:id => "${1:sizing-addon3}"} ${2:@}
+	  %input.form-control{"aria-describedby" => "$1", :placeholder => "${3:Username}", :type => "text"}
+
+snippet inputgroupcheckbox Bootstrap
+	.input-group
+	  %span.input-group-addon
+	    %input{"aria-label" => "${1:...}", :type => "checkbox"}
+	  %input.form-control{"aria-label" => "${2:...}", :type => "text"}
+
+snippet inputgroupradio Bootstrap
+	.input-group
+	  %span.input-group-addon
+	    %input{"aria-label" => "${1:...}", :type => "radio"}
+	  %input.form-control{"aria-label" => "${2:...}", :type => "text"}
+
+snippet inputgroupbtn Bootstrap
+	.input-group
+	  %input.form-control{:placeholder => "${1:Search for...}", :type => "text"}
+	  %span.input-group-btn
+	    %button.btn.btn-default{:type => "button"} ${2:Go!}
+
+snippet inputgroupbtndropdown Bootstrap
+	.input-group
+	  %input.form-control{"aria-label" => "${1:...}", :type => "text"}
+	  .input-group-btn
+	    %button.btn.btn-default.dropdown-toggle{"aria-expanded" => "false", "data-toggle" => "dropdown", :type => "button"}
+	      ${2:Action}
+	      %span.caret
+	    %ul.dropdown-menu.dropdown-menu-right{:role => "menu"}
+	      %li
+	        %a{:href => "${3:#}"} ${4:Action}
+	      %li
+	        %a{:href => "${5:#}"} ${6:Another action}
+	      %li
+	        %a{:href => "${6:#}"} ${8:Something else here}
+	      %li.divider
+	      %li
+	        %a{:href => "${9:#}"} ${10:Separated link}
+
+snippet navtabs Bootstrap
+	%ul.nav.nav-tabs
+	  %li.active{:role => "presentation"}
+	    %a{:href => "${1:#}"} ${2:Home}
+	  %li{:role => "presentation"}
+	    %a{:href => "${3:#}"} ${4:Profile}
+	  %li{:role => "presentation"}
+	    %a{:href => "${5:#}"} ${6:Messages}
+
+snippet navpills Bootstrap
+	%ul.nav.nav-pills
+	  %li.active{:role => "presentation"}
+	    %a{:href => "${1:#}"} ${2:Home}
+	  %li{:role => "presentation"}
+	    %a{:href => "${3:#}"} ${4:Profile}
+	  %li{:role => "presentation"}
+	    %a{:href => "${5:#}"} ${6:Messages}
+
+snippet navpillsstacked Bootstrap
+	%ul.nav.nav-pills.nav-stacked
+	  ${1:...}
+
+snippet navtabsjustified Bootstrap
+	%ul.nav.nav-tabs.nav-justified
+	  ${1:...}
+
+snippet navpillsjustified Bootstrap
+	%ul.nav.nav-pills.nav-justified
+	  ${1:...}
+
+snippet navtabsdropdown Bootstrap
+	%ul.nav.nav-tabs
+	  %li.dropdown{:role => "presentation"}
+	    %a.dropdown-toggle{"aria-expanded" => "false", "data-toggle" => "dropdown", :href => "#", :role => "button"}
+	      ${1:Dropdown}
+	      %span.caret
+	    %ul.dropdown-menu{:role => "menu"}
+	      ${2:...}
+
+snippet navpillsdropdown Bootstrap
+	%ul.nav.nav-pills
+	  %li.dropdown{:role => "presentation"}
+	    %a.dropdown-toggle{"aria-expanded" => "false", "data-toggle" => "dropdown", :href => "#", :role => "button"}
+	      ${1:Dropdown}
+	      %span.caret
+	    %ul.dropdown-menu{:role => "menu"}
+	      ${2:...}
+
+snippet navbar Bootstrap
+	%nav.navbar.navbar-default
+	  .container-fluid
+	    / Brand and toggle get grouped for better mobile display
+	    .navbar-header
+	      %button.navbar-toggle.collapsed{"data-target" => "#bs-example-navbar-collapse-1", "data-toggle" => "collapse", :type => "button"}
+	        %span.sr-only Toggle navigation
+	        %span.icon-bar
+	        %span.icon-bar
+	        %span.icon-bar
+	      %a.navbar-brand{:href => "#"} Brand
+	    / Collect the nav links, forms, and other content for toggling
+	    #bs-example-navbar-collapse-1.collapse.navbar-collapse
+	      %ul.nav.navbar-nav
+	        %li.active
+	          %a{:href => "#"}
+	            Link
+	            %span.sr-only (current)
+	        %li
+	          %a{:href => "#"} Link
+	        %li.dropdown
+	          %a.dropdown-toggle{"aria-expanded" => "false", "data-toggle" => "dropdown", :href => "#", :role => "button"}
+	            Dropdown
+	            %span.caret
+	          %ul.dropdown-menu{:role => "menu"}
+	            %li
+	              %a{:href => "#"} Action
+	            %li
+	              %a{:href => "#"} Another action
+	            %li
+	              %a{:href => "#"} Something else here
+	            %li.divider
+	            %li
+	              %a{:href => "#"} Separated link
+	            %li.divider
+	            %li
+	              %a{:href => "#"} One more separated link
+	      %form.navbar-form.navbar-left{:role => "search"}
+	        .form-group
+	          %input.form-control{:placeholder => "Search", :type => "text"}
+	        %button.btn.btn-default{:type => "submit"} Submit
+	      %ul.nav.navbar-nav.navbar-right
+	        %li
+	          %a{:href => "#"} Link
+	        %li.dropdown
+	          %a.dropdown-toggle{"aria-expanded" => "false", "data-toggle" => "dropdown", :href => "#", :role => "button"}
+	            Dropdown
+	            %span.caret
+	          %ul.dropdown-menu{:role => "menu"}
+	            %li
+	              %a{:href => "#"} Action
+	            %li
+	              %a{:href => "#"} Another action
+	            %li
+	              %a{:href => "#"} Something else here
+	            %li.divider
+	            %li
+	              %a{:href => "#"} Separated link
+
+snippet navbarform Bootstrap
+	%form.navbar-form.navbar-left{:role => "search"}
+	  .form-group
+	    %input.form-control{:placeholder => "${1:Search}", :type => "text"}
+	  %button.btn.btn-default{:type => "submit"} ${2:Submit}
+
+snippet navbarbtn Bootstrap
+	%button.btn.btn-default.navbar-btn{:type => "button"} ${1:Sign in}
+
+snippet navbartext Bootstrap
+	%p.navbar-text ${1:Signed in as Mark Otto}
+
+snippet navbarlink Bootstrap
+	%a.navbar-link{:href => "${1:#}"} ${2:Mark Otto}
+
+snippet navbarfixedtop Bootstrap
+	%nav.navbar.navbar-default.navbar-fixed-top
+	  .container
+	    ${1:...}
+
+snippet navbarfixedbottom Bootstrap
+	%nav.navbar.navbar-default.navbar-fixed-bottom
+	  .container
+	    ${1:...}
+
+snippet navbarstatictop Bootstrap
+	%nav.navbar.navbar-default.navbar-static-top
+	  .container
+	    ${1:...}
+
+snippet navbarinverse Bootstrap
+	%nav.navbar.navbar-inverse
+	  ${1:...}
+
+snippet breadcrumb Bootstrap
+	%ol.breadcrumb
+	  %li
+	    %a{:href => "${1:#}"} ${2:Home}
+	  %li
+	    %a{:href => "${3:#}"} ${4:Library}
+	  %li.active ${5:Data}
+
+snippet pagination Bootstrap
+	%nav
+	  %ul.pagination
+	    %li.disabled
+	      %a{"aria-label" => "Previous", :href => "#"}
+	        %span{"aria-hidden" => "true"} «
+	    %li.active
+	      %a{:href => "#"} 1
+	    %li
+	      %a{:href => "#"} 2
+	    %li
+	      %a{:href => "#"} 3
+	    %li
+	      %a{:href => "#"} 4
+	    %li
+	      %a{:href => "#"} 5
+	    %li
+	      %a{"aria-label" => "Next", :href => "#"}
+	        %span{"aria-hidden" => "true"} »
+
+snippet paginationlg Bootstrap
+	%nav
+	  %ul.pagination.pagination-lg ${1:...}
+
+snippet paginationsm Bootstrap
+	%nav
+	  %ul.pagination.pagination-sm ${1:...}
+
+snippet pager Bootstrap
+	%nav
+	  %ul.pager
+	    %li
+	      %a{:href => "${1:#}"} ${2:Previous}
+	    %li
+	      %a{:href => "${3:#}"} ${4:Next}
+
+snippet pageraligned Bootstrap
+	%nav
+	  %ul.pager
+	    %li.previous
+	      %a{:href => "${1:#}"}
+	        %span{"aria-hidden" => "true"} ←
+	        ${2:Older}
+	    %li.next
+	      %a{:href => "${3:#}"}
+	        ${4:Newer}
+	        %span{"aria-hidden" => "true"} →
+
+snippet label Bootstrap
+	%span.label.label-default ${1:Default}
+
+snippet labeldefault Bootstrap
+	%span.label.label-default ${1:Default}
+
+snippet labelprimary Bootstrap
+	%span.label.label-primary ${1:Primary}
+
+snippet labelsuccess Bootstrap
+	%span.label.label-success ${1:Success}
+
+snippet labelinfo Bootstrap
+	%span.label.label-info ${1:Info}
+
+snippet labelwarning Bootstrap
+	%span.label.label-warning ${1:Warning}
+
+snippet labeldanger Bootstrap
+	%span.label.label-danger ${1:Danger}
+
+snippet badge Bootstrap
+	%a{:href => "${1:#}"}
+	  ${2:Inbox}
+	  %span.badge ${3:42}
+
+snippet badgebtn Bootstrap
+	%button.btn.btn-primary{:type => "button"}
+	  ${1:Messages}
+	  %span.badge ${2:4}
+
+snippet badgenav Bootstrap
+	%ul.nav.nav-pills{:role => "tablist"}
+	  %li.active{:role => "presentation"}
+	    %a{:href => "${1:#}"}
+	      ${2:Home}
+	      %span.badge ${3:42}
+	  %li{:role => "presentation"}
+	    %a{:href => "${4:#}"} ${5:Profile}
+	  %li{:role => "presentation"}
+	    %a{:href => "${6:#}"}
+	      ${7:Messages}
+	      %span.badge ${8:3}
+
+snippet jumbotron Bootstrap
+	.jumbotron
+	  %h1 ${1:Hello, world!}
+	  %p ${2:...}
+	  %p
+	    %a.btn.btn-primary.btn-lg{:href => "${3:#}", :role => "button"} ${4:Learn more}
+
+snippet jumbotroncontainer Bootstrap
+	.jumbotron
+	  .container
+	    ${1:...}
+
+snippet pageheader Bootstrap
+	.page-header
+	  %h1
+	    ${1:Example page header}
+	    %small ${2:Subtext for header}
+
+snippet thumbnail Bootstrap
+	%a.thumbnail{:href => "${1:#}"}
+	  %img{:alt => "${3:...}", :src => "${2:...}"}
+
+snippet thumbnailcontent Bootstrap
+	.thumbnail
+	  %img{:alt => "${2:...}", :src => "${1:...}"}
+	  .caption
+	    %h3 ${3:Thumbnail label}
+	    %p ${4:...}
+	    %p
+	      %a.btn.btn-primary{:href => "${5:#}", :role => "button"} ${6:Button}
+	      %a.btn.btn-default{:href => "${7:#}", :role => "button"} ${8:Button}
+
+snippet alert Bootstrap
+	.alert.alert-success{:role => "alert"} ${1:...}
+
+snippet alertsuccess Bootstrap
+	.alert.alert-success{:role => "alert"} ${1:...}
+
+snippet alertinfo Bootstrap
+	.alert.alert-info{:role => "alert"} ${1:...}
+
+snippet alertwarning Bootstrap
+	.alert.alert-warning{:role => "alert"} ${1:...}
+
+snippet alertdanger Bootstrap
+	.alert.alert-danger{:role => "alert"} ${1:...}
+
+snippet alertdismissible Bootstrap
+	.alert.alert-dismissible{:class => "alert-${1:warning}", :role => "alert"}
+	  %button.close{"aria-label" => "Close", "data-dismiss" => "alert", :type => "button"}
+	    %span{"aria-hidden" => "true"} ×
+	  %strong ${2:Warning!}
+	  ${3:Better check yourself, you're not looking too good.}
+
+snippet alertlink Bootstrap
+	.alert.alert-success{:role => "alert"}
+	  %a.alert-link{:href => "${1:#}"} ${2:...}
+
+snippet progress Bootstrap
+	.progress
+	  .progress-bar{"aria-valuemax" => "${3:100}", "aria-valuemin" => "${2:0}", "aria-valuenow" => "${1:60}", :role => "progressbar", :style => "width: $1%;"}
+	    %span.sr-only $1% Complete
+
+snippet progresssuccess Bootstrap
+	.progress
+	  .progress-bar.progress-bar-success{"aria-valuemax" => "${3:100}", "aria-valuemin" => "${2:0}", "aria-valuenow" => "${1:40}", :role => "progressbar", :style => "width: $1%"}
+	    %span.sr-only $1% Complete
+
+snippet progressinfo Bootstrap
+	.progress
+	  .progress-bar.progress-bar-info{"aria-valuemax" => "${3:100}", "aria-valuemin" => "${2:0}", "aria-valuenow" => "${1:20}", :role => "progressbar", :style => "width: $1%"}
+	    %span.sr-only $1% Complete
+
+snippet progresswarning Bootstrap
+	.progress
+	  .progress-bar.progress-bar-warning{"aria-valuemax" => "${3:100}", "aria-valuemin" => "${2:0}", "aria-valuenow" => "${1:60}", :role => "progressbar", :style => "width: $1%"}
+	    %span.sr-only $1% Complete
+
+snippet progressdanger Bootstrap
+	.progress
+	  .progress-bar.progress-bar-danger{"aria-valuemax" => "${3:100}", "aria-valuemin" => "${2:0}", "aria-valuenow" => "${1:80}", :role => "progressbar", :style => "width: $1%"}
+	    %span.sr-only $1% Complete
+
+snippet progressstriped Bootstrap
+	.progress
+	  .progress-bar.progress-bar-success.progress-bar-striped{"aria-valuemax" => "${3:100}", "aria-valuemin" => "${2:0}", "aria-valuenow" => "${1:40}", :role => "progressbar", :style => "width: $1%"}
+	    %span.sr-only $1% Complete
+
+snippet progressstripedactive Bootstrap
+	.progress
+	  .progress-bar.progress-bar-striped.active{"aria-valuemax" => "${3:100}", "aria-valuemin" => "${2:0}", "aria-valuenow" => "${1:45}", :role => "progressbar", :style => "width: $1%"}
+	    %span.sr-only $1% Complete
+
+snippet progressstacked Bootstrap
+	.progress
+	  .progress-bar.progress-bar-success{:style => "width: ${1:35}%"}
+	    %span.sr-only $1% Complete (success)
+	  .progress-bar.progress-bar-warning.progress-bar-striped{:style => "width: ${2:20}%"}
+	    %span.sr-only $2% Complete (warning)
+	  .progress-bar.progress-bar-danger{:style => "width: ${3:10}%"}
+	    %span.sr-only $3% Complete (danger)
+
+snippet media Bootstrap
+	.media
+	  .media-left
+	    %a{:href => "${1:#}"}
+	      %img.media-object{:alt => "${3:...}", :src => "${2:...}"}
+	  .media-body
+	    %h4.media-heading ${4:Media heading}
+	    ${5:...}
+
+snippet medialeft Bootstrap
+	.media-left
+	  %a{:href => "${1:#}"}
+	    %img.media-object{:alt => "${3:...}", :src => "${2:...}"}
+
+snippet mediabody Bootstrap
+	.media-body
+	  %h4.media-heading ${1:Media heading}
+	  ${2:...}
+
+snippet mediaright Bootstrap
+	.media-right
+	  %a{:href => "${1:#}"}
+	    %img.media-object{:alt => "${3:...}", :src => "${2:...}"}
+
+snippet mediamiddle Bootstrap
+	.media-left.media-middle
+	  %a{:href => "${1:#}"}
+	    %img.media-object{:alt => "${3:...}", :src => "${2:...}"}
+
+snippet mediabottom Bootstrap
+	.media-left.media-bottom
+	  %a{:href => "${1:#}"}
+	    %img.media-object{:alt => "${3:...}", :src => "${2:...}"}
+
+snippet medialist Bootstrap
+	%ul.media-list
+	  %li.media
+	    .media-left
+	      %a{:href => "${1:#}"}
+	        %img.media-object{:alt => "${3:...}", :src => "${2:...}"}
+	    .media-body
+	      %h4.media-heading ${4:Media heading}
+	      ${5:...}
+
+snippet listgroup Bootstrap
+	%ul.list-group
+	  %li.list-group-item ${1:Cras justo odio}
+	  %li.list-group-item ${2:Dapibus ac facilisis in}
+	  %li.list-group-item ${3:Morbi leo risus}
+	  %li.list-group-item ${4:Porta ac consectetur ac}
+	  %li.list-group-item ${5:Vestibulum at eros}
+
+snippet listgroupitem Bootstrap
+	%li.list-group-item ${1:Cras justo odio}
+
+snippet listgroupitembadge Bootstrap
+	%li.list-group-item
+	  %span.badge ${1:14}
+	  ${2:Cras justo odio}
+
+snippet alistgroupitem Bootstrap
+	%a.list-group-item.active{:href => "${1:#}"} ${2:Cras justo odio}
+
+snippet listgroupitemdisabled Bootstrap
+	%a.list-group-item.disabled{:href => "${1:#}"} ${2:Cras justo odio}
+
+snippet listgroupitemsuccess Bootstrap
+	%li.list-group-item.list-group-item-success ${1:Dapibus ac facilisis in}
+
+snippet listgroupiteminfo Bootstrap
+	%li.list-group-item.list-group-item-info ${1:Cras sit amet nibh libero}
+
+snippet listgroupitemwarning Bootstrap
+	%li.list-group-item.list-group-item-warning ${1:Porta ac consectetur ac}
+
+snippet listgroupitemdanger Bootstrap
+	%li.list-group-item.list-group-item-danger ${1:Vestibulum at eros}
+
+snippet alistgroupitemsuccess Bootstrap
+	%a.list-group-item.list-group-item-success{:href => "${1:#}"} ${2:Dapibus ac facilisis in}
+
+snippet alistgroupiteminfo Bootstrap
+	%a.list-group-item.list-group-item-info{:href => "${1:#}"} ${2:Cras sit amet nibh libero}
+
+snippet alistgroupitemwarning Bootstrap
+	%a.list-group-item.list-group-item-warning{:href => "${1:#}"} ${2:Porta ac consectetur ac}
+
+snippet alistgroupitemdanger Bootstrap
+	%a.list-group-item.list-group-item-danger{:href => "${1:#}"} ${2:Vestibulum at eros}
+
+snippet listgroupitemcontent Bootstrap
+	%li.list-group-item
+	  %h4.list-group-item-heading ${1:List group item heading}
+	  %p.list-group-item-text ${2:...}
+
+snippet alistgroupitemcontent Bootstrap
+	%a.list-group-item.active{:href => "${1:#}"}
+	  %h4.list-group-item-heading ${2:List group item heading}
+	  %p.list-group-item-text ${3:...}
+
+snippet panel Bootstrap
+	.panel.panel-default
+	  .panel-body
+	    ${1:Basic panel example}
+
+snippet panelheading Bootstrap
+	.panel-heading ${1:Panel heading without title}
+
+snippet panelheadingtitle Bootstrap
+	.panel-heading
+	  %h3.panel-title ${1:Panel title}
+
+snippet panelbody Bootstrap
+	.panel-body
+	  ${1:Panel content}
+
+snippet panelfooter Bootstrap
+	.panel-footer ${1:Panel footer}
+
+snippet paneldefault Bootstrap
+	.panel.panel-default
+	  .panel-body
+	    ${1:Basic panel example}
+
+snippet panelprimary Bootstrap
+	.panel.panel-primary ${1:...}
+
+snippet panelsuccess Bootstrap
+	.panel.panel-success ${1:...}
+
+snippet panelinfo Bootstrap
+	.panel.panel-info ${1:...}
+
+snippet panelwarning Bootstrap
+	.panel.panel-warning ${1:...}
+
+snippet paneldanger Bootstrap
+	.panel.panel-danger ${1:...}
+
+snippet paneltable Bootstrap
+	.panel.panel-default
+	  / Default panel contents
+	  .panel-heading ${1:Panel heading}
+	  .panel-body
+	    %p ${2:...}
+	  / Table
+	  %table.table
+	    ${3:...}
+
+snippet panellistgroup Bootstrap
+	.panel.panel-default
+	  / Default panel contents
+	  .panel-heading ${1:Panel heading}
+	  .panel-body
+	    %p ${2:...}
+	  / List group
+	  %ul.list-group
+	    %li.list-group-item ${3:Cras justo odio}
+	    %li.list-group-item ${4:Dapibus ac facilisis in}
+	    %li.list-group-item ${5:Morbi leo risus}
+	    %li.list-group-item ${6:Porta ac consectetur ac}
+	    %li.list-group-item ${7:Vestibulum at eros}
+
+snippet embedresponsive Bootstrap
+	/ 16:9 aspect ratio
+	.embed-responsive.embed-responsive-16by9
+	  %iframe.embed-responsive-item{:src => "${1:...}"}
+	/ 4:3 aspect ratio
+	.embed-responsive.embed-responsive-4by3
+	  %iframe.embed-responsive-item{:src => "${2:...}"}
+
+snippet well Bootstrap
+	.well ${1:...}
+
+snippet welllg Bootstrap
+	.well.well-lg ${1:...}
+
+snippet wellsm Bootstrap
+	.well.well-sm ${1:...}
+
+snippet modal Bootstrap
+	.modal.fade
+	  .modal-dialog
+	    .modal-content
+	      .modal-header
+	        %button.close{"aria-label" => "Close", "data-dismiss" => "modal", :type => "button"}
+	          %span{"aria-hidden" => "true"} ×
+	        %h4.modal-title ${1:Modal title}
+	      .modal-body
+	        %p ${2:One fine body…}
+	      .modal-footer
+	        %button.btn.btn-default{"data-dismiss" => "modal", :type => "button"} ${3:Close}
+	        %button.btn.btn-primary{:type => "button"} ${4:Save changes}
+
+snippet modallg Bootstrap
+	.modal.fade.bs-example-modal-lg{"aria-hidden" => "true", "aria-labelledby" => "${1:myLargeModalLabel}", :role => "dialog", :tabindex => "-1"}
+	  .modal-dialog.modal-lg
+	    .modal-content
+	      ${2:...}
+
+snippet modalsm Bootstrap
+	.modal.fade.bs-example-modal-sm{"aria-hidden" => "true", "aria-labelledby" => "${1:mySmallModalLabel}", :role => "dialog", :tabindex => "-1"}
+	  .modal-dialog.modal-sm
+	    .modal-content
+	      ${2:...}
+
+snippet scrollspy Bootstrap
+	%div{:class => "${1:navbar-example}"}
+	  %ul.nav.nav-tabs{:role => "tablist"}
+	    ${2:...}
+
+snippet tabpanel Bootstrap
+	%div{:role => "tabpanel"}
+	  / Nav tabs
+	  %ul.nav.nav-tabs{:role => "tablist"}
+	    %li.active{:role => "presentation"}
+	      %a{"aria-controls" => "$1", "data-toggle" => "tab", :href => "#${1:home}", :role => "tab"} ${2:Home}
+	    %li{:role => "presentation"}
+	      %a{"aria-controls" => "$3", "data-toggle" => "tab", :href => "#${3:profile}", :role => "tab"} ${4:Profile}
+	    %li{:role => "presentation"}
+	      %a{"aria-controls" => "$5", "data-toggle" => "tab", :href => "#${5:messages}", :role => "tab"} ${6:Messages}
+	    %li{:role => "presentation"}
+	      %a{"aria-controls" => "$7", "data-toggle" => "tab", :href => "#${7:settings}", :role => "tab"} ${8:Settings}
+	  / Tab panes
+	  .tab-content
+	    .tab-pane.active{:id => "$1", :role => "tabpanel"} ${9:...}
+	    .tab-pane{:id => "$3", :role => "tabpanel"} ${10:...}
+	    .tab-pane{:id => "$5", :role => "tabpanel"} ${11:...}
+	    .tab-pane{:id => "$7", :role => "tabpanel"} ${12:...}
+
+snippet tooltip Bootstrap
+	%button.btn.btn-default{"data-toggle" => "tooltip", :title => "$1", :type => "button"} ${1:Tooltip on left}
+
+snippet atooltip Bootstrap
+	%a.btn.btn-default{"data-toggle" => "tooltip", :href => "${1:#}", :title => "$2"} ${2:Tooltip on left}
+
+snippet tooltiptop Bootstrap
+	%button.btn.btn-default{"data-placement" => "top", "data-toggle" => "tooltip", :title => "$1", :type => "button"} ${1:Tooltip on top}
+
+snippet atooltiptop Bootstrap
+	%a.btn.btn-default{"data-placement" => "top", "data-toggle" => "tooltip", :href => "${1:#}", :title => "$2"} ${2:Tooltip on top}
+
+snippet tooltipleft Bootstrap
+%button.btn.btn-default{"data-placement" => "left", "data-toggle" => "tooltip", :title => "$1", :type => "button"} ${1:Tooltip on left}
+	
+	snippet atooltipleft Bootstrap
+		%a.btn.btn-default{"data-placement" => "left", "data-toggle" => "tooltip", :href => "${1:#}", :title => "$2"} ${2:Tooltip on left}
+
+snippet tooltipbottom Bootstrap
+	%button.btn.btn-default{"data-placement" => "bottom", "data-toggle" => "tooltip", :title => "$1", :type => "button"} ${1:Tooltip on bottom}
+
+snippet atooltipbottom Bootstrap
+	%a.btn.btn-default{"data-placement" => "bottom", "data-toggle" => "tooltip", :href => "${1:#}", :title => "$2"} ${2:Tooltip on bottom}
+
+snippet tooltipright Bootstrap
+	%button.btn.btn-default{"data-placement" => "right", "data-toggle" => "tooltip", :title => "$1", :type => "button"} ${1:Tooltip on right}
+
+snippet atooltipright Bootstrap
+	%a.btn.btn-default{"data-placement" => "right", "data-toggle" => "tooltip", :href => "${1:#}", :title => "$2"} ${2:Tooltip on right}
+
+snippet popover Bootstrap
+	%button.btn.btn-default{"data-content" => "${2:And here's some amazing content. It's very engaging. Right?}", "data-toggle" => "popover", :title => "${1:Popover title}", :type => "button"} ${3:Click to toggle popover}
+
+snippet apopover Bootstrap
+	%a.btn.btn-default{"data-content" => "${2:And here's some amazing content. It's very engaging. Right?}", "data-toggle" => "popover", :role => "button", :title => "${1:Dismissible popover}"} ${3:Dismissible popover}
+
+snippet popovertop Bootstrap
+	%button.btn.btn-default{"data-container" => "body", "data-content" => "${1:Vivamus sagittis lacus vel augue laoreet rutrum faucibus.}", "data-placement" => "top", "data-toggle" => "popover", :type => "button"}
+	  ${2:Popover on top}
+
+snippet apopovertop Bootstrap
+	%a.btn.btn-default{"data-content" => "${2:And here's some amazing content. It's very engaging. Right?}", "data-placement" => "top", "data-toggle" => "popover", :role => "button", :title => "${1:Popover on top}"} ${3:Popover on top}
+
+snippet popoverleft Bootstrap
+	%button.btn.btn-default{"data-container" => "body", "data-content" => "${1:Vivamus sagittis lacus vel augue laoreet rutrum faucibus.}", "data-placement" => "left", "data-toggle" => "popover", :type => "button"}
+	  ${2:Popover on left}
+
+snippet apopoverleft Bootstrap
+	%a.btn.btn-default{"data-content" => "${2:And here's some amazing content. It's very engaging. Right?}", "data-placement" => "left", "data-toggle" => "popover", :role => "button", :title => "${1:Popover on left}"} ${3:Popover on left}
+
+snippet popoverbottom Bootstrap
+	%button.btn.btn-default{"data-container" => "body", "data-content" => "${1:Vivamus sagittis lacus vel augue laoreet rutrum faucibus.}", "data-placement" => "bottom", "data-toggle" => "popover", :type => "button"}
+	  ${2:Popover on bottom}
+
+snippet apopoverbottom Bootstrap
+	%a.btn.btn-default{"data-content" => "${2:And here's some amazing content. It's very engaging. Right?}", "data-placement" => "bottom", "data-toggle" => "popover", :role => "button", :title => "${1:Popover on bottom}"} ${3:Popover on bottom}
+
+snippet popoverright Bootstrap
+	%button.btn.btn-default{"data-container" => "body", "data-content" => "${1:Vivamus sagittis lacus vel augue laoreet rutrum faucibus.}", "data-placement" => "right", "data-toggle" => "popover", :type => "button"}
+	  ${2:Popover on right}
+
+snippet apopoverright Bootstrap
+	%a.btn.btn-default{"data-content" => "${2:Vivamus sagittis lacus vel augue laoreet rutrum faucibus.}", "data-placement" => "right", "data-toggle" => "popover", :role => "button", :title => "${1:Popover on right}"} ${3:Popover on right}
+
+snippet apopoverdismissible Bootstrap
+	%a.btn.btn-default{"data-content" => "${2:And here's some amazing content. It's very engaging. Right?}", "data-toggle" => "popover", "data-trigger" => "focus", :role => "button", :tabindex => "0", :title => "${1:Dismissible popover}"} ${3:Dismissible popover}
+
+snippet btnstatetext Bootstrap
+	%button.btn.btn-default{:autocomplete => "off", "data-" => "", :id => "${1:myButton}", :type => "button"}
+	  ${4:Loading state}
+
+snippet btnsingletoggle Bootstrap
+	%button.btn.btn-default{"aria-pressed" => "false", :autocomplete => "off", "data-toggle" => "button", :type => "button"}
+	  ${1:Single toggle}
+
+snippet btngroupcheckbox Bootstrap
+	.btn-group{"data-toggle" => "buttons"}
+	  %label.btn.btn-primary.active
+	    %input{:autocomplete => "off", :checked => "checked", :type => "checkbox"}
+	    ${1:Checkbox 1 (pre-checked)}
+	  %label.btn.btn-primary
+	    %input{:autocomplete => "off", :type => "checkbox"}
+	    ${2:Checkbox 2}
+	  %label.btn.btn-primary
+	    %input{:autocomplete => "off", :type => "checkbox"}
+	    ${3:Checkbox 3}
+
+snippet btngroupradio Bootstrap
+	.btn-group{"data-toggle" => "buttons"}
+	  %label.btn.btn-primary.active
+	    %input{:autocomplete => "off", :checked => "checked", :id => "${2:option1}", :name => "${1:options}", :type => "radio"}
+	    ${3:Radio 1 (preselected)}
+	  %label.btn.btn-primary
+	    %input{:autocomplete => "off", :id => "${4:option2}", :name => "$1", :type => "radio"}
+	    ${5:Radio 2}
+	  %label.btn.btn-primary
+	    %input{:autocomplete => "off", :id => "${6:option3}", :name => "$1", :type => "radio"}
+	    ${7:Radio 3}
+
+snippet btncollapse Bootstrap
+	%button.btn.btn-primary{"aria-controls" => "$2", "aria-expanded" => "false", "data-target" => "#$2", "data-toggle" => "collapse", :type => "button"}
+	  ${1:Button with data-target}
+	.collapse{:id => "${2:collapseExample}"}
+	  .well
+	    ${3:...}
+
+snippet abtncollapse Bootstrap
+	%a.btn.btn-primary{"aria-controls" => "$2", "aria-expanded" => "false", "data-toggle" => "collapse", :href => "#$2"}
+	  ${1:Link with href}
+	.collapse{:id => "${2:collapseExample}"}
+	  .well
+	    ${3:...}
+
+snippet accordian Bootstrap
+	#accordion.panel-group{"aria-multiselectable" => "true", :role => "tablist"}
+	  .panel.panel-default
+	    #headingOne.panel-heading{:role => "tab"}
+	      %h4.panel-title
+	        %a{"aria-controls" => "collapseOne", "aria-expanded" => "true", "data-parent" => "#accordion", "data-toggle" => "collapse", :href => "#collapseOne"}
+	          Collapsible Group Item #1
+	    #collapseOne.panel-collapse.collapse.in{"aria-labelledby" => "headingOne", :role => "tabpanel"}
+	      .panel-body
+	        Anim pariatur cliche reprehenderit, enim eiusmod high life accusamus terry richardson ad squid. 3 wolf moon officia aute, non cupidatat skateboard dolor brunch. Food truck quinoa nesciunt laborum eiusmod. Brunch 3 wolf moon tempor, sunt aliqua put a bird on it squid single-origin coffee nulla assumenda shoreditch et. Nihil anim keffiyeh helvetica, craft beer labore wes anderson cred nesciunt sapiente ea proident. Ad vegan excepteur butcher vice lomo. Leggings occaecat craft beer farm-to-table, raw denim aesthetic synth nesciunt you probably haven't heard of them accusamus labore sustainable VHS.
+	  .panel.panel-default
+	    #headingTwo.panel-heading{:role => "tab"}
+	      %h4.panel-title
+	        %a.collapsed{"aria-controls" => "collapseTwo", "aria-expanded" => "false", "data-parent" => "#accordion", "data-toggle" => "collapse", :href => "#collapseTwo"}
+	          Collapsible Group Item #2
+	    #collapseTwo.panel-collapse.collapse{"aria-labelledby" => "headingTwo", :role => "tabpanel"}
+	      .panel-body
+	        Anim pariatur cliche reprehenderit, enim eiusmod high life accusamus terry richardson ad squid. 3 wolf moon officia aute, non cupidatat skateboard dolor brunch. Food truck quinoa nesciunt laborum eiusmod. Brunch 3 wolf moon tempor, sunt aliqua put a bird on it squid single-origin coffee nulla assumenda shoreditch et. Nihil anim keffiyeh helvetica, craft beer labore wes anderson cred nesciunt sapiente ea proident. Ad vegan excepteur butcher vice lomo. Leggings occaecat craft beer farm-to-table, raw denim aesthetic synth nesciunt you probably haven't heard of them accusamus labore sustainable VHS.
+	  .panel.panel-default
+	    #headingThree.panel-heading{:role => "tab"}
+	      %h4.panel-title
+	        %a.collapsed{"aria-controls" => "collapseThree", "aria-expanded" => "false", "data-parent" => "#accordion", "data-toggle" => "collapse", :href => "#collapseThree"}
+	          Collapsible Group Item #3
+	    #collapseThree.panel-collapse.collapse{"aria-labelledby" => "headingThree", :role => "tabpanel"}
+	      .panel-body
+	        Anim pariatur cliche reprehenderit, enim eiusmod high life accusamus terry richardson ad squid. 3 wolf moon officia aute, non cupidatat skateboard dolor brunch. Food truck quinoa nesciunt laborum eiusmod. Brunch 3 wolf moon tempor, sunt aliqua put a bird on it squid single-origin coffee nulla assumenda shoreditch et. Nihil anim keffiyeh helvetica, craft beer labore wes anderson cred nesciunt sapiente ea proident. Ad vegan excepteur butcher vice lomo. Leggings occaecat craft beer farm-to-table, raw denim aesthetic synth nesciunt you probably haven't heard of them accusamus labore sustainable VHS.
+
+snippet carousel Bootstrap
+	#carousel-example-generic.carousel.slide{"data-ride" => "carousel"}
+	  / Indicators
+	  %ol.carousel-indicators
+	    %li.active{"data-slide-to" => "0", "data-target" => "#carousel-example-generic"}
+	    %li{"data-slide-to" => "1", "data-target" => "#carousel-example-generic"}
+	    %li{"data-slide-to" => "2", "data-target" => "#carousel-example-generic"}
+	  / Wrapper for slides
+	  .carousel-inner{:role => "listbox"}
+	    .item.active
+	      %img{:alt => "...", :src => "..."}
+	      .carousel-caption
+	        \...
+	    .item
+	      %img{:alt => "...", :src => "..."}
+	      .carousel-caption
+	        \...
+	    \...
+	  / Controls
+	  %a.left.carousel-control{"data-slide" => "prev", :href => "#carousel-example-generic", :role => "button"}
+	    %span.glyphicon.glyphicon-chevron-left{"aria-hidden" => "true"}
+	    %span.sr-only Previous
+	  %a.right.carousel-control{"data-slide" => "next", :href => "#carousel-example-generic", :role => "button"}
+	    %span.glyphicon.glyphicon-chevron-right{"aria-hidden" => "true"}
+	    %span.sr-only Next
+
+snippet affix Bootstrap
+	%div{"data-offset-bottom" => "${2:200}", "data-offset-top" => "${1:60}", "data-spy" => "affix"}
+  ${3:...}
+
