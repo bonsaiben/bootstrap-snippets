@@ -1,10 +1,14 @@
 # Bootstrap Snippets
 
-HTML and Haml snippets for [Twitter Bootstrap 3.3.2](http://getbootstrap.com/) markup, for the Vim plugin [snipMate](https://github.com/garbas/vim-snipmate).
+HTML and Haml snippets for [Twitter Bootstrap 3.3.2](http://getbootstrap.com/) markup, for the Vim Plugins [snipMate](https://github.com/garbas/vim-snipmate) and [ultisnips](https://github.com/sirver/ultisnips).
 
 ![Animation](https://cloud.githubusercontent.com/assets/227274/5981940/c07ea88c-a901-11e4-859d-d87eeff19354.gif)
 
 ## Dependencies
+
+- [ultisnips](https://github.com/sirver/ultisnips)
+
+Or
 
 - [vim-snipmate](https://github.com/garbas/vim-snipmate)
 - [tlib\_vim](https://github.com/tomtom/tlib_vim)
@@ -16,7 +20,7 @@ HTML and Haml snippets for [Twitter Bootstrap 3.3.2](http://getbootstrap.com/) m
     $ mkdir bundle
     $ cd bundle
 
-    # Install dependencies:
+    # Install vim-snipmate dependencies:
     $ git clone https://github.com/garbas/vim-snipmate.git
     $ git clone https://github.com/tomtom/tlib_vim.git
     $ git clone https://github.com/MarcWeber/vim-addon-mw-utils.git
